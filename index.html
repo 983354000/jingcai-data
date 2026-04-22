@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>竞彩足球预测</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #1a1a2e; color: #eee; min-height: 100vh; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        h1 { text-align: center; padding: 20px 0; color: #00d9ff; }
+        .update-time { text-align: center; color: #888; margin-bottom: 20px; }
+        .tabs { display: flex; gap: 10px; margin-bottom: 20px; }
+        .tab { padding: 10px 20px; background: #2d2d44; border: none; color: #fff; cursor: pointer; border-radius: 8px; }
+        .tab.active { background: #00d9ff; color: #1a1a2e; }
+        .match-card { background: #2d2d44; border-radius: 12px; padding: 15px; margin-bottom: 15px; }
+        .match-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+        .match-id { color: #00d9ff; font-weight: bold; }
+        .match-league { background: #3d3d5c; padding: 4px 8px; border-radius: 4px; font-size: 12px; }
+        .match-teams { font-size: 18px; font-weight: bold; margin: 10px 0; }
+        .match-time { color: #888; font-size: 14px; }
+        .predictions { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 15px; }
+        .prediction { background: #3d3d5c; padding: 12px; border-radius: 8px; }
+        .prediction.main { border-left: 3px solid #00ff88; }
+        .prediction.sub { border-left: 3px solid #ffaa00; }
+        .pred-title { font-weight: bold; margin-bottom: 8px; }
+        .pred-option { font-size: 20px; font-weight: bold; margin: 8px 0; }
+        .pred-odds { color: #00d9ff; }
+        .pred-amount { background: #00d9ff; color: #1a1a2e; padding: 2px 8px; border-radius: 4px; font-weight: bold; }
+        .confidence-high { color: #00ff88; }
+        .confidence-medium { color: #ffaa00; }
+        .confidence-low { color: #ff6b6b; }
+        .parlay-section { margin-top: 30px; }
+        .parlay-card { background: #2d2d44; border-radius: 12px; padding: 15px; margin-bottom: 15px; border-left: 4px solid #00ff88; }
+        .parlay-title { font-size: 18px; font-weight: bold; margin-bottom: 10px; }
+        .parlay-matches { margin: 10px 0; }
+        .parlay-stats { display: flex; gap: 20px; margin-top: 10px; }
+        .loading { text-align: center; padding: 50px; color: #888; }
+        .error { text-align: center; padding: 50px; color: #ff6b6b; }
+        @media (max-width: 768px) {
+            .predictions { grid-template-columns: 1fr; }
+            .tabs { flex-wrap: wrap; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⚽ 竞彩足球预测</h1>
+        <div class="update-time" id="update-time">加载中...</div>
+        <div class="tabs">
+            <button class="tab active" onclick="showTab('today')">今日预测</button>
+            <button class="tab" onclick="showTab('tomorrow')">明日预测</button>
+            <button class="tab" onclick="showTab('parlay')">串关推荐</button>
+        </div>
+        <div id="content"><div class="loading">数据加载中...</div></div>
+    </div>
+    <script>
+        let data = null;
+        fetch('./predictions.json')
+            .then(r => r.json())
+            .then(json => {
+                data = json;
+                document.getElementById('update-time').textContent = 
+                    '更新时间: ' + json.updated_at + ' | 数据来源: ' + json.update_source;
+                showTab('today');
+            })
+            .catch(err => {
+                document.getElementById('content').innerHTML = 
+                    '<div class="error">数据加载失败: ' + err.message + '</div>';
+            });
+        
+        function showTab(tab) {
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            event?.target?.classList?.add('active');
+            
+            if (!data) return;
+            
+            let html = '';
+            if (tab === 'today' || tab === 'tomorrow') {
+                const day = data[tab];
+                if (!day || !day.matches) {
+                    html = '<div class="error">暂无数据</div>';
+                } else {
+                    html = '<div class="update-time">比赛场次: ' + day.match_count + ' | 开售: ' + 
+                        day.sales_start + ' | 停售: ' + day.sales_stop + '</div>';
+                    day.matches.forEach(m => {
+                        html += renderMatch(m);
+                    });
+                }
+            } else if (tab === 'parlay') {
+                if (data.parlay && data.parlay.length > 0) {
+                    data.parlay.forEach(p => {
+                        html += renderParlay(p);
+                    });
+                } else {
+                    html = '<div class="error">暂无串关推荐</div>';
+                }
+            }
+            document.getElementById('content').innerHTML = html;
+        }
+        
+        function renderMatch(m) {
+            const main = m.predictions?.main || {};
+            const sub = m.predictions?.sub || {};
+            return '<div class="match-card">' +
+                '<div class="match-header">' +
+                '<span class="match-id">' + m.match_num + '</span>' +
+                '<span class="match-league">' + (m.league?.short_name || m.league?.name) + '</span>' +
+                '</div>' +
+                '<div class="match-teams">' + m.home_team?.name + ' VS ' + m.away_team?.name + '</div>' +
+                '<div class="match-time">开赛: ' + (m.datetime?.split('T')[1]?.split('+')[0] || '') + '</div>' +
+                '<div class="predictions">' +
+                renderPrediction('主推', main, 'main') +
+                renderPrediction('次推', sub, 'sub') +
+                '</div></div>';
+        }
+        
+        function renderPrediction(title, pred, type) {
+            if (!pred || !pred.selection) return '<div class="prediction ' + type + '"><div class="pred-title">' + title + '</div>暂无</div>';
+            const confClass = pred.confidence === '极高' || pred.confidence === '高' ? 'confidence-high' : 
+                              pred.confidence === '中' ? 'confidence-medium' : 'confidence-low';
+            return '<div class="prediction ' + type + '">' +
+                '<div class="pred-title">' + title + '</div>' +
+                '<div class="pred-option">' + pred.selection + '</div>' +
+                '<div class="pred-odds">赔率: ' + pred.odds + '</div>' +
+                '<div>信心度: <span class="' + confClass + '">' + pred.confidence + '</span></div>' +
+                '<div style="margin-top:8px"><span class="pred-amount">' + pred.amount + '元</span></div>' +
+                '</div>';
+        }
+        
+        function renderParlay(p) {
+            return '<div class="parlay-card">' +
+                '<div class="parlay-title">' + p.type + '</div>' +
+                '<div class="parlay-matches">' + p.matches.join('<br>') + '</div>' +
+                '<div class="parlay-stats">' +
+                '<span>赔率: <span style="color:#00d9ff">' + p.total_odds + '</span></span>' +
+                '<span>信心度: <span style="color:#00ff88">' + p.confidence + '</span></span>' +
+                '<span class="pred-amount">' + p.amount + '元</span>' +
+                '</div></div>';
+        }
+    </script>
+</body>
+</html>
