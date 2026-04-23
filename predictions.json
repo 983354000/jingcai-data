@@ -1,23 +1,20 @@
 {
   "version": "4.0",
-  "updated_at": "2026-04-23T09:00:00+08:00",
+  "updated_at": "2026-04-23T12:54:10+08:00",
   "update_source": "sporttery.cn竞彩官网",
   "data_valid_until": "2026-04-24T22:00:00+08:00",
   "sales_notice": "4月24日竞彩游戏开售时间为11:00,停售时间为22:00",
-  
   "confidence_legend": {
     "极高": "赔率<1.50，强队vs弱队，隐含概率>66%",
     "高": "赔率1.50-2.00，有明显优势，隐含概率50%-66%",
     "中": "赔率2.00-3.00，双方接近，隐含概率33%-50%",
     "低": "赔率>3.00，冷门选项，隐含概率<33%"
   },
-  
   "bet_amount_rules": {
     "主推": "5-10元/注",
     "次推": "2-5元/注",
     "串关": "2-10元/注"
   },
-
   "yesterday": {
     "date": "2026-04-22",
     "weekday": "周三",
@@ -93,9 +90,9 @@
           }
         }
       }
-    ]
+    ],
+    "hit_rate": "1/2"
   },
-
   "today": {
     "date": "2026-04-23",
     "weekday": "周四",
@@ -125,9 +122,9 @@
         },
         "odds": {
           "had": {
-            "home_win": 4.70,
-            "draw": 3.80,
-            "away_win": 1.50
+            "home_win": 4.7,
+            "draw": 3.8,
+            "away_win": 1.5
           },
           "hhad": {
             "goal_line": 1,
@@ -144,7 +141,7 @@
           "main": {
             "bet_type": "胜平负",
             "option": "客胜",
-            "odds": 1.50,
+            "odds": 1.5,
             "confidence": "高",
             "amount": 8,
             "reasoning": "布赖代合作实力占优，赔率1.50，隐含概率66.7%，稳胆选项"
@@ -181,15 +178,15 @@
         },
         "odds": {
           "had": {
-            "home_win": 3.20,
+            "home_win": 3.2,
             "draw": 3.65,
             "away_win": 1.93
           },
           "hhad": {
             "goal_line": 1,
-            "home_win": 1.70,
+            "home_win": 1.7,
             "draw": 3.85,
-            "away_win": 3.60
+            "away_win": 3.6
           }
         },
         "analysis": {
@@ -208,7 +205,7 @@
           "sub": {
             "bet_type": "让球胜平负",
             "option": "让球胜",
-            "odds": 1.70,
+            "odds": 1.7,
             "confidence": "中",
             "amount": 5,
             "reasoning": "主队让一球后主胜赔率1.70，前进之鹰主场有望守住"
@@ -237,14 +234,14 @@
         },
         "odds": {
           "had": {
-            "home_win": 2.40,
-            "draw": 3.10,
+            "home_win": 2.4,
+            "draw": 3.1,
             "away_win": 2.57
           },
           "hhad": {
             "goal_line": -1,
-            "home_win": 5.50,
-            "draw": 4.00,
+            "home_win": 5.5,
+            "draw": 4.0,
             "away_win": 1.43
           }
         },
@@ -256,7 +253,7 @@
           "main": {
             "bet_type": "胜平负",
             "option": "平局",
-            "odds": 3.10,
+            "odds": 3.1,
             "confidence": "中",
             "amount": 5,
             "reasoning": "双方保级战意强，平局赔率3.10值得关注"
@@ -294,13 +291,13 @@
         "odds": {
           "had": {
             "home_win": 1.85,
-            "draw": 3.50,
-            "away_win": 3.30
+            "draw": 3.5,
+            "away_win": 3.3
           },
           "hhad": {
             "goal_line": -1,
-            "home_win": 3.60,
-            "draw": 3.60,
+            "home_win": 3.6,
+            "draw": 3.6,
             "away_win": 1.75
           }
         },
@@ -320,7 +317,7 @@
           "sub": {
             "bet_type": "让球胜平负",
             "option": "让球平",
-            "odds": 3.60,
+            "odds": 3.6,
             "confidence": "低",
             "amount": 3,
             "reasoning": "马尔默让一球后平局赔率3.60，若马尔默赢1球可中"
@@ -349,13 +346,13 @@
         },
         "odds": {
           "had": {
-            "home_win": 2.10,
-            "draw": 3.10,
-            "away_win": 3.00
+            "home_win": 2.1,
+            "draw": 3.1,
+            "away_win": 3.0
           },
           "hhad": {
             "goal_line": -1,
-            "home_win": 4.20,
+            "home_win": 4.2,
             "draw": 3.55,
             "away_win": 1.62
           }
@@ -368,7 +365,7 @@
           "main": {
             "bet_type": "胜平负",
             "option": "主胜",
-            "odds": 2.10,
+            "odds": 2.1,
             "confidence": "中",
             "amount": 6,
             "reasoning": "巴列卡诺主场作战，赔率2.10略占优势"
@@ -405,15 +402,15 @@
         },
         "odds": {
           "had": {
-            "home_win": 6.20,
+            "home_win": 6.2,
             "draw": 3.85,
             "away_win": 1.42
           },
           "hhad": {
             "goal_line": 1,
             "home_win": 2.55,
-            "draw": 3.30,
-            "away_win": 2.30
+            "draw": 3.3,
+            "away_win": 2.3
           }
         },
         "analysis": {
@@ -432,7 +429,7 @@
           "sub": {
             "bet_type": "让球胜平负",
             "option": "让球平",
-            "odds": 3.30,
+            "odds": 3.3,
             "confidence": "中",
             "amount": 4,
             "reasoning": "主队让一球后平局赔率3.30，布拉加赢1球概率不低"
@@ -462,14 +459,14 @@
         "odds": {
           "had": {
             "home_win": 1.55,
-            "draw": 3.80,
-            "away_win": 4.70
+            "draw": 3.8,
+            "away_win": 4.7
           },
           "hhad": {
             "goal_line": -1,
-            "home_win": 2.60,
+            "home_win": 2.6,
             "draw": 3.45,
-            "away_win": 2.20
+            "away_win": 2.2
           }
         },
         "analysis": {
@@ -488,7 +485,7 @@
           "sub": {
             "bet_type": "让球胜平负",
             "option": "让球胜",
-            "odds": 2.60,
+            "odds": 2.6,
             "confidence": "中",
             "amount": 5,
             "reasoning": "斯图加特让一球后主胜赔率2.60，若赢2球以上可中"
@@ -518,13 +515,13 @@
         "odds": {
           "had": {
             "home_win": 1.12,
-            "draw": 6.50,
-            "away_win": 12.00
+            "draw": 6.5,
+            "away_win": 12.0
           },
           "hhad": {
             "goal_line": -3,
             "home_win": 2.15,
-            "draw": 4.00,
+            "draw": 4.0,
             "away_win": 2.55
           }
         },
@@ -544,7 +541,7 @@
           "sub": {
             "bet_type": "让球胜平负",
             "option": "让球平",
-            "odds": 4.00,
+            "odds": 4.0,
             "confidence": "中",
             "amount": 3,
             "reasoning": "主队让三球后平局赔率4.00，可博高赔"
@@ -573,14 +570,14 @@
         },
         "odds": {
           "had": {
-            "home_win": 5.50,
-            "draw": 3.80,
+            "home_win": 5.5,
+            "draw": 3.8,
             "away_win": 1.45
           },
           "hhad": {
             "goal_line": 1,
-            "home_win": 2.20,
-            "draw": 3.50,
+            "home_win": 2.2,
+            "draw": 3.5,
             "away_win": 2.55
           }
         },
@@ -600,7 +597,7 @@
           "sub": {
             "bet_type": "让球胜平负",
             "option": "让球平",
-            "odds": 3.50,
+            "odds": 3.5,
             "confidence": "中",
             "amount": 4,
             "reasoning": "主队让一球后平局赔率3.50，比利亚雷小胜概率不低"
@@ -609,7 +606,6 @@
       }
     ]
   },
-
   "tomorrow": {
     "date": "2026-04-24",
     "weekday": "周五",
@@ -639,14 +635,14 @@
         },
         "odds": {
           "had": {
-            "home_win": 2.30,
-            "draw": 3.20,
+            "home_win": 2.3,
+            "draw": 3.2,
             "away_win": 2.55
           },
           "hhad": {
             "goal_line": -1,
-            "home_win": 5.20,
-            "draw": 4.00,
+            "home_win": 5.2,
+            "draw": 4.0,
             "away_win": 1.45
           }
         },
@@ -658,7 +654,7 @@
           "main": {
             "bet_type": "胜平负",
             "option": "平局",
-            "odds": 3.20,
+            "odds": 3.2,
             "confidence": "中",
             "amount": 5,
             "reasoning": "双方实力接近，平局赔率3.20值得关注"
@@ -696,14 +692,14 @@
         "odds": {
           "had": {
             "home_win": 2.85,
-            "draw": 3.20,
-            "away_win": 2.10
+            "draw": 3.2,
+            "away_win": 2.1
           },
           "hhad": {
             "goal_line": -1,
-            "home_win": 6.00,
-            "draw": 4.20,
-            "away_win": 1.40
+            "home_win": 6.0,
+            "draw": 4.2,
+            "away_win": 1.4
           }
         },
         "analysis": {
@@ -714,7 +710,7 @@
           "main": {
             "bet_type": "胜平负",
             "option": "客胜",
-            "odds": 2.10,
+            "odds": 2.1,
             "confidence": "中",
             "amount": 6,
             "reasoning": "鹿岛鹿角实力占优，赔率2.10可搏"
@@ -722,7 +718,7 @@
           "sub": {
             "bet_type": "让球胜平负",
             "option": "让球负",
-            "odds": 1.40,
+            "odds": 1.4,
             "confidence": "高",
             "amount": 9,
             "reasoning": "柏太阳神让一球后客胜赔率1.40，鹿岛小胜可期"
@@ -751,14 +747,14 @@
         },
         "odds": {
           "had": {
-            "home_win": 2.50,
-            "draw": 3.00,
-            "away_win": 2.40
+            "home_win": 2.5,
+            "draw": 3.0,
+            "away_win": 2.4
           },
           "hhad": {
             "goal_line": -1,
-            "home_win": 5.50,
-            "draw": 3.80,
+            "home_win": 5.5,
+            "draw": 3.8,
             "away_win": 1.45
           }
         },
@@ -770,7 +766,7 @@
           "main": {
             "bet_type": "胜平负",
             "option": "客胜",
-            "odds": 2.40,
+            "odds": 2.4,
             "confidence": "低",
             "amount": 5,
             "reasoning": "客队赔率略低，但芬超不确定性大"
@@ -807,15 +803,15 @@
         },
         "odds": {
           "had": {
-            "home_win": 3.80,
-            "draw": 3.50,
-            "away_win": 1.70
+            "home_win": 3.8,
+            "draw": 3.5,
+            "away_win": 1.7
           },
           "hhad": {
             "goal_line": 1,
             "home_win": 1.85,
-            "draw": 3.40,
-            "away_win": 3.50
+            "draw": 3.4,
+            "away_win": 3.5
           }
         },
         "analysis": {
@@ -826,7 +822,7 @@
           "main": {
             "bet_type": "胜平负",
             "option": "客胜",
-            "odds": 1.70,
+            "odds": 1.7,
             "confidence": "高",
             "amount": 8,
             "reasoning": "利雅得实力占优，赔率1.70可搏"
@@ -863,14 +859,14 @@
         },
         "odds": {
           "had": {
-            "home_win": 2.00,
-            "draw": 3.20,
-            "away_win": 3.20
+            "home_win": 2.0,
+            "draw": 3.2,
+            "away_win": 3.2
           },
           "hhad": {
             "goal_line": -1,
-            "home_win": 4.00,
-            "draw": 3.60,
+            "home_win": 4.0,
+            "draw": 3.6,
             "away_win": 1.65
           }
         },
@@ -882,7 +878,7 @@
           "main": {
             "bet_type": "胜平负",
             "option": "主胜",
-            "odds": 2.00,
+            "odds": 2.0,
             "confidence": "中",
             "amount": 6,
             "reasoning": "凯泽主场作战，赔率2.00可搏"
@@ -920,14 +916,14 @@
         "odds": {
           "had": {
             "home_win": 1.85,
-            "draw": 3.30,
-            "away_win": 3.50
+            "draw": 3.3,
+            "away_win": 3.5
           },
           "hhad": {
             "goal_line": -1,
-            "home_win": 3.70,
-            "draw": 3.60,
-            "away_win": 1.70
+            "home_win": 3.7,
+            "draw": 3.6,
+            "away_win": 1.7
           }
         },
         "analysis": {
@@ -946,7 +942,7 @@
           "sub": {
             "bet_type": "让球胜平负",
             "option": "让球平",
-            "odds": 3.60,
+            "odds": 3.6,
             "confidence": "中",
             "amount": 4,
             "reasoning": "主队让一球后平局赔率3.60"
@@ -975,14 +971,14 @@
         },
         "odds": {
           "had": {
-            "home_win": 2.40,
-            "draw": 2.90,
-            "away_win": 2.70
+            "home_win": 2.4,
+            "draw": 2.9,
+            "away_win": 2.7
           },
           "hhad": {
             "goal_line": -1,
-            "home_win": 5.20,
-            "draw": 3.80,
+            "home_win": 5.2,
+            "draw": 3.8,
             "away_win": 1.45
           }
         },
@@ -994,7 +990,7 @@
           "main": {
             "bet_type": "胜平负",
             "option": "平局",
-            "odds": 2.90,
+            "odds": 2.9,
             "confidence": "低",
             "amount": 5,
             "reasoning": "赔率接近，平局赔率2.90值得关注"
@@ -1031,15 +1027,15 @@
         },
         "odds": {
           "had": {
-            "home_win": 2.20,
-            "draw": 2.90,
+            "home_win": 2.2,
+            "draw": 2.9,
             "away_win": 2.95
           },
           "hhad": {
             "goal_line": -1,
-            "home_win": 4.80,
-            "draw": 3.70,
-            "away_win": 1.50
+            "home_win": 4.8,
+            "draw": 3.7,
+            "away_win": 1.5
           }
         },
         "analysis": {
@@ -1050,7 +1046,7 @@
           "main": {
             "bet_type": "胜平负",
             "option": "主胜",
-            "odds": 2.20,
+            "odds": 2.2,
             "confidence": "中",
             "amount": 6,
             "reasoning": "拉瓦勒主场作战，赔率2.20可搏"
@@ -1058,7 +1054,7 @@
           "sub": {
             "bet_type": "让球胜平负",
             "option": "让球负",
-            "odds": 1.50,
+            "odds": 1.5,
             "confidence": "高",
             "amount": 8,
             "reasoning": "拉瓦勒让一球后客胜赔率1.50"
@@ -1088,13 +1084,13 @@
         "odds": {
           "had": {
             "home_win": 2.15,
-            "draw": 3.40,
-            "away_win": 2.70
+            "draw": 3.4,
+            "away_win": 2.7
           },
           "hhad": {
             "goal_line": -1,
-            "home_win": 4.50,
-            "draw": 3.80,
+            "home_win": 4.5,
+            "draw": 3.8,
             "away_win": 1.55
           }
         },
@@ -1144,13 +1140,13 @@
         "odds": {
           "had": {
             "home_win": 1.45,
-            "draw": 4.20,
-            "away_win": 5.50
+            "draw": 4.2,
+            "away_win": 5.5
           },
           "hhad": {
             "goal_line": -1,
-            "home_win": 2.30,
-            "draw": 3.50,
+            "home_win": 2.3,
+            "draw": 3.5,
             "away_win": 2.55
           }
         },
@@ -1170,7 +1166,7 @@
           "sub": {
             "bet_type": "让球胜平负",
             "option": "让球胜",
-            "odds": 2.30,
+            "odds": 2.3,
             "confidence": "中",
             "amount": 5,
             "reasoning": "莱比锡让一球后主胜赔率2.30"
@@ -1200,14 +1196,14 @@
         "odds": {
           "had": {
             "home_win": 1.35,
-            "draw": 4.50,
-            "away_win": 6.50
+            "draw": 4.5,
+            "away_win": 6.5
           },
           "hhad": {
             "goal_line": -1,
-            "home_win": 2.00,
-            "draw": 3.50,
-            "away_win": 3.00
+            "home_win": 2.0,
+            "draw": 3.5,
+            "away_win": 3.0
           }
         },
         "analysis": {
@@ -1226,7 +1222,7 @@
           "sub": {
             "bet_type": "让球胜平负",
             "option": "让球胜",
-            "odds": 2.00,
+            "odds": 2.0,
             "confidence": "高",
             "amount": 7,
             "reasoning": "那不勒斯让一球后主胜赔率2.00"
@@ -1255,15 +1251,15 @@
         },
         "odds": {
           "had": {
-            "home_win": 2.30,
-            "draw": 3.10,
-            "away_win": 2.70
+            "home_win": 2.3,
+            "draw": 3.1,
+            "away_win": 2.7
           },
           "hhad": {
             "goal_line": -1,
-            "home_win": 5.00,
-            "draw": 3.80,
-            "away_win": 1.50
+            "home_win": 5.0,
+            "draw": 3.8,
+            "away_win": 1.5
           }
         },
         "analysis": {
@@ -1274,7 +1270,7 @@
           "main": {
             "bet_type": "胜平负",
             "option": "主胜",
-            "odds": 2.30,
+            "odds": 2.3,
             "confidence": "中",
             "amount": 6,
             "reasoning": "布雷斯特主场作战，赔率2.30可搏"
@@ -1282,7 +1278,7 @@
           "sub": {
             "bet_type": "让球胜平负",
             "option": "让球负",
-            "odds": 1.50,
+            "odds": 1.5,
             "confidence": "高",
             "amount": 8,
             "reasoning": "布雷斯特让一球后客胜赔率1.50"
@@ -1311,15 +1307,15 @@
         },
         "odds": {
           "had": {
-            "home_win": 3.20,
-            "draw": 3.20,
-            "away_win": 2.00
+            "home_win": 3.2,
+            "draw": 3.2,
+            "away_win": 2.0
           },
           "hhad": {
             "goal_line": 1,
-            "home_win": 1.70,
-            "draw": 3.60,
-            "away_win": 3.90
+            "home_win": 1.7,
+            "draw": 3.6,
+            "away_win": 3.9
           }
         },
         "analysis": {
@@ -1330,7 +1326,7 @@
           "main": {
             "bet_type": "胜平负",
             "option": "客胜",
-            "odds": 2.00,
+            "odds": 2.0,
             "confidence": "中",
             "amount": 6,
             "reasoning": "诺丁汉森林排名靠前，赔率2.00可搏"
@@ -1338,7 +1334,7 @@
           "sub": {
             "bet_type": "让球胜平负",
             "option": "让球胜",
-            "odds": 1.70,
+            "odds": 1.7,
             "confidence": "高",
             "amount": 7,
             "reasoning": "主队让一球后主胜赔率1.70"
@@ -1367,15 +1363,15 @@
         },
         "odds": {
           "had": {
-            "home_win": 3.50,
-            "draw": 3.60,
-            "away_win": 1.80
+            "home_win": 3.5,
+            "draw": 3.6,
+            "away_win": 1.8
           },
           "hhad": {
             "goal_line": 1,
-            "home_win": 1.80,
-            "draw": 3.50,
-            "away_win": 3.60
+            "home_win": 1.8,
+            "draw": 3.5,
+            "away_win": 3.6
           }
         },
         "analysis": {
@@ -1386,7 +1382,7 @@
           "main": {
             "bet_type": "胜平负",
             "option": "客胜",
-            "odds": 1.80,
+            "odds": 1.8,
             "confidence": "高",
             "amount": 8,
             "reasoning": "皇马实力占优，赔率1.80可搏"
@@ -1394,7 +1390,7 @@
           "sub": {
             "bet_type": "让球胜平负",
             "option": "让球胜",
-            "odds": 1.80,
+            "odds": 1.8,
             "confidence": "高",
             "amount": 7,
             "reasoning": "主队让一球后主胜赔率1.80，贝蒂斯主场强势"
@@ -1423,14 +1419,14 @@
         },
         "odds": {
           "had": {
-            "home_win": 2.80,
-            "draw": 3.00,
-            "away_win": 2.20
+            "home_win": 2.8,
+            "draw": 3.0,
+            "away_win": 2.2
           },
           "hhad": {
             "goal_line": -1,
-            "home_win": 6.00,
-            "draw": 3.80,
+            "home_win": 6.0,
+            "draw": 3.8,
             "away_win": 1.42
           }
         },
@@ -1442,7 +1438,7 @@
           "main": {
             "bet_type": "胜平负",
             "option": "客胜",
-            "odds": 2.20,
+            "odds": 2.2,
             "confidence": "中",
             "amount": 6,
             "reasoning": "阿罗卡客场略占优势，赔率2.20可搏"
@@ -1459,12 +1455,14 @@
       }
     ]
   },
-
   "parlay": [
     {
       "name": "稳胆组合A",
       "type": "2串1",
-      "matches": ["周四006-客胜(布拉加)", "周四008-主胜(埃因霍温)"],
+      "matches": [
+        "周四006-客胜(布拉加)",
+        "周四008-主胜(埃因霍温)"
+      ],
       "total_odds": 1.42,
       "amount": 5,
       "confidence": "极高",
@@ -1474,7 +1472,10 @@
     {
       "name": "稳胆组合B",
       "type": "2串1",
-      "matches": ["周四009-客胜(比利亚雷)", "周五010-主胜(莱比锡)"],
+      "matches": [
+        "周四009-客胜(比利亚雷)",
+        "周五010-主胜(莱比锡)"
+      ],
       "total_odds": 2.03,
       "amount": 5,
       "confidence": "极高",
@@ -1484,7 +1485,10 @@
     {
       "name": "高赔搏单",
       "type": "2串1",
-      "matches": ["周四002-客胜(阿尔克马尔)", "周四003-让球负(塞维利亚)"],
+      "matches": [
+        "周四002-客胜(阿尔克马尔)",
+        "周四003-让球负(塞维利亚)"
+      ],
       "total_odds": 2.76,
       "amount": 3,
       "confidence": "高",
@@ -1494,7 +1498,11 @@
     {
       "name": "容错组合A",
       "type": "3串1",
-      "matches": ["周四007-主胜(斯图加特)", "周五011-主胜(那不勒斯)", "周五012-让球负(朗斯)"],
+      "matches": [
+        "周四007-主胜(斯图加特)",
+        "周五011-主胜(那不勒斯)",
+        "周五012-让球负(朗斯)"
+      ],
       "total_odds": 2.48,
       "amount": 4,
       "confidence": "高",
@@ -1504,7 +1512,11 @@
     {
       "name": "容错组合B",
       "type": "3串1",
-      "matches": ["周四001-客胜(布赖合作)", "周五013-客胜(森林)", "周五014-让球胜(贝蒂斯)"],
+      "matches": [
+        "周四001-客胜(布赖合作)",
+        "周五013-客胜(森林)",
+        "周五014-让球胜(贝蒂斯)"
+      ],
       "total_odds": 2.72,
       "amount": 3,
       "confidence": "中",
@@ -1514,7 +1526,12 @@
     {
       "name": "4串1容错",
       "type": "4串1",
-      "matches": ["周四004-主胜(马尔默)", "周五002-让球负(鹿岛)", "周五008-让球负", "周五010-主胜(莱比锡)"],
+      "matches": [
+        "周四004-主胜(马尔默)",
+        "周五002-让球负(鹿岛)",
+        "周五008-让球负",
+        "周五010-主胜(莱比锡)"
+      ],
       "total_odds": 3.85,
       "amount": 2,
       "confidence": "中",
@@ -1524,8 +1541,10 @@
     {
       "name": "单关博冷",
       "type": "单关",
-      "matches": ["周四003-平局"],
-      "total_odds": 3.10,
+      "matches": [
+        "周四003-平局"
+      ],
+      "total_odds": 3.1,
       "amount": 2,
       "confidence": "中",
       "expected_return": "6.20",
@@ -1534,15 +1553,16 @@
     {
       "name": "单关博冷2",
       "type": "单关",
-      "matches": ["周五010-让球胜(莱比锡)"],
-      "total_odds": 2.30,
+      "matches": [
+        "周五010-让球胜(莱比锡)"
+      ],
+      "total_odds": 2.3,
       "amount": 3,
       "confidence": "中",
       "expected_return": "6.90",
       "reasoning": "莱比锡让一球后赔率适中"
     }
   ],
-
   "statistics": {
     "today_summary": {
       "total_matches": 9,
