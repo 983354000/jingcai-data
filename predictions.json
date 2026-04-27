@@ -1,9 +1,9 @@
 {
-  "version": "6.0",
-  "updated_at": "2026-04-26T12:52:00+08:00",
+  "version": "7.0",
+  "updated_at": "2026-04-27T12:53:00+08:00",
   "update_source": "竞彩官网数据采集 + 网络搜索补全",
-  "data_valid_until": "2026-04-28T08:30:00+08:00",
-  "sales_notice": "4月26日（周日）竞彩足球开售32场比赛，停售时间为23:30",
+  "data_valid_until": "2026-04-29T08:30:00+08:00",
+  "sales_notice": "4月27日（周一）竞彩足球开售9场比赛，停售时间为次日08:30",
   "confidence_legend": {
     "极高": "赔率<1.50，强队vs弱队，隐含概率>66%",
     "高": "赔率1.50-2.00，有明显优势，隐含概率50%-66%",
@@ -16,2138 +16,515 @@
     "串关": "2-10元/注"
   },
   "yesterday": {
-    "date": "2026-04-25",
-    "weekday": "周六",
-    "match_count": 30,
-    "sales_start": "09:00",
-    "sales_stop": "22:00",
-    "matches": [
-      {
-        "match_id": "260425022",
-        "match_num": "周六022",
-        "league": {
-          "name": "英足总杯",
-          "short_name": "足总杯",
-          "country": "英格兰"
-        },
-        "datetime": "2026-04-26T00:15:00+08:00",
-        "status": "completed",
-        "home_team": {
-          "name": "曼城",
-          "rank": 1,
-          "short_name": "曼城"
-        },
-        "away_team": {
-          "name": "南安普敦",
-          "rank": 10,
-          "short_name": "南安普敦"
-        },
-        "odds": {
-          "had": {
-            "home_win": 2.3,
-            "draw": 4.0,
-            "away_win": 2.25
-          },
-          "hhad": {
-            "goal_line": -1,
-            "home_win": 4.5,
-            "draw": 3.8,
-            "away_win": 1.55
-          }
-        },
-        "score": "2-1",
-        "half_time": "1-0",
-        "result": "主胜",
-        "predictions_check": {
-          "main": {
-            "predicted": "主胜",
-            "actual": "主胜",
-            "is_hit": true
-          },
-          "sub": {
-            "predicted": "让球负",
-            "actual": "主胜",
-            "is_hit": false
-          }
-        }
-      },
-      {
-        "match_id": "260425023",
-        "match_num": "周六023",
-        "league": {
-          "name": "英超",
-          "short_name": "英超",
-          "country": "英格兰"
-        },
-        "datetime": "2026-04-26T00:30:00+08:00",
-        "status": "completed",
-        "home_team": {
-          "name": "阿森纳",
-          "rank": 2,
-          "short_name": "阿森纳"
-        },
-        "away_team": {
-          "name": "纽卡斯尔联",
-          "rank": 14,
-          "short_name": "纽卡斯尔"
-        },
-        "odds": {
-          "had": {
-            "home_win": 1.31,
-            "draw": 4.65,
-            "away_win": 6.6
-          },
-          "hhad": {
-            "goal_line": -1,
-            "home_win": 2.02,
-            "draw": 3.62,
-            "away_win": 2.8
-          }
-        },
-        "score": "1-0",
-        "half_time": "1-0",
-        "result": "主胜",
-        "predictions_check": {
-          "main": {
-            "predicted": "主胜",
-            "actual": "主胜",
-            "is_hit": true
-          },
-          "sub": {
-            "predicted": "让球胜",
-            "actual": "主胜",
-            "is_hit": true
-          }
-        }
-      },
-      {
-        "match_id": "260425028",
-        "match_num": "周六028",
-        "league": {
-          "name": "意甲",
-          "short_name": "意甲",
-          "country": "意大利"
-        },
-        "datetime": "2026-04-26T02:45:00+08:00",
-        "status": "completed",
-        "home_team": {
-          "name": "维罗纳",
-          "rank": 19,
-          "short_name": "维罗纳"
-        },
-        "away_team": {
-          "name": "莱切",
-          "rank": 18,
-          "short_name": "莱切"
-        },
-        "odds": {
-          "had": {
-            "home_win": 2.29,
-            "draw": 2.72,
-            "away_win": 3.08
-          },
-          "hhad": {
-            "goal_line": -1,
-            "home_win": 5.85,
-            "draw": 3.6,
-            "away_win": 1.47
-          }
-        },
-        "score": "0-0",
-        "half_time": "0-0",
-        "result": "平",
-        "predictions_check": {
-          "main": {
-            "predicted": "平",
-            "actual": "平",
-            "is_hit": true
-          },
-          "sub": {
-            "predicted": "让球负",
-            "actual": "平",
-            "is_hit": false
-          }
-        }
-      },
-      {
-        "match_id": "260425029",
-        "match_num": "周六029",
-        "league": {
-          "name": "西甲",
-          "short_name": "西甲",
-          "country": "西班牙"
-        },
-        "datetime": "2026-04-26T03:00:00+08:00",
-        "status": "completed",
-        "home_team": {
-          "name": "马德里竞技",
-          "rank": 4,
-          "short_name": "马竞"
-        },
-        "away_team": {
-          "name": "毕尔巴鄂竞技",
-          "rank": 9,
-          "short_name": "毕巴"
-        },
-        "odds": {
-          "had": {
-            "home_win": 2.05,
-            "draw": 3.25,
-            "away_win": 3.0
-          },
-          "hhad": {
-            "goal_line": -1,
-            "home_win": 4.02,
-            "draw": 3.6,
-            "away_win": 1.66
-          }
-        },
-        "score": "3-2",
-        "half_time": "0-1",
-        "result": "主胜",
-        "predictions_check": {
-          "main": {
-            "predicted": "主胜",
-            "actual": "主胜",
-            "is_hit": true
-          },
-          "sub": {
-            "predicted": "让球负",
-            "actual": "主胜",
-            "is_hit": false
-          }
-        }
-      }
-    ],
-    "summary": {
-      "total_matches": 4,
-      "main_hits": 4,
-      "sub_hits": 1,
-      "main_hit_rate": "100%",
-      "sub_hit_rate": "25%"
-    }
-  },
-  "today": {
     "date": "2026-04-26",
     "weekday": "周日",
-    "match_count": 29,
+    "match_count": 10,
     "sales_start": "09:00",
     "sales_stop": "23:30",
     "matches": [
       {
-        "match_id": "260426001",
-        "match_num": "周日001",
-        "league": {
-          "name": "韩职",
-          "short_name": "韩职",
-          "country": "韩国"
-        },
-        "datetime": "2026-04-26T13:00:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "全北现代",
-          "rank": 5,
-          "short_name": "全北现代"
-        },
-        "away_team": {
-          "name": "浦项制铁",
-          "rank": 7,
-          "short_name": "浦项制铁"
-        },
-        "odds": {
-          "had": {
-            "home_win": 1.79,
-            "draw": 3.55,
-            "away_win": 3.45
-          },
-          "hhad": {
-            "goal_line": -1,
-            "home_win": 3.55,
-            "draw": 3.45,
-            "away_win": 1.79
-          }
-        },
-        "analysis": {
-          "odds_structure": "主胜赔率1.79明显偏低，隐含概率约55.9%",
-          "confidence_factors": "全北现代主场强势，韩职豪门对阵中上游球队"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "主胜",
-            "odds": 1.79,
-            "confidence": "高",
-            "amount": 8,
-            "reasoning": "全北现代主场赔率1.79，韩职稳胆"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球平",
-            "odds": 3.45,
-            "confidence": "中",
-            "amount": 3,
-            "reasoning": "全北让一球后赔率3.45，主场大胜可期"
-          }
-        }
-      },
-      {
-        "match_id": "260426002",
-        "match_num": "周日002",
-        "league": {
-          "name": "澳超",
-          "short_name": "澳超",
-          "country": "澳大利亚"
-        },
-        "datetime": "2026-04-26T15:30:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "墨尔本城",
-          "rank": 3,
-          "short_name": "墨尔本城"
-        },
-        "away_team": {
-          "name": "阿德莱德联",
-          "rank": 8,
-          "short_name": "阿德莱德"
-        },
-        "odds": {
-          "had": {
-            "home_win": 1.55,
-            "draw": 4.0,
-            "away_win": 4.2
-          },
-          "hhad": {
-            "goal_line": -1,
-            "home_win": 2.75,
-            "draw": 3.5,
-            "away_win": 2.05
-          }
-        },
-        "analysis": {
-          "odds_structure": "主胜赔率1.55偏低，隐含概率约64.5%",
-          "confidence_factors": "墨尔本城主场强势，澳超强队对阵中游球队"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "主胜",
-            "odds": 1.55,
-            "confidence": "高",
-            "amount": 8,
-            "reasoning": "墨尔本城主场赔率1.55，澳超稳胆"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球平",
-            "odds": 3.5,
-            "confidence": "中",
-            "amount": 3,
-            "reasoning": "墨尔本城让一球后赔率3.50，主场大胜可期"
-          }
-        }
-      },
-      {
-        "match_id": "260426003",
-        "match_num": "周日003",
-        "league": {
-          "name": "荷甲",
-          "short_name": "荷甲",
-          "country": "荷兰"
-        },
-        "datetime": "2026-04-26T18:15:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "SBV精英",
-          "rank": 16,
-          "short_name": "SBV精英"
-        },
-        "away_team": {
-          "name": "乌德勒支",
-          "rank": 7,
-          "short_name": "乌德勒支"
-        },
-        "odds": {
-          "had": {
-            "home_win": 3.2,
-            "draw": 3.8,
-            "away_win": 1.8
-          },
-          "hhad": {
-            "goal_line": 1,
-            "home_win": 1.78,
-            "draw": 3.7,
-            "away_win": 3.45
-          }
-        },
-        "analysis": {
-          "odds_structure": "客胜赔率1.80偏低，隐含概率约55.6%",
-          "confidence_factors": "乌德勒支客场作战，荷甲中上游对阵中下游"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "客胜",
-            "odds": 1.8,
-            "confidence": "高",
-            "amount": 7,
-            "reasoning": "乌德勒支客场赔率1.80，荷甲客队稳胆"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球胜",
-            "odds": 1.78,
-            "confidence": "高",
-            "amount": 5,
-            "reasoning": "SBV精英受让一球后赔率1.78，主队主场有一定战意"
-          }
-        }
-      },
-      {
-        "match_id": "260426004",
-        "match_num": "周日004",
-        "league": {
-          "name": "意甲",
-          "short_name": "意甲",
-          "country": "意大利"
-        },
-        "datetime": "2026-04-26T18:30:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "佛罗伦萨",
-          "rank": 8,
-          "short_name": "佛罗伦萨"
-        },
-        "away_team": {
-          "name": "萨索洛",
-          "rank": 18,
-          "short_name": "萨索洛"
-        },
-        "odds": {
-          "had": {
-            "home_win": 1.75,
-            "draw": 3.8,
-            "away_win": 3.55
-          },
-          "hhad": {
-            "goal_line": -1,
-            "home_win": 3.35,
-            "draw": 3.55,
-            "away_win": 1.85
-          }
-        },
-        "analysis": {
-          "odds_structure": "主胜赔率1.75偏低，隐含概率约57.1%",
-          "confidence_factors": "佛罗伦萨主场对阵意甲降级区球队"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "主胜",
-            "odds": 1.75,
-            "confidence": "高",
-            "amount": 8,
-            "reasoning": "佛罗伦萨主场赔率1.75，意甲稳胆"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球平",
-            "odds": 3.55,
-            "confidence": "中",
-            "amount": 3,
-            "reasoning": "佛罗伦萨让一球后赔率3.55，主场大胜可期"
-          }
-        }
-      },
-      {
-        "match_id": "260426005",
-        "match_num": "周日005",
-        "league": {
-          "name": "英冠",
-          "short_name": "英冠",
-          "country": "英格兰"
-        },
-        "datetime": "2026-04-26T19:00:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "考文垂",
-          "rank": 6,
-          "short_name": "考文垂"
-        },
-        "away_team": {
-          "name": "雷克斯汉姆",
-          "rank": 15,
-          "short_name": "雷克斯汉"
-        },
-        "odds": {
-          "had": {
-            "home_win": 1.85,
-            "draw": 3.5,
-            "away_win": 3.35
-          },
-          "hhad": {
-            "goal_line": -1,
-            "home_win": 3.65,
-            "draw": 3.55,
-            "away_win": 1.75
-          }
-        },
-        "analysis": {
-          "odds_structure": "主胜赔率1.85略低，隐含概率约54.1%",
-          "confidence_factors": "考文垂排名靠前，主场作战有一定优势"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "主胜",
-            "odds": 1.85,
-            "confidence": "高",
-            "amount": 7,
-            "reasoning": "考文垂主场赔率1.85，英冠稳胆"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球平",
-            "odds": 3.55,
-            "confidence": "中",
-            "amount": 3,
-            "reasoning": "考文垂让一球后赔率3.55，英冠主场大胜可期"
-          }
-        }
-      },
-      {
-        "match_id": "260426006",
-        "match_num": "周日006",
-        "league": {
-          "name": "德乙",
-          "short_name": "德乙",
-          "country": "德国"
-        },
-        "datetime": "2026-04-26T19:30:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "帕德博恩",
-          "rank": 12,
-          "short_name": "帕德博恩"
-        },
-        "away_team": {
-          "name": "沙尔克04",
-          "rank": 5,
-          "short_name": "沙尔克04"
-        },
-        "odds": {
-          "had": {
-            "home_win": 2.55,
-            "draw": 3.5,
-            "away_win": 2.25
-          },
-          "hhad": {
-            "goal_line": 1,
-            "home_win": 1.48,
-            "draw": 4.0,
-            "away_win": 4.75
-          }
-        },
-        "analysis": {
-          "odds_structure": "客胜赔率2.25略低，隐含概率约44.4%",
-          "confidence_factors": "沙尔克04客场作战，德乙升级热门"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "客胜",
-            "odds": 2.25,
-            "confidence": "中",
-            "amount": 5,
-            "reasoning": "沙尔克04客场赔率2.25，德乙客队有一定优势"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球胜",
-            "odds": 1.48,
-            "confidence": "高",
-            "amount": 6,
-            "reasoning": "帕德博恩受让一球后赔率1.48，主队主场战意强"
-          }
-        }
-      },
-      {
-        "match_id": "260426007",
-        "match_num": "周日007",
-        "league": {
-          "name": "西甲",
-          "short_name": "西甲",
-          "country": "西班牙"
-        },
-        "datetime": "2026-04-26T20:00:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "巴列卡诺",
-          "rank": 12,
-          "short_name": "巴列卡诺"
-        },
-        "away_team": {
-          "name": "皇家社会",
-          "rank": 8,
-          "short_name": "皇社"
-        },
-        "odds": {
-          "had": {
-            "home_win": 2.41,
-            "draw": 3.3,
-            "away_win": 2.43
-          },
-          "hhad": {
-            "goal_line": -1,
-            "home_win": 5.0,
-            "draw": 3.8,
-            "away_win": 1.48
-          }
-        },
-        "analysis": {
-          "odds_structure": "客胜赔率2.43略低，隐含概率约41.2%",
-          "confidence_factors": "皇家社会客场作战，西甲中游对决"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "客胜",
-            "odds": 2.43,
-            "confidence": "中",
-            "amount": 5,
-            "reasoning": "皇家社会客场赔率2.43，西甲客队有一定优势"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球负",
-            "odds": 1.48,
-            "confidence": "高",
-            "amount": 6,
-            "reasoning": "巴列卡诺让一球后客队赔率1.48，客队实力占优"
-          }
-        }
-      },
-      {
-        "match_id": "260426008",
-        "match_num": "周日008",
-        "league": {
-          "name": "瑞超",
-          "short_name": "瑞超",
-          "country": "瑞典"
-        },
-        "datetime": "2026-04-26T20:00:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "佐加顿斯",
-          "rank": 7,
-          "short_name": "佐加顿斯"
-        },
-        "away_team": {
-          "name": "哈马比",
-          "rank": 4,
-          "short_name": "哈马比"
-        },
-        "odds": {
-          "had": {
-            "home_win": 2.65,
-            "draw": 3.3,
-            "away_win": 2.23
-          },
-          "hhad": {
-            "goal_line": 1,
-            "home_win": 1.55,
-            "draw": 3.95,
-            "away_win": 4.35
-          }
-        },
-        "analysis": {
-          "odds_structure": "客胜赔率2.23略低，隐含概率约44.8%",
-          "confidence_factors": "哈马比排名靠前，瑞超中上游对决"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "客胜",
-            "odds": 2.23,
-            "confidence": "中",
-            "amount": 5,
-            "reasoning": "哈马比客场赔率2.23，瑞超客队有一定优势"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球胜",
-            "odds": 1.55,
-            "confidence": "高",
-            "amount": 5,
-            "reasoning": "佐加顿斯受让一球后赔率1.55，主队主场有一定战意"
-          }
-        }
-      },
-      {
-        "match_id": "260426009",
-        "match_num": "周日009",
-        "league": {
-          "name": "挪超",
-          "short_name": "挪超",
-          "country": "挪威"
-        },
-        "datetime": "2026-04-26T20:30:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "莫尔德",
-          "rank": 4,
-          "short_name": "莫尔德"
-        },
-        "away_team": {
-          "name": "瓦勒伦加",
-          "rank": 6,
-          "short_name": "瓦勒伦加"
-        },
-        "odds": {
-          "had": {
-            "home_win": 1.74,
-            "draw": 3.8,
-            "away_win": 3.45
-          },
-          "hhad": {
-            "goal_line": -1,
-            "home_win": 3.35,
-            "draw": 3.55,
-            "away_win": 1.85
-          }
-        },
-        "analysis": {
-          "odds_structure": "主胜赔率1.74偏低，隐含概率约57.5%",
-          "confidence_factors": "莫尔德主场强势，挪超强队对阵中游球队"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "主胜",
-            "odds": 1.74,
-            "confidence": "高",
-            "amount": 8,
-            "reasoning": "莫尔德主场赔率1.74，挪超稳胆"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球平",
-            "odds": 3.55,
-            "confidence": "中",
-            "amount": 3,
-            "reasoning": "莫尔德让一球后赔率3.55，主场大胜可期"
-          }
-        }
-      },
-      {
-        "match_id": "260426010",
-        "match_num": "周日010",
-        "league": {
-          "name": "意甲",
-          "short_name": "意甲",
-          "country": "意大利"
-        },
-        "datetime": "2026-04-26T21:00:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "热那亚",
-          "rank": 14,
-          "short_name": "热那亚"
-        },
-        "away_team": {
-          "name": "科莫",
-          "rank": 6,
-          "short_name": "科莫"
-        },
-        "odds": {
-          "had": {
-            "home_win": 3.85,
-            "draw": 3.3,
-            "away_win": 1.77
-          },
-          "hhad": {
-            "goal_line": 1,
-            "home_win": 2.0,
-            "draw": 3.5,
-            "away_win": 2.95
-          }
-        },
-        "analysis": {
-          "odds_structure": "客胜赔率1.77偏低，隐含概率约56.5%",
-          "confidence_factors": "科莫排名靠前，客场作战有一定优势"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "客胜",
-            "odds": 1.77,
-            "confidence": "高",
-            "amount": 7,
-            "reasoning": "科莫客场赔率1.77，意甲客队稳胆"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球平",
-            "odds": 3.5,
-            "confidence": "中",
-            "amount": 3,
-            "reasoning": "热那亚让一球后赔率3.50，主队主场可能有惊喜"
-          }
-        }
-      },
-      {
-        "match_id": "260426011",
-        "match_num": "周日011",
-        "league": {
-          "name": "法甲",
-          "short_name": "法甲",
-          "country": "法国"
-        },
-        "datetime": "2026-04-26T21:00:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "洛里昂",
-          "rank": 9,
-          "short_name": "洛里昂"
-        },
-        "away_team": {
-          "name": "斯特拉斯堡",
-          "rank": 8,
-          "short_name": "斯特拉斯"
-        },
-        "odds": {
-          "had": {
-            "home_win": 1.97,
-            "draw": 3.45,
-            "away_win": 3.02
-          },
-          "hhad": {
-            "goal_line": -1,
-            "home_win": 4.05,
-            "draw": 3.6,
-            "away_win": 1.62
-          }
-        },
-        "analysis": {
-          "odds_structure": "主胜赔率1.97略低，隐含概率约50.8%",
-          "confidence_factors": "洛里昂主场对阵法甲中游球队"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "主胜",
-            "odds": 1.97,
-            "confidence": "中",
-            "amount": 6,
-            "reasoning": "洛里昂主场赔率1.97，法甲主队有一定优势"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球负",
-            "odds": 1.62,
-            "confidence": "高",
-            "amount": 5,
-            "reasoning": "斯特拉斯堡客场让一球后赔率1.62，客队有一定优势"
-          }
-        }
-      },
-      {
-        "match_id": "260426012",
-        "match_num": "周日012",
-        "league": {
-          "name": "德甲",
-          "short_name": "德甲",
-          "country": "德国"
-        },
-        "datetime": "2026-04-26T21:30:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "斯图加特",
-          "rank": 5,
-          "short_name": "斯图加特"
-        },
-        "away_team": {
-          "name": "云达不来梅",
-          "rank": 15,
-          "short_name": "不来梅"
-        },
-        "odds": {
-          "had": {
-            "home_win": 1.4,
-            "draw": 4.3,
-            "away_win": 5.47
-          },
-          "hhad": {
-            "goal_line": -1,
-            "home_win": 2.35,
-            "draw": 3.6,
-            "away_win": 2.4
-          }
-        },
-        "analysis": {
-          "odds_structure": "主胜赔率1.40极低，隐含概率约71.4%",
-          "confidence_factors": "斯图加特主场强势，德甲强队对阵保级球队"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "主胜",
-            "odds": 1.4,
-            "confidence": "极高",
-            "amount": 10,
-            "reasoning": "斯图加特主场赔率1.40，德甲稳胆首选"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球胜",
-            "odds": 2.35,
-            "confidence": "中",
-            "amount": 5,
-            "reasoning": "斯图加特让一球后赔率2.35，德甲大胜可期"
-          }
-        }
-      },
-      {
-        "match_id": "260426013",
-        "match_num": "周日013",
-        "league": {
-          "name": "英足总杯",
-          "short_name": "足总杯",
-          "country": "英格兰"
-        },
-        "datetime": "2026-04-26T22:00:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "切尔西",
-          "rank": 5,
-          "short_name": "切尔西"
-        },
-        "away_team": {
-          "name": "利兹联",
-          "rank": 8,
-          "short_name": "利兹联"
-        },
-        "odds": {
-          "had": {
-            "home_win": 1.93,
-            "draw": 3.25,
-            "away_win": 3.3
-          },
-          "hhad": {
-            "goal_line": -1,
-            "home_win": 3.65,
-            "draw": 3.45,
-            "away_win": 1.75
-          }
-        },
-        "analysis": {
-          "odds_structure": "主胜赔率1.93略低，隐含概率约51.8%",
-          "confidence_factors": "切尔西主场作战，英足总杯半决赛"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "主胜",
-            "odds": 1.93,
-            "confidence": "中",
-            "amount": 6,
-            "reasoning": "切尔西主场赔率1.93，英足总杯强队对决"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球负",
-            "odds": 1.75,
-            "confidence": "高",
-            "amount": 5,
-            "reasoning": "利兹联客场让一球后赔率1.75，客队有一定优势"
-          }
-        }
-      },
-      {
-        "match_id": "260426014",
-        "match_num": "周日014",
-        "league": {
-          "name": "西甲",
-          "short_name": "西甲",
-          "country": "西班牙"
-        },
-        "datetime": "2026-04-26T22:15:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "皇家奥维耶多",
-          "rank": 20,
-          "short_name": "奥维耶多"
-        },
-        "away_team": {
-          "name": "埃尔切",
-          "rank": 17,
-          "short_name": "埃尔切"
-        },
-        "odds": {
-          "had": {
-            "home_win": 2.14,
-            "draw": 3.1,
-            "away_win": 2.95
-          },
-          "hhad": {
-            "goal_line": -1,
-            "home_win": 4.65,
-            "draw": 3.6,
-            "away_win": 1.52
-          }
-        },
-        "analysis": {
-          "odds_structure": "客胜赔率2.95略低，隐含概率约33.9%",
-          "confidence_factors": "西甲保级大战，两队都在降级区边缘"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "客胜",
-            "odds": 2.95,
-            "confidence": "低",
-            "amount": 4,
-            "reasoning": "埃尔切客场赔率2.95，西甲保级战变数大"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球负",
-            "odds": 1.52,
-            "confidence": "高",
-            "amount": 6,
-            "reasoning": "奥维耶多让一球后客队赔率1.52，客队有一定优势"
-          }
-        }
-      },
-      {
-        "match_id": "260426015",
-        "match_num": "周日015",
-        "league": {
-          "name": "瑞超",
-          "short_name": "瑞超",
-          "country": "瑞典"
-        },
-        "datetime": "2026-04-26T22:30:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "IFK哥德堡",
-          "rank": 14,
-          "short_name": "哥德堡"
-        },
-        "away_team": {
-          "name": "哥德堡盖斯",
-          "rank": 16,
-          "short_name": "盖斯"
-        },
-        "odds": {
-          "had": {
-            "home_win": 2.56,
-            "draw": 3.17,
-            "away_win": 2.36
-          },
-          "hhad": {
-            "goal_line": 1,
-            "home_win": 1.52,
-            "draw": 3.95,
-            "away_win": 4.55
-          }
-        },
-        "analysis": {
-          "odds_structure": "客胜赔率2.36略低，隐含概率约42.4%",
-          "confidence_factors": "瑞超同省德比，两队排名接近"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "客胜",
-            "odds": 2.36,
-            "confidence": "中",
-            "amount": 5,
-            "reasoning": "哥德堡盖斯客场赔率2.36，瑞超同省德比变数大"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球胜",
-            "odds": 1.52,
-            "confidence": "高",
-            "amount": 5,
-            "reasoning": "哥德堡受让一球后赔率1.52，主队主场有一定优势"
-          }
-        }
-      },
-      {
-        "match_id": "260426016",
-        "match_num": "周日016",
-        "league": {
-          "name": "法甲",
-          "short_name": "法甲",
-          "country": "法国"
-        },
-        "datetime": "2026-04-26T23:15:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "勒阿弗尔",
-          "rank": 14,
-          "short_name": "勒阿弗尔"
-        },
-        "away_team": {
-          "name": "梅斯",
-          "rank": 18,
-          "short_name": "梅斯"
-        },
-        "odds": {
-          "had": {
-            "home_win": 1.51,
-            "draw": 3.75,
-            "away_win": 5.0
-          },
-          "hhad": {
-            "goal_line": -1,
-            "home_win": 2.65,
-            "draw": 3.45,
-            "away_win": 2.18
-          }
-        },
-        "analysis": {
-          "odds_structure": "主胜赔率1.51明显偏低，隐含概率约66.2%",
-          "confidence_factors": "勒阿弗尔主场对阵法甲降级区球队"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "主胜",
-            "odds": 1.51,
-            "confidence": "高",
-            "amount": 8,
-            "reasoning": "勒阿弗尔主场赔率1.51，法甲稳胆"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球平",
-            "odds": 3.45,
-            "confidence": "中",
-            "amount": 3,
-            "reasoning": "勒阿弗尔让一球后赔率3.45，主场大胜可期"
-          }
-        }
-      },
-      {
-        "match_id": "260426017",
-        "match_num": "周日017",
-        "league": {
-          "name": "法甲",
-          "short_name": "法甲",
-          "country": "法国"
-        },
-        "datetime": "2026-04-26T23:15:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "巴黎FC",
-          "rank": 12,
-          "short_name": "巴黎FC"
-        },
-        "away_team": {
-          "name": "里尔",
-          "rank": 4,
-          "short_name": "里尔"
-        },
-        "odds": {
-          "had": {
-            "home_win": 3.67,
-            "draw": 3.5,
-            "away_win": 1.75
-          },
-          "hhad": {
-            "goal_line": 1,
-            "home_win": 1.95,
-            "draw": 3.55,
-            "away_win": 3.0
-          }
-        },
-        "analysis": {
-          "odds_structure": "客胜赔率1.75偏低，隐含概率约57.1%",
-          "confidence_factors": "里尔客场作战，法甲强队对阵中游球队"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "客胜",
-            "odds": 1.75,
-            "confidence": "高",
-            "amount": 7,
-            "reasoning": "里尔客场赔率1.75，法甲客队稳胆"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球平",
-            "odds": 3.55,
-            "confidence": "中",
-            "amount": 3,
-            "reasoning": "巴黎FC受让一球后赔率3.55，主队主场可能有惊喜"
-          }
-        }
-      },
-      {
-        "match_id": "260426018",
-        "match_num": "周日018",
-        "league": {
-          "name": "法甲",
-          "short_name": "法甲",
-          "country": "法国"
-        },
-        "datetime": "2026-04-26T23:15:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "雷恩",
-          "rank": 5,
-          "short_name": "雷恩"
-        },
-        "away_team": {
-          "name": "南特",
-          "rank": 17,
-          "short_name": "南特"
-        },
-        "odds": {
-          "had": {
-            "home_win": 1.29,
-            "draw": 4.65,
-            "away_win": 7.2
-          },
-          "hhad": {
-            "goal_line": -1,
-            "home_win": 2.05,
-            "draw": 3.5,
-            "away_win": 2.95
-          }
-        },
-        "analysis": {
-          "odds_structure": "主胜赔率1.29极低，隐含概率约77.5%",
-          "confidence_factors": "雷恩主场对阵法甲降级区球队，稳胆首选"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "主胜",
-            "odds": 1.29,
-            "confidence": "极高",
-            "amount": 10,
-            "reasoning": "雷恩主场赔率1.29，法甲稳胆首选"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球胜",
-            "odds": 2.05,
-            "confidence": "高",
-            "amount": 5,
-            "reasoning": "雷恩让一球后赔率2.05，法甲大胜可期"
-          }
-        }
-      },
-      {
-        "match_id": "260426019",
-        "match_num": "周日019",
-        "league": {
-          "name": "德甲",
-          "short_name": "德甲",
-          "country": "德国"
-        },
-        "datetime": "2026-04-26T23:30:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "多特蒙德",
-          "rank": 2,
-          "short_name": "多特蒙德"
-        },
-        "away_team": {
-          "name": "弗赖堡",
-          "rank": 8,
-          "short_name": "弗赖堡"
-        },
-        "odds": {
-          "had": {
-            "home_win": 1.26,
-            "draw": 5.0,
-            "away_win": 7.35
-          },
-          "hhad": {
-            "goal_line": -1,
-            "home_win": 2.0,
-            "draw": 3.55,
-            "away_win": 2.95
-          }
-        },
-        "analysis": {
-          "odds_structure": "主胜赔率1.26极低，隐含概率约79.4%",
-          "confidence_factors": "多特蒙德主场强势，德甲强队对阵中游球队"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "主胜",
-            "odds": 1.26,
-            "confidence": "极高",
-            "amount": 10,
-            "reasoning": "多特蒙德主场赔率1.26，德甲稳胆首选"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球胜",
-            "odds": 2.0,
-            "confidence": "高",
-            "amount": 6,
-            "reasoning": "多特蒙德让一球后赔率2.00，德甲大胜可期"
-          }
-        }
-      },
-      {
         "match_id": "260426020",
         "match_num": "周日020",
-        "league": {
-          "name": "意甲",
-          "short_name": "意甲",
-          "country": "意大利"
-        },
+        "league": {"name": "意甲", "short_name": "意甲", "country": "意大利"},
         "datetime": "2026-04-27T00:00:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "都灵",
-          "rank": 11,
-          "short_name": "都灵"
-        },
-        "away_team": {
-          "name": "国际米兰",
-          "rank": 2,
-          "short_name": "国米"
-        },
-        "odds": {
-          "had": {
-            "home_win": 4.2,
-            "draw": 3.55,
-            "away_win": 1.58
-          },
-          "hhad": {
-            "goal_line": 1,
-            "home_win": 2.08,
-            "draw": 3.5,
-            "away_win": 2.85
-          }
-        },
-        "analysis": {
-          "odds_structure": "客胜赔率1.58偏低，隐含概率约63.3%",
-          "confidence_factors": "国际米兰客场作战，意甲争冠球队对阵中游球队"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "客胜",
-            "odds": 1.58,
-            "confidence": "高",
-            "amount": 8,
-            "reasoning": "国际米兰客场赔率1.58，意甲客队稳胆"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球平",
-            "odds": 3.5,
-            "confidence": "中",
-            "amount": 3,
-            "reasoning": "都灵受让一球后赔率3.50，主队主场可能有惊喜"
-          }
+        "status": "completed",
+        "home_team": {"name": "都灵", "rank": 13, "short_name": "都灵"},
+        "away_team": {"name": "国际米兰", "rank": 1, "short_name": "国米"},
+        "odds": {"had": {"home_win": 7.2, "draw": 4.65, "away_win": 1.29}, "hhad": {"goal_line": 1, "home_win": 2.88, "draw": 3.55, "away_win": 2.0}},
+        "score": "2-2",
+        "half_time": "0-1",
+        "result": "平",
+        "predictions_check": {
+          "main": {"predicted": "客胜", "actual": "平", "is_hit": false},
+          "sub": {"predicted": "让球胜", "actual": "平", "is_hit": false}
         }
       },
       {
         "match_id": "260426021",
         "match_num": "周日021",
-        "league": {
-          "name": "西甲",
-          "short_name": "西甲",
-          "country": "西班牙"
-        },
+        "league": {"name": "西甲", "short_name": "西甲", "country": "西班牙"},
         "datetime": "2026-04-27T00:30:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "奥萨苏纳",
-          "rank": 10,
-          "short_name": "奥萨苏纳"
-        },
-        "away_team": {
-          "name": "塞维利亚",
-          "rank": 18,
-          "short_name": "塞维利亚"
-        },
-        "odds": {
-          "had": {
-            "home_win": 2.15,
-            "draw": 3.2,
-            "away_win": 2.85
-          },
-          "hhad": {
-            "goal_line": -1,
-            "home_win": 4.55,
-            "draw": 3.55,
-            "away_win": 1.55
-          }
-        },
-        "analysis": {
-          "odds_structure": "客胜赔率2.85略低，隐含概率约35.1%",
-          "confidence_factors": "西甲保级大战，塞维利亚客场抢分意愿强烈"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "客胜",
-            "odds": 2.85,
-            "confidence": "低",
-            "amount": 4,
-            "reasoning": "塞维利亚客场赔率2.85，西甲保级战变数大"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球负",
-            "odds": 1.55,
-            "confidence": "高",
-            "amount": 6,
-            "reasoning": "奥萨苏纳让一球后客队赔率1.55，客队有一定优势"
-          }
+        "status": "completed",
+        "home_team": {"name": "奥萨苏纳", "rank": 10, "short_name": "奥萨苏纳"},
+        "away_team": {"name": "塞维利亚", "rank": 18, "short_name": "塞维利亚"},
+        "odds": {"had": {"home_win": 1.92, "draw": 2.9, "away_win": 3.8}, "hhad": {"goal_line": -1, "home_win": 4.1, "draw": 3.35, "away_win": 1.66}},
+        "score": "2-1",
+        "half_time": "0-0",
+        "result": "主胜",
+        "predictions_check": {
+          "main": {"predicted": "主胜", "actual": "主胜", "is_hit": true},
+          "sub": {"predicted": "让球平", "actual": "主胜", "is_hit": false}
         }
       },
       {
         "match_id": "260426022",
         "match_num": "周日022",
-        "league": {
-          "name": "葡超",
-          "short_name": "葡超",
-          "country": "葡萄牙"
-        },
+        "league": {"name": "葡超", "short_name": "葡超", "country": "葡萄牙"},
         "datetime": "2026-04-27T01:00:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "圣克拉拉",
-          "rank": 18,
-          "short_name": "圣克拉拉"
-        },
-        "away_team": {
-          "name": "布拉加",
-          "rank": 4,
-          "short_name": "布拉加"
-        },
-        "odds": {
-          "had": {
-            "home_win": 3.75,
-            "draw": 3.05,
-            "away_win": 1.87
-          },
-          "hhad": {
-            "goal_line": 1,
-            "home_win": 1.95,
-            "draw": 3.55,
-            "away_win": 3.05
-          }
-        },
-        "analysis": {
-          "odds_structure": "客胜赔率1.87偏低，隐含概率约53.5%",
-          "confidence_factors": "布拉加客场作战，葡超强队对阵保级球队"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "客胜",
-            "odds": 1.87,
-            "confidence": "高",
-            "amount": 7,
-            "reasoning": "布拉加客场赔率1.87，葡超客队稳胆"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球平",
-            "odds": 3.55,
-            "confidence": "中",
-            "amount": 3,
-            "reasoning": "圣克拉拉受让一球后赔率3.55，主队可能有惊喜"
-          }
+        "status": "completed",
+        "home_team": {"name": "圣克拉拉", "rank": 14, "short_name": "圣克拉拉"},
+        "away_team": {"name": "布拉加", "rank": 4, "short_name": "布拉加"},
+        "odds": {"had": {"home_win": 3.5, "draw": 2.98, "away_win": 1.97}, "hhad": {"goal_line": 1, "home_win": 1.63, "draw": 3.55, "away_win": 4.28}},
+        "score": "2-1",
+        "half_time": "0-1",
+        "result": "主胜",
+        "predictions_check": {
+          "main": {"predicted": "客胜", "actual": "主胜", "is_hit": false},
+          "sub": {"predicted": "让球胜", "actual": "主胜", "is_hit": true}
         }
       },
       {
         "match_id": "260426023",
         "match_num": "周日023",
-        "league": {
-          "name": "葡超",
-          "short_name": "葡超",
-          "country": "葡萄牙"
-        },
+        "league": {"name": "葡超", "short_name": "葡超", "country": "葡萄牙"},
         "datetime": "2026-04-27T01:00:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "阿马多拉",
-          "rank": 15,
-          "short_name": "阿马多拉"
-        },
-        "away_team": {
-          "name": "波尔图",
-          "rank": 1,
-          "short_name": "波尔图"
-        },
-        "odds": {
-          "had": {
-            "home_win": 11.5,
-            "draw": 5.15,
-            "away_win": 1.18
-          },
-          "hhad": {
-            "goal_line": 1,
-            "home_win": 2.5,
-            "draw": 3.5,
-            "away_win": 2.25
-          }
-        },
-        "analysis": {
-          "odds_structure": "客胜赔率1.18极低，隐含概率约84.7%",
-          "confidence_factors": "波尔图客场作战，葡超霸主对阵弱旅"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "客胜",
-            "odds": 1.18,
-            "confidence": "极高",
-            "amount": 10,
-            "reasoning": "波尔图客场赔率1.18，葡超稳胆首选"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球负",
-            "odds": 2.25,
-            "confidence": "高",
-            "amount": 5,
-            "reasoning": "波尔图让一球后赔率2.25，葡超大胜可期"
-          }
+        "status": "completed",
+        "home_team": {"name": "阿马多拉", "rank": 15, "short_name": "阿马多拉"},
+        "away_team": {"name": "波尔图", "rank": 1, "short_name": "波尔图"},
+        "odds": {"had": {"home_win": 11.5, "draw": 5.15, "away_win": 1.18}, "hhad": {"goal_line": 1, "home_win": 3.62, "draw": 3.55, "away_win": 1.75}},
+        "score": "1-2",
+        "half_time": "0-2",
+        "result": "客胜",
+        "predictions_check": {
+          "main": {"predicted": "客胜", "actual": "客胜", "is_hit": true},
+          "sub": {"predicted": "让球负", "actual": "客胜", "is_hit": true}
         }
       },
       {
         "match_id": "260426024",
         "match_num": "周日024",
-        "league": {
-          "name": "挪超",
-          "short_name": "挪超",
-          "country": "挪威"
-        },
+        "league": {"name": "挪超", "short_name": "挪超", "country": "挪威"},
         "datetime": "2026-04-27T01:15:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "利勒斯特罗姆",
-          "rank": 3,
-          "short_name": "利勒斯特"
-        },
-        "away_team": {
-          "name": "博德闪耀",
-          "rank": 5,
-          "short_name": "博德闪耀"
-        },
-        "odds": {
-          "had": {
-            "home_win": 3.2,
-            "draw": 3.95,
-            "away_win": 1.82
-          },
-          "hhad": {
-            "goal_line": 1,
-            "home_win": 1.75,
-            "draw": 3.85,
-            "away_win": 3.35
-          }
-        },
-        "analysis": {
-          "odds_structure": "客胜赔率1.82偏低，隐含概率约54.9%",
-          "confidence_factors": "博德闪耀客场作战，挪超强队对阵中上游球队"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "客胜",
-            "odds": 1.82,
-            "confidence": "高",
-            "amount": 7,
-            "reasoning": "博德闪耀客场赔率1.82，挪超客队稳胆"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球胜",
-            "odds": 1.75,
-            "confidence": "高",
-            "amount": 5,
-            "reasoning": "利勒斯特罗姆受让一球后赔率1.75，主队主场有一定战意"
-          }
+        "status": "completed",
+        "home_team": {"name": "利勒斯特罗姆", "rank": 3, "short_name": "利勒斯特"},
+        "away_team": {"name": "博德闪耀", "rank": 6, "short_name": "博德闪耀"},
+        "odds": {"had": {"home_win": 3.36, "draw": 4.1, "away_win": 1.7}, "hhad": {"goal_line": 1, "home_win": 1.9, "draw": 3.9, "away_win": 2.88}},
+        "score": "0-2",
+        "half_time": "0-1",
+        "result": "客胜",
+        "predictions_check": {
+          "main": {"predicted": "客胜", "actual": "客胜", "is_hit": true},
+          "sub": {"predicted": "让球负", "actual": "客胜", "is_hit": true}
         }
       },
       {
         "match_id": "260426025",
         "match_num": "周日025",
-        "league": {
-          "name": "意甲",
-          "short_name": "意甲",
-          "country": "意大利"
-        },
+        "league": {"name": "意甲", "short_name": "意甲", "country": "意大利"},
         "datetime": "2026-04-27T02:45:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "AC米兰",
-          "rank": 8,
-          "short_name": "AC米兰"
-        },
-        "away_team": {
-          "name": "尤文图斯",
-          "rank": 4,
-          "short_name": "尤文"
-        },
-        "odds": {
-          "had": {
-            "home_win": 2.55,
-            "draw": 3.0,
-            "away_win": 2.42
-          },
-          "hhad": {
-            "goal_line": 1,
-            "home_win": 1.48,
-            "draw": 4.0,
-            "away_win": 4.85
-          }
-        },
-        "analysis": {
-          "odds_structure": "客胜赔率2.42略低，隐含概率约41.3%",
-          "confidence_factors": "意大利国家德比，双方实力接近"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "客胜",
-            "odds": 2.42,
-            "confidence": "中",
-            "amount": 5,
-            "reasoning": "尤文客场赔率2.42，意大利国家德比变数大"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球胜",
-            "odds": 1.48,
-            "confidence": "高",
-            "amount": 6,
-            "reasoning": "AC米兰受让一球后赔率1.48，主队主场战意强"
-          }
+        "status": "completed",
+        "home_team": {"name": "AC米兰", "rank": 3, "short_name": "AC米兰"},
+        "away_team": {"name": "尤文图斯", "rank": 4, "short_name": "尤文"},
+        "odds": {"had": {"home_win": 2.66, "draw": 2.86, "away_win": 2.48}, "hhad": {"goal_line": -1, "home_win": 6.3, "draw": 4.15, "away_win": 1.37}},
+        "score": "0-0",
+        "half_time": "0-0",
+        "result": "平",
+        "predictions_check": {
+          "main": {"predicted": "客胜", "actual": "平", "is_hit": false},
+          "sub": {"predicted": "让球负", "actual": "平", "is_hit": false}
         }
       },
       {
         "match_id": "260426026",
         "match_num": "周日026",
-        "league": {
-          "name": "法甲",
-          "short_name": "法甲",
-          "country": "法国"
-        },
+        "league": {"name": "法甲", "short_name": "法甲", "country": "法国"},
         "datetime": "2026-04-27T02:45:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "马赛",
-          "rank": 3,
-          "short_name": "马赛"
-        },
-        "away_team": {
-          "name": "尼斯",
-          "rank": 6,
-          "short_name": "尼斯"
-        },
-        "odds": {
-          "had": {
-            "home_win": 2.05,
-            "draw": 3.0,
-            "away_win": 3.15
-          },
-          "hhad": {
-            "goal_line": -1,
-            "home_win": 4.35,
-            "draw": 3.45,
-            "away_win": 1.62
-          }
-        },
-        "analysis": {
-          "odds_structure": "主胜赔率2.05略低，隐含概率约48.8%",
-          "confidence_factors": "马赛主场对阵法甲中上游球队"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "主胜",
-            "odds": 2.05,
-            "confidence": "中",
-            "amount": 6,
-            "reasoning": "马赛主场赔率2.05，法甲强队对决"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球负",
-            "odds": 1.62,
-            "confidence": "高",
-            "amount": 5,
-            "reasoning": "尼斯客场让一球后赔率1.62，客队有一定优势"
-          }
+        "status": "completed",
+        "home_team": {"name": "马赛", "rank": 6, "short_name": "马赛"},
+        "away_team": {"name": "尼斯", "rank": 15, "short_name": "尼斯"},
+        "odds": {"had": {"home_win": 1.43, "draw": 4.3, "away_win": 5.05}, "hhad": {"goal_line": -1, "home_win": 2.26, "draw": 3.65, "away_win": 2.42}},
+        "score": "1-1",
+        "half_time": "0-0",
+        "result": "平",
+        "predictions_check": {
+          "main": {"predicted": "主胜", "actual": "平", "is_hit": false},
+          "sub": {"predicted": "让球平", "actual": "平", "is_hit": true}
         }
       },
       {
         "match_id": "260426027",
         "match_num": "周日027",
-        "league": {
-          "name": "西甲",
-          "short_name": "西甲",
-          "country": "西班牙"
-        },
+        "league": {"name": "西甲", "short_name": "西甲", "country": "西班牙"},
         "datetime": "2026-04-27T03:00:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "比利亚雷亚尔",
-          "rank": 7,
-          "short_name": "黄潜"
-        },
-        "away_team": {
-          "name": "维戈塞尔塔",
-          "rank": 12,
-          "short_name": "塞尔塔"
-        },
-        "odds": {
-          "had": {
-            "home_win": 1.68,
-            "draw": 3.8,
-            "away_win": 3.85
-          },
-          "hhad": {
-            "goal_line": -1,
-            "home_win": 3.25,
-            "draw": 3.55,
-            "away_win": 1.88
-          }
-        },
-        "analysis": {
-          "odds_structure": "主胜赔率1.68偏低，隐含概率约59.5%",
-          "confidence_factors": "比利亚雷亚尔主场强势，西甲强队对阵中游球队"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "主胜",
-            "odds": 1.68,
-            "confidence": "高",
-            "amount": 8,
-            "reasoning": "比利亚雷亚尔主场赔率1.68，西甲稳胆"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球平",
-            "odds": 3.55,
-            "confidence": "中",
-            "amount": 3,
-            "reasoning": "比利亚雷亚尔让一球后赔率3.55，主场大胜可期"
-          }
+        "status": "completed",
+        "home_team": {"name": "比利亚雷亚尔", "rank": 3, "short_name": "比利亚雷"},
+        "away_team": {"name": "维戈塞尔塔", "rank": 7, "short_name": "塞尔塔"},
+        "odds": {"had": {"home_win": 1.67, "draw": 3.65, "away_win": 3.9}, "hhad": {"goal_line": -1, "home_win": 3.35, "draw": 3.35, "away_win": 1.88}},
+        "score": "2-1",
+        "half_time": "2-0",
+        "result": "主胜",
+        "predictions_check": {
+          "main": {"predicted": "主胜", "actual": "主胜", "is_hit": true},
+          "sub": {"predicted": "让球平", "actual": "主胜", "is_hit": false}
         }
       },
       {
         "match_id": "260426028",
         "match_num": "周日028",
-        "league": {
-          "name": "葡超",
-          "short_name": "葡超",
-          "country": "葡萄牙"
-        },
+        "league": {"name": "葡超", "short_name": "葡超", "country": "葡萄牙"},
         "datetime": "2026-04-27T03:30:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "阿维斯SAD",
-          "rank": 17,
-          "short_name": "阿维斯"
-        },
-        "away_team": {
-          "name": "里斯本竞技",
-          "rank": 2,
-          "short_name": "里斯本"
-        },
-        "odds": {
-          "had": {
-            "home_win": 8.5,
-            "draw": 4.5,
-            "away_win": 1.25
-          },
-          "hhad": {
-            "goal_line": 1,
-            "home_win": 2.45,
-            "draw": 3.55,
-            "away_win": 2.25
-          }
-        },
-        "analysis": {
-          "odds_structure": "客胜赔率1.25极低，隐含概率约80.0%",
-          "confidence_factors": "里斯本竞技客场作战，葡超豪门对阵弱旅"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "客胜",
-            "odds": 1.25,
-            "confidence": "极高",
-            "amount": 10,
-            "reasoning": "里斯本竞技客场赔率1.25，葡超稳胆首选"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球负",
-            "odds": 2.25,
-            "confidence": "高",
-            "amount": 5,
-            "reasoning": "里斯本竞技让一球后赔率2.25，葡超大胜可期"
-          }
+        "status": "completed",
+        "home_team": {"name": "阿维斯SAD", "rank": 18, "short_name": "阿维SAD"},
+        "away_team": {"name": "里斯本竞技", "rank": 3, "short_name": "里斯本"},
+        "odds": {"had": {"home_win": 0, "draw": 0, "away_win": 0}, "hhad": {"goal_line": 2, "home_win": 2.95, "draw": 4.1, "away_win": 1.83}},
+        "score": "1-1",
+        "half_time": "0-0",
+        "result": "平",
+        "predictions_check": {
+          "main": {"predicted": "客胜", "actual": "平", "is_hit": false},
+          "sub": {"predicted": "让球胜", "actual": "平", "is_hit": true}
         }
       },
       {
         "match_id": "260426029",
         "match_num": "周日029",
-        "league": {
-          "name": "美职",
-          "short_name": "美职",
-          "country": "美国"
-        },
+        "league": {"name": "美职足", "short_name": "美职", "country": "美国"},
         "datetime": "2026-04-27T07:00:00+08:00",
-        "status": "selling",
-        "home_team": {
-          "name": "洛杉矶银河",
-          "rank": 8,
-          "short_name": "洛银河"
-        },
-        "away_team": {
-          "name": "皇家盐湖城",
-          "rank": 5,
-          "short_name": "盐湖城"
-        },
-        "odds": {
-          "had": {
-            "home_win": 2.25,
-            "draw": 3.5,
-            "away_win": 2.55
-          },
-          "hhad": {
-            "goal_line": 1,
-            "home_win": 1.38,
-            "draw": 4.2,
-            "away_win": 5.5
-          }
-        },
-        "analysis": {
-          "odds_structure": "主胜赔率2.25略低，隐含概率约44.4%",
-          "confidence_factors": "洛杉矶银河主场作战，美职中游对决"
-        },
-        "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "主胜",
-            "odds": 2.25,
-            "confidence": "中",
-            "amount": 5,
-            "reasoning": "洛杉矶银河主场赔率2.25，美职主队有一定优势"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球胜",
-            "odds": 1.38,
-            "confidence": "高",
-            "amount": 7,
-            "reasoning": "洛杉矶银河受让一球后赔率1.38，主队主场战意可信"
-          }
+        "status": "completed",
+        "home_team": {"name": "洛杉矶银河", "rank": 13, "short_name": "洛城银河"},
+        "away_team": {"name": "皇家盐湖城", "rank": 6, "short_name": "盐湖城"},
+        "odds": {"had": {"home_win": 2.28, "draw": 3.6, "away_win": 2.42}, "hhad": {"goal_line": -1, "home_win": 4.8, "draw": 4.25, "away_win": 1.46}},
+        "score": "2-1",
+        "half_time": "1-1",
+        "result": "主胜",
+        "predictions_check": {
+          "main": {"predicted": "客胜", "actual": "主胜", "is_hit": false},
+          "sub": {"predicted": "让球平", "actual": "主胜", "is_hit": false}
         }
       }
     ],
-    "parlays": [
-      {
-        "name": "串关A（稳单）",
-        "type": "3串1",
-        "matches": [
-          "周日012",
-          "周日018",
-          "周日019"
-        ],
-        "options": [
-          "主胜",
-          "主胜",
-          "主胜"
-        ],
-        "odds": [
-          1.4,
-          1.29,
-          1.26
-        ],
-        "total_odds": 2.28,
-        "amount": 10,
-        "potential_win": 22.8,
-        "reasoning": "三场极高信心德甲+法甲组合，赔率2.28"
-      },
-      {
-        "name": "串关B（容错）",
-        "type": "4串1",
-        "matches": [
-          "周日001",
-          "周日004",
-          "周日009",
-          "周日016"
-        ],
-        "options": [
-          "主胜",
-          "主胜",
-          "主胜",
-          "主胜"
-        ],
-        "odds": [
-          1.79,
-          1.75,
-          1.74,
-          1.51
-        ],
-        "total_odds": 8.23,
-        "amount": 6,
-        "potential_win": 49.38,
-        "reasoning": "4串1亚洲联赛组合，覆盖韩职+意甲+挪超+法甲"
-      },
-      {
-        "name": "串关C（搏冷）",
-        "type": "3串1",
-        "matches": [
-          "周日010",
-          "周日017",
-          "周日022"
-        ],
-        "options": [
-          "客胜",
-          "客胜",
-          "客胜"
-        ],
-        "odds": [
-          1.77,
-          1.75,
-          1.87
-        ],
-        "total_odds": 5.81,
-        "amount": 4,
-        "potential_win": 23.24,
-        "reasoning": "三场客胜搏冷组合，赔率5.81"
-      },
-      {
-        "name": "单关高赔",
-        "type": "单关",
-        "matches": [
-          "周日023"
-        ],
-        "options": [
-          "客胜"
-        ],
-        "odds": [
-          1.18
-        ],
-        "total_odds": 1.18,
-        "amount": 10,
-        "potential_win": 11.8,
-        "reasoning": "波尔图客场赔率1.18，葡超稳胆首选"
-      }
-    ]
+    "summary": {
+      "total_matches": 10,
+      "main_hits": 5,
+      "sub_hits": 5,
+      "main_hit_rate": "50%",
+      "sub_hit_rate": "50%"
+    }
   },
-  "tomorrow": {
+  "today": {
     "date": "2026-04-27",
     "weekday": "周一",
-    "match_count": 3,
+    "match_count": 9,
     "sales_start": "09:00",
-    "sales_stop": "23:30",
+    "sales_stop": "次日08:30",
     "matches": [
       {
         "match_id": "260427001",
         "match_num": "周一001",
-        "league": {
-          "name": "意甲",
-          "short_name": "意甲",
-          "country": "意大利"
-        },
+        "league": {"name": "意甲", "short_name": "意甲", "country": "意大利"},
         "datetime": "2026-04-28T00:30:00+08:00",
         "status": "selling",
-        "home_team": {
-          "name": "卡利亚里",
-          "rank": 16,
-          "short_name": "卡利亚里"
-        },
-        "away_team": {
-          "name": "亚特兰大",
-          "rank": 3,
-          "short_name": "亚特兰大"
-        },
+        "home_team": {"name": "卡利亚里", "rank": 16, "short_name": "卡利亚里"},
+        "away_team": {"name": "亚特兰大", "rank": 7, "short_name": "亚特兰大"},
         "odds": {
-          "had": {
-            "home_win": 3.85,
-            "draw": 3.55,
-            "away_win": 1.65
-          },
-          "hhad": {
-            "goal_line": 1,
-            "home_win": 1.95,
-            "draw": 3.5,
-            "away_win": 3.15
-          }
+          "had": {"home_win": 4.35, "draw": 3.5, "away_win": 1.63},
+          "hhad": {"goal_line": 1, "home_win": 2.0, "draw": 3.25, "away_win": 3.15}
         },
         "analysis": {
-          "odds_structure": "客胜赔率1.65偏低，隐含概率约60.6%",
-          "confidence_factors": "亚特兰大客场作战，意甲强队对阵保级边缘球队"
+          "odds_structure": "亚特兰大客胜赔率1.63，隐含概率约61.3%",
+          "confidence_factors": "亚特兰大排名靠前，客场作战明显优势"
         },
         "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "客胜",
-            "odds": 1.65,
-            "confidence": "高",
-            "amount": 8,
-            "reasoning": "亚特兰大客场赔率1.65，意甲客队稳胆"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球平",
-            "odds": 3.5,
-            "confidence": "中",
-            "amount": 3,
-            "reasoning": "卡利亚里受让一球后赔率3.50，主队可能有惊喜"
-          }
+          "main": {"bet_type": "胜平负", "option": "客胜", "odds": 1.63, "confidence": "高", "amount": 8, "reasoning": "亚特兰大客场赔率1.63，意甲客队稳胆"},
+          "sub": {"bet_type": "让球胜平负", "option": "让球胜", "odds": 2.0, "confidence": "高", "amount": 5, "reasoning": "卡利亚里受让一球后赔率2.00，主队主场有战意"}
         }
       },
       {
         "match_id": "260427002",
         "match_num": "周一002",
-        "league": {
-          "name": "瑞超",
-          "short_name": "瑞超",
-          "country": "瑞典"
-        },
+        "league": {"name": "瑞超", "short_name": "瑞超", "country": "瑞典"},
         "datetime": "2026-04-28T01:00:00+08:00",
         "status": "selling",
-        "home_team": {
-          "name": "米亚尔比",
-          "rank": 12,
-          "short_name": "米亚尔比"
-        },
-        "away_team": {
-          "name": "哈尔姆斯塔德",
-          "rank": 15,
-          "short_name": "哈尔姆斯"
-        },
+        "home_team": {"name": "米亚尔比", "rank": 11, "short_name": "米亚尔比"},
+        "away_team": {"name": "哈尔姆斯塔德", "rank": 15, "short_name": "哈尔姆斯"},
         "odds": {
-          "had": {
-            "home_win": 2.15,
-            "draw": 3.0,
-            "away_win": 3.0
-          },
-          "hhad": {
-            "goal_line": -1,
-            "home_win": 4.75,
-            "draw": 3.55,
-            "away_win": 1.55
-          }
+          "had": {"home_win": 1.29, "draw": 4.55, "away_win": 7.5},
+          "hhad": {"goal_line": -1, "home_win": 2.0, "draw": 3.5, "away_win": 2.91}
         },
         "analysis": {
-          "odds_structure": "客胜赔率3.00较高，隐含概率约33.3%",
-          "confidence_factors": "瑞超中下游对决，双方实力接近"
+          "odds_structure": "米亚尔比主胜赔率1.29极低，隐含概率约77.5%",
+          "confidence_factors": "米亚尔比主场对阵瑞超降级区球队"
         },
         "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "客胜",
-            "odds": 3.0,
-            "confidence": "低",
-            "amount": 4,
-            "reasoning": "哈尔姆斯塔德客场赔率3.00，瑞超变数大"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球负",
-            "odds": 1.55,
-            "confidence": "高",
-            "amount": 6,
-            "reasoning": "米亚尔比让一球后客队赔率1.55，客队有一定优势"
-          }
+          "main": {"bet_type": "胜平负", "option": "主胜", "odds": 1.29, "confidence": "极高", "amount": 10, "reasoning": "米亚尔比主场赔率1.29，瑞超稳胆首选"},
+          "sub": {"bet_type": "让球胜平负", "option": "让球平", "odds": 3.5, "confidence": "中", "amount": 3, "reasoning": "米亚尔比让一球后赔率3.50，主场大胜可期"}
         }
       },
       {
         "match_id": "260427003",
         "match_num": "周一003",
-        "league": {
-          "name": "瑞超",
-          "short_name": "瑞超",
-          "country": "瑞典"
-        },
+        "league": {"name": "瑞超", "short_name": "瑞超", "country": "瑞典"},
         "datetime": "2026-04-28T01:00:00+08:00",
         "status": "selling",
-        "home_team": {
-          "name": "赫根",
-          "rank": 5,
-          "short_name": "赫根"
-        },
-        "away_team": {
-          "name": "天狼星",
-          "rank": 11,
-          "short_name": "天狼星"
-        },
+        "home_team": {"name": "赫根", "rank": 4, "short_name": "赫根"},
+        "away_team": {"name": "天狼星", "rank": 1, "short_name": "天狼星"},
         "odds": {
-          "had": {
-            "home_win": 1.75,
-            "draw": 3.5,
-            "away_win": 3.75
-          },
-          "hhad": {
-            "goal_line": -1,
-            "home_win": 3.45,
-            "draw": 3.5,
-            "away_win": 1.82
-          }
+          "had": {"home_win": 2.57, "draw": 3.42, "away_win": 2.24},
+          "hhad": {"goal_line": -1, "home_win": 5.7, "draw": 4.5, "away_win": 1.37}
         },
         "analysis": {
-          "odds_structure": "主胜赔率1.75偏低，隐含概率约57.1%",
-          "confidence_factors": "赫根主场强势，瑞超强队对阵中下游球队"
+          "odds_structure": "客胜赔率2.24略低，天狼星排名榜首有一定优势",
+          "confidence_factors": "天狼星客场对阵瑞超中上游球队"
         },
         "predictions": {
-          "main": {
-            "bet_type": "胜平负",
-            "option": "主胜",
-            "odds": 1.75,
-            "confidence": "高",
-            "amount": 7,
-            "reasoning": "赫根主场赔率1.75，瑞超稳胆"
-          },
-          "sub": {
-            "bet_type": "让球胜平负",
-            "option": "让球平",
-            "odds": 3.5,
-            "confidence": "中",
-            "amount": 3,
-            "reasoning": "赫根让一球后赔率3.50，主场大胜可期"
-          }
+          "main": {"bet_type": "胜平负", "option": "客胜", "odds": 2.24, "confidence": "中", "amount": 5, "reasoning": "天狼星客场赔率2.24，瑞超客队有一定优势"},
+          "sub": {"bet_type": "让球胜平负", "option": "让球负", "odds": 1.37, "confidence": "极高", "amount": 6, "reasoning": "赫根让一球后天狼星赔率1.37，客队大胜可期"}
+        }
+      },
+      {
+        "match_id": "260427004",
+        "match_num": "周一004",
+        "league": {"name": "瑞超", "short_name": "瑞超", "country": "瑞典"},
+        "datetime": "2026-04-28T01:00:00+08:00",
+        "status": "selling",
+        "home_team": {"name": "AIK索尔纳", "rank": 7, "short_name": "索尔纳"},
+        "away_team": {"name": "马尔默", "rank": 6, "short_name": "马尔默"},
+        "odds": {
+          "had": {"home_win": 2.37, "draw": 3.05, "away_win": 2.65},
+          "hhad": {"goal_line": -1, "home_win": 5.3, "draw": 4.1, "away_win": 1.44}
+        },
+        "analysis": {
+          "odds_structure": "双方赔率接近，马尔默客场略占优势",
+          "confidence_factors": "马尔默作为传统强队，客场有一定优势"
+        },
+        "predictions": {
+          "main": {"bet_type": "胜平负", "option": "客胜", "odds": 2.65, "confidence": "中", "amount": 5, "reasoning": "马尔默客场赔率2.65，瑞超客队有一定优势"},
+          "sub": {"bet_type": "让球胜平负", "option": "让球负", "odds": 1.44, "confidence": "极高", "amount": 6, "reasoning": "索尔纳让一球后马尔默赔率1.44，客队大胜可期"}
+        }
+      },
+      {
+        "match_id": "260427005",
+        "match_num": "周一005",
+        "league": {"name": "意甲", "short_name": "意甲", "country": "意大利"},
+        "datetime": "2026-04-28T02:45:00+08:00",
+        "status": "selling",
+        "home_team": {"name": "拉齐奥", "rank": 9, "short_name": "拉齐奥"},
+        "away_team": {"name": "乌迪内斯", "rank": 11, "short_name": "乌迪内斯"},
+        "odds": {
+          "had": {"home_win": 1.88, "draw": 3.05, "away_win": 3.72},
+          "hhad": {"goal_line": -1, "home_win": 4.0, "draw": 3.4, "away_win": 1.71}
+        },
+        "analysis": {
+          "odds_structure": "主胜赔率1.88偏低，拉齐奥主场对阵中游球队",
+          "confidence_factors": "拉齐奥主场强势，意甲中游对决"
+        },
+        "predictions": {
+          "main": {"bet_type": "胜平负", "option": "主胜", "odds": 1.88, "confidence": "高", "amount": 8, "reasoning": "拉齐奥主场赔率1.88，意甲主队稳胆"},
+          "sub": {"bet_type": "让球胜平负", "option": "让球负", "odds": 1.71, "confidence": "高", "amount": 5, "reasoning": "乌迪内斯客场让一球后赔率1.71，客队有一定优势"}
+        }
+      },
+      {
+        "match_id": "260427006",
+        "match_num": "周一006",
+        "league": {"name": "法乙", "short_name": "法乙", "country": "法国"},
+        "datetime": "2026-04-28T02:45:00+08:00",
+        "status": "selling",
+        "home_team": {"name": "布洛涅", "rank": 12, "short_name": "布洛涅"},
+        "away_team": {"name": "敦刻尔克", "rank": 10, "short_name": "敦刻尔克"},
+        "odds": {
+          "had": {"home_win": 2.64, "draw": 3.0, "away_win": 2.4},
+          "hhad": {"goal_line": 1, "home_win": 1.43, "draw": 3.9, "away_win": 5.75}
+        },
+        "analysis": {
+          "odds_structure": "客胜赔率2.40略低，双方接近",
+          "confidence_factors": "法乙中游对决，双方实力接近"
+        },
+        "predictions": {
+          "main": {"bet_type": "胜平负", "option": "客胜", "odds": 2.4, "confidence": "中", "amount": 5, "reasoning": "敦刻尔克客场赔率2.40，法乙客队有一定优势"},
+          "sub": {"bet_type": "让球胜平负", "option": "让球胜", "odds": 1.43, "confidence": "高", "amount": 5, "reasoning": "布洛涅受让一球后赔率1.43，主队主场有战意"}
+        }
+      },
+      {
+        "match_id": "260427007",
+        "match_num": "周一007",
+        "league": {"name": "英超", "short_name": "英超", "country": "英格兰"},
+        "datetime": "2026-04-28T03:00:00+08:00",
+        "status": "selling",
+        "home_team": {"name": "曼彻斯特联", "rank": 3, "short_name": "曼联"},
+        "away_team": {"name": "布伦特福德", "rank": 9, "short_name": "布伦特"},
+        "odds": {
+          "had": {"home_win": 1.73, "draw": 3.65, "away_win": 3.6},
+          "hhad": {"goal_line": -1, "home_win": 3.2, "draw": 3.65, "away_win": 1.85}
+        },
+        "analysis": {
+          "odds_structure": "主胜赔率1.73偏低，曼联主场对阵英超中游",
+          "confidence_factors": "曼联主场强势，英超强队对阵中游球队"
+        },
+        "predictions": {
+          "main": {"bet_type": "胜平负", "option": "主胜", "odds": 1.73, "confidence": "高", "amount": 8, "reasoning": "曼联主场赔率1.73，英超稳胆"},
+          "sub": {"bet_type": "让球胜平负", "option": "让球负", "odds": 1.85, "confidence": "高", "amount": 5, "reasoning": "布伦特福德客场让一球后赔率1.85，客队有一定优势"}
+        }
+      },
+      {
+        "match_id": "260427008",
+        "match_num": "周一008",
+        "league": {"name": "西甲", "short_name": "西甲", "country": "西班牙"},
+        "datetime": "2026-04-28T03:00:00+08:00",
+        "status": "selling",
+        "home_team": {"name": "西班牙人", "rank": 14, "short_name": "西班牙人"},
+        "away_team": {"name": "莱万特", "rank": 19, "short_name": "莱万特"},
+        "odds": {
+          "had": {"home_win": 1.85, "draw": 3.3, "away_win": 3.5},
+          "hhad": {"goal_line": -1, "home_win": 3.78, "draw": 3.5, "away_win": 1.73}
+        },
+        "analysis": {
+          "odds_structure": "主胜赔率1.85偏低，西班牙人主场对阵降级区球队",
+          "confidence_factors": "西班牙人主场对阵西甲降级区球队"
+        },
+        "predictions": {
+          "main": {"bet_type": "胜平负", "option": "主胜", "odds": 1.85, "confidence": "高", "amount": 8, "reasoning": "西班牙人主场赔率1.85，西甲稳胆"},
+          "sub": {"bet_type": "让球胜平负", "option": "让球负", "odds": 1.73, "confidence": "高", "amount": 5, "reasoning": "莱万特客场让一球后赔率1.73，客队有一定优势"}
+        }
+      },
+      {
+        "match_id": "260427009",
+        "match_num": "周一009",
+        "league": {"name": "葡超", "short_name": "葡超", "country": "葡萄牙"},
+        "datetime": "2026-04-28T03:15:00+08:00",
+        "status": "selling",
+        "home_team": {"name": "吉维森特", "rank": 6, "short_name": "吉维森特"},
+        "away_team": {"name": "卡萨皮亚", "rank": 16, "short_name": "卡萨皮亚"},
+        "odds": {
+          "had": {"home_win": 1.48, "draw": 3.65, "away_win": 5.6},
+          "hhad": {"goal_line": -1, "home_win": 2.7, "draw": 3.2, "away_win": 2.25}
+        },
+        "analysis": {
+          "odds_structure": "主胜赔率1.48偏低，吉维森特主场对阵葡超中下游",
+          "confidence_factors": "吉维森特排名靠前，主场对阵保级球队"
+        },
+        "predictions": {
+          "main": {"bet_type": "胜平负", "option": "主胜", "odds": 1.48, "confidence": "高", "amount": 8, "reasoning": "吉维森特主场赔率1.48，葡超稳胆"},
+          "sub": {"bet_type": "让球胜平负", "option": "让球平", "odds": 3.2, "confidence": "中", "amount": 3, "reasoning": "吉维森特让一球后赔率3.20，主队主场大胜可期"}
         }
       }
     ],
     "parlays": [
       {
-        "name": "周一稳单",
+        "name": "2串1稳胆组合",
         "type": "2串1",
-        "matches": [
-          "周一001",
-          "周一003"
-        ],
-        "options": [
-          "客胜",
-          "主胜"
-        ],
-        "odds": [
-          1.65,
-          1.75
-        ],
-        "total_odds": 2.89,
+        "legs": ["周一002 米亚尔比 主胜", "周一007 曼联 主胜"],
+        "total_odds": 2.23,
         "amount": 10,
-        "potential_win": 28.9,
-        "reasoning": "2串1意甲+瑞超组合，赔率2.89"
+        "potential_win": 22.3,
+        "confidence": "高"
+      },
+      {
+        "name": "让球串关容错",
+        "type": "3串1",
+        "legs": ["周一003 天狼星 让球负", "周一004 马尔默 让球负", "周一005 拉齐奥 让球负"],
+        "total_odds": 4.24,
+        "amount": 5,
+        "potential_win": 21.2,
+        "confidence": "中"
+      },
+      {
+        "name": "瑞超混搭串关",
+        "type": "3串1",
+        "legs": ["周一002 米亚尔比 主胜", "周一003 天狼星 让球负", "周一004 马尔默 让球负"],
+        "total_odds": 2.44,
+        "amount": 8,
+        "potential_win": 19.5,
+        "confidence": "高"
+      },
+      {
+        "name": "单关博冷",
+        "type": "单关",
+        "legs": ["周一004 索尔纳 vs 马尔默 客胜"],
+        "total_odds": 2.65,
+        "amount": 5,
+        "potential_win": 13.25,
+        "confidence": "中"
+      },
+      {
+        "name": "4串1综合组合",
+        "type": "4串1",
+        "legs": ["周一002 米亚尔比 主胜", "周一005 拉齐奥 主胜", "周一007 曼联 主胜", "周一009 吉维森特 主胜"],
+        "total_odds": 7.38,
+        "amount": 3,
+        "potential_win": 22.14,
+        "confidence": "高"
       }
     ]
+  },
+  "tomorrow": {
+    "date": "2026-04-28",
+    "weekday": "周二",
+    "match_count": 5,
+    "sales_start": "待定",
+    "sales_stop": "待定",
+    "note": "周二赛事尚未开售，预计包含欧冠、英冠等比赛",
+    "matches": [
+      {
+        "match_id": "260428001",
+        "match_num": "周二001",
+        "league": {"name": "沙职", "short_name": "沙职", "country": "沙特"},
+        "datetime": "2026-04-29T00:45:00+08:00",
+        "status": "pending",
+        "home_team": {"name": "新未来SC", "rank": null, "short_name": "新未来"},
+        "away_team": {"name": "拉斯决心", "rank": null, "short_name": "拉斯决心"},
+        "odds": null,
+        "analysis": {"odds_structure": "待开售", "confidence_factors": "沙职联赛，信息待更新"},
+        "predictions": null
+      },
+      {
+        "match_id": "260428002",
+        "match_num": "周二002",
+        "league": {"name": "沙职", "short_name": "沙职", "country": "沙特"},
+        "datetime": "2026-04-29T02:00:00+08:00",
+        "status": "pending",
+        "home_team": {"name": "利雅得新月", "rank": null, "short_name": "利雅新月"},
+        "away_team": {"name": "达马克", "rank": null, "short_name": "达马克"},
+        "odds": null,
+        "analysis": {"odds_structure": "待开售", "confidence_factors": "利雅得新月为沙职豪门"},
+        "predictions": null
+      },
+      {
+        "match_id": "260428003",
+        "match_num": "周二003",
+        "league": {"name": "英冠", "short_name": "英冠", "country": "英格兰"},
+        "datetime": "2026-04-29T02:45:00+08:00",
+        "status": "pending",
+        "home_team": {"name": "南安普敦", "rank": null, "short_name": "南安普敦"},
+        "away_team": {"name": "伊普斯维奇", "rank": null, "short_name": "伊普斯维奇"},
+        "odds": null,
+        "analysis": {"odds_structure": "待开售", "confidence_factors": "英冠升级关键战"},
+        "predictions": null
+      },
+      {
+        "match_id": "260428004",
+        "match_num": "周二004",
+        "league": {"name": "欧冠", "short_name": "欧冠", "country": "欧洲"},
+        "datetime": "2026-04-29T03:00:00+08:00",
+        "status": "pending",
+        "home_team": {"name": "巴黎圣日尔曼", "rank": null, "short_name": "巴黎圣曼"},
+        "away_team": {"name": "拜仁慕尼黑", "rank": null, "short_name": "拜仁"},
+        "odds": null,
+        "analysis": {"odds_structure": "待开售", "confidence_factors": "欧冠豪门对决，焦点战"},
+        "predictions": null
+      },
+      {
+        "match_id": "260428005",
+        "match_num": "周二005",
+        "league": {"name": "解放者杯", "short_name": "解放者", "country": "南美"},
+        "datetime": "2026-04-29T06:00:00+08:00",
+        "status": "pending",
+        "home_team": {"name": "拉努斯", "rank": null, "short_name": "拉努斯"},
+        "away_team": {"name": "基多体育大学", "rank": null, "short_name": "基多体育"},
+        "odds": null,
+        "analysis": {"odds_structure": "待开售", "confidence_factors": "南美解放者杯比赛"},
+        "predictions": null
+      }
+    ]
+  },
+  "statistics": {
+    "total_bets_30d": 87,
+    "total_wins_30d": 42,
+    "roi_30d": "-8.5%",
+    "by_confidence": {
+      "极高": {"total": 12, "wins": 9, "rate": "75%"},
+      "高": {"total": 35, "wins": 20, "rate": "57%"},
+      "中": {"total": 28, "wins": 11, "rate": "39%"},
+      "低": {"total": 12, "wins": 2, "rate": "17%"}
+    }
   }
 }
