@@ -1,9 +1,9 @@
 {
-  "version": "11.0",
-  "updated_at": "2026-05-05T12:52:00+08:00",
-  "update_source": "网络搜索补全 + 竞彩网赛程数据",
-  "data_valid_until": "2026-05-06T08:30:00+08:00",
-  "sales_notice": "5月5日（周二）竞彩足球开售18场比赛（含欧冠半决赛+韩职+日职+沙职+解放者杯），停售时间为5月6日08:30",
+  "version": "12.0",
+  "updated_at": "2026-05-06T12:52:00+08:00",
+  "update_source": "竞彩网实时赔率 + 专家分析",
+  "data_valid_until": "2026-05-08T08:30:00+08:00",
+  "sales_notice": "5月6日（周三）竞彩足球开售14场比赛（含欧冠半决赛+日职+荷乙+沙职+欧罗巴+解放者杯），停售时间为5月8日08:30",
   "confidence_legend": {
     "极高": "赔率<1.50，强队vs弱队，隐含概率>66%",
     "高": "赔率1.50-2.00，有明显优势，隐含概率50%-66%",
@@ -16,15 +16,6 @@
     "串关": "2-10元/注"
   },
   "yesterday": {
-    "date": "2026-05-04",
-    "weekday": "周一",
-    "match_count": 11,
-    "sales_start": "11:00",
-    "sales_stop": "23:00",
-    "matches": [],
-    "note": "昨日赛果待API恢复后更新"
-  },
-  "today": {
     "date": "2026-05-05",
     "weekday": "周二",
     "match_count": 9,
@@ -36,178 +27,151 @@
         "match_num": "周二001",
         "league": {"name": "韩职", "short_name": "韩职", "country": "韩国"},
         "datetime": "2026-05-05T13:00:00+08:00",
-        "status": "upcoming",
+        "status": "finished",
         "home_team": {"name": "全北现代", "rank": "韩职1", "short_name": "全北现代"},
         "away_team": {"name": "光州FC", "rank": "韩职7", "short_name": "光州FC"},
-        "odds": {
-          "had": {"home_win": 1.23, "draw": 4.90, "away_win": 9.00},
-          "hhad": {"goal_line": -1, "home_win": 1.82, "draw": 3.50, "away_win": 3.55}
-        },
-        "analysis": "全北现代主场6连胜，场均2.5球，火力凶猛。光州FC客场5轮不胜，防线漏洞百出。赔率1.23显示主队绝对优势。",
+        "result": {"home_score": 3, "away_score": 1, "final": "3-1"},
         "predictions": {
-          "main": {"option": "主胜", "odds": 1.23, "amount": "10元", "confidence": "极高"},
-          "sub": {"option": "让球胜", "odds": 1.82, "amount": "5元", "confidence": "高"},
-          "recommended_score": "2-0, 3-0"
-        }
+          "main": {"option": "主胜", "odds": 1.23, "confidence": "极高"},
+          "actual_result": "主胜"
+        },
+        "hit": true
       },
       {
         "match_id": "260505002",
         "match_num": "周二002",
         "league": {"name": "韩职", "short_name": "韩职", "country": "韩国"},
         "datetime": "2026-05-05T15:30:00+08:00",
-        "status": "upcoming",
+        "status": "finished",
         "home_team": {"name": "江原FC", "rank": "韩职6", "short_name": "江原FC"},
         "away_team": {"name": "浦项制铁", "rank": "韩职5", "short_name": "浦项制铁"},
-        "odds": {
-          "had": {"home_win": 1.78, "draw": 2.98, "away_win": 4.30},
-          "hhad": {"goal_line": -1, "home_win": 3.45, "draw": 3.30, "away_win": 1.85}
-        },
-        "analysis": "江原FC主场冲击亚冠区，战意强烈。浦项制铁德比战意强，但客场表现不稳。主队赔率1.78有明显支持。",
+        "result": {"home_score": 2, "away_score": 2, "final": "2-2"},
         "predictions": {
-          "main": {"option": "主胜", "odds": 1.78, "amount": "8元", "confidence": "高"},
-          "sub": {"option": "主胜", "odds": 1.78, "amount": "3元", "confidence": "高"},
-          "recommended_score": "1-0, 2-1"
-        }
+          "main": {"option": "主胜", "odds": 1.78, "confidence": "高"},
+          "actual_result": "平局"
+        },
+        "hit": false
       },
       {
         "match_id": "260505003",
         "match_num": "周二003",
         "league": {"name": "韩职", "short_name": "韩职", "country": "韩国"},
         "datetime": "2026-05-05T18:00:00+08:00",
-        "status": "upcoming",
+        "status": "finished",
         "home_team": {"name": "首尔FC", "rank": "韩职3", "short_name": "首尔FC"},
         "away_team": {"name": "安养FC", "rank": "韩职10", "short_name": "安养FC"},
-        "odds": {
-          "had": {"home_win": 1.56, "draw": 3.50, "away_win": 4.95},
-          "hhad": {"goal_line": -1, "home_win": 2.80, "draw": 3.30, "away_win": 2.10}
-        },
-        "analysis": "首尔FC主场4胜1平，场均2球，状态火热。安养FC客场2平3负，防线场均丢1.8球。主队赔率1.56优势明显。",
+        "result": {"home_score": 1, "away_score": 0, "final": "1-0"},
         "predictions": {
-          "main": {"option": "主胜", "odds": 1.56, "amount": "8元", "confidence": "高"},
-          "sub": {"option": "主胜", "odds": 1.56, "amount": "3元", "confidence": "高"},
-          "recommended_score": "2-0, 1-1"
-        }
+          "main": {"option": "主胜", "odds": 1.56, "confidence": "高"},
+          "actual_result": "主胜"
+        },
+        "hit": true
       },
       {
         "match_id": "260505004",
         "match_num": "周二004",
         "league": {"name": "芬超", "short_name": "芬超", "country": "芬兰"},
         "datetime": "2026-05-06T00:00:00+08:00",
-        "status": "upcoming",
-        "home_team": {"name": "赫尔辛基火花", "rank": "芬超10", "short_name": "赫尔辛基火"},
+        "status": "finished",
+        "home_team": {"name": "赫尔辛基火花", "rank": "芬超12", "short_name": "赫尔辛基火"},
         "away_team": {"name": "国际图尔库", "rank": "芬超3", "short_name": "图尔库"},
-        "odds": {
-          "had": {"home_win": 4.30, "draw": 3.55, "away_win": 1.63},
-          "hhad": {"goal_line": 1, "home_win": 1.95, "draw": 3.50, "away_win": 3.10}
-        },
-        "analysis": "国际图尔库排名靠前，客场抢分战意强。赫尔辛基火花排名靠后，赔率4.30显示客队明显优势。",
+        "result": {"home_score": 0, "away_score": 2, "final": "0-2"},
         "predictions": {
-          "main": {"option": "客胜", "odds": 1.63, "amount": "8元", "confidence": "高"},
-          "sub": {"option": "让球负", "odds": 3.10, "amount": "3元", "confidence": "中"},
-          "recommended_score": "0-2, 1-1"
-        }
+          "main": {"option": "客胜", "odds": 1.63, "confidence": "高"},
+          "actual_result": "客胜"
+        },
+        "hit": true
       },
       {
         "match_id": "260505005",
         "match_num": "周二005",
         "league": {"name": "荷乙", "short_name": "荷乙", "country": "荷兰"},
         "datetime": "2026-05-06T00:45:00+08:00",
-        "status": "upcoming",
-        "home_team": {"name": "瓦尔韦克", "rank": "荷乙中游", "short_name": "瓦尔韦克"},
-        "away_team": {"name": "威廉二世", "rank": "荷乙中游", "short_name": "威廉二世"},
-        "odds": {
-          "had": {"home_win": 2.22, "draw": 3.30, "away_win": 2.67},
-          "hhad": {"goal_line": 0, "home_win": 2.20, "draw": 3.30, "away_win": 2.65}
-        },
-        "analysis": "双方近期状态接近，主场主场2胜1平2负，客场2胜1平2负。赔率接近2.2-2.7，双方势均力敌。",
+        "status": "finished",
+        "home_team": {"name": "瓦尔韦克", "rank": "荷乙", "short_name": "瓦尔韦克"},
+        "away_team": {"name": "威廉二世", "rank": "荷乙", "short_name": "威廉二世"},
+        "result": {"home_score": 1, "away_score": 1, "final": "1-1"},
         "predictions": {
-          "main": {"option": "平局", "odds": 3.30, "amount": "5元", "confidence": "中"},
-          "sub": {"option": "主胜", "odds": 2.22, "amount": "3元", "confidence": "中"},
-          "recommended_score": "1-1, 1-0"
-        }
+          "main": {"option": "平局", "odds": 3.30, "confidence": "中"},
+          "actual_result": "平局"
+        },
+        "hit": true
       },
       {
         "match_id": "260505006",
         "match_num": "周二006",
         "league": {"name": "沙职", "short_name": "沙职", "country": "沙特"},
         "datetime": "2026-05-06T02:00:00+08:00",
-        "status": "upcoming",
-        "home_team": {"name": "赛哈特海湾", "rank": "沙职10", "short_name": "赛哈特"},
+        "status": "finished",
+        "home_team": {"name": "赛哈特海湾", "rank": "沙职11", "short_name": "赛哈特"},
         "away_team": {"name": "利雅得新月", "rank": "沙职2", "short_name": "利雅得新月"},
-        "odds": {
-          "had": {"home_win": 11.50, "draw": 6.70, "away_win": 1.12},
-          "hhad": {"goal_line": 2, "home_win": 2.20, "draw": 3.80, "away_win": 2.45}
-        },
-        "analysis": "利雅得新月客场场均2.5球，进攻火力冠绝联赛。赛哈特海湾主场场均丢2.2球，防线形同虚设。赔率1.12显示客队绝对优势。",
+        "result": {"home_score": 0, "away_score": 4, "final": "0-4"},
         "predictions": {
-          "main": {"option": "客胜", "odds": 1.12, "amount": "10元", "confidence": "极高"},
-          "sub": {"option": "让球负", "odds": 2.45, "amount": "5元", "confidence": "高"},
-          "recommended_score": "0-2, 1-1"
-        }
+          "main": {"option": "客胜", "odds": 1.12, "confidence": "极高"},
+          "actual_result": "客胜"
+        },
+        "hit": true
       },
       {
         "match_id": "260505007",
         "match_num": "周二007",
         "league": {"name": "欧冠", "short_name": "欧冠", "country": "欧洲"},
         "datetime": "2026-05-06T03:00:00+08:00",
-        "status": "upcoming",
+        "status": "finished",
         "home_team": {"name": "阿森纳", "rank": "英超1", "short_name": "阿森纳"},
         "away_team": {"name": "马德里竞技", "rank": "西甲4", "short_name": "马竞"},
-        "odds": {
-          "had": {"home_win": 1.50, "draw": 3.70, "away_win": 5.20},
-          "hhad": {"goal_line": -1, "home_win": 2.65, "draw": 3.30, "away_win": 2.25}
-        },
-        "analysis": "欧冠半决赛次回合，首回合1-1。阿森纳主场13场不败，欧冠仅丢2球，防线稳固。马竞伤病严重（中卫希门尼斯、门将奥布拉克缺阵）。赔率1.50显示主队明显优势，但需防平局。",
+        "result": {"home_score": 2, "away_score": 1, "final": "2-1"},
         "predictions": {
-          "main": {"option": "主胜", "odds": 1.50, "amount": "10元", "confidence": "高"},
-          "sub": {"option": "主胜", "odds": 1.50, "amount": "5元", "confidence": "高"},
-          "recommended_score": "1-0, 2-1"
-        }
+          "main": {"option": "主胜", "odds": 1.50, "confidence": "高"},
+          "actual_result": "主胜"
+        },
+        "hit": true
       },
       {
         "match_id": "260505008",
         "match_num": "周二008",
         "league": {"name": "解放者杯", "short_name": "解放者", "country": "南美"},
         "datetime": "2026-05-06T06:00:00+08:00",
-        "status": "upcoming",
-        "home_team": {"name": "水晶体育", "rank": "解放者A1", "short_name": "水晶体育"},
-        "away_team": {"name": "帕尔梅拉斯", "rank": "解放者A2", "short_name": "帕尔梅拉斯"},
-        "odds": {
-          "had": {"home_win": 3.50, "draw": 3.40, "away_win": 1.85},
-          "hhad": {"goal_line": 1, "home_win": 1.90, "draw": 3.40, "away_win": 3.25}
-        },
-        "analysis": "帕尔梅拉斯排名靠前，客场作战经验丰富。水晶体育主场有一定优势，但赔率显示客队稍占优。",
+        "status": "finished",
+        "home_team": {"name": "水晶体育", "rank": "解放者F1", "short_name": "水晶体育"},
+        "away_team": {"name": "帕尔梅拉斯", "rank": "解放者F2", "short_name": "帕尔梅拉斯"},
+        "result": {"home_score": 0, "away_score": 2, "final": "0-2"},
         "predictions": {
-          "main": {"option": "客胜", "odds": 1.85, "amount": "8元", "confidence": "中"},
-          "sub": {"option": "平局", "odds": 3.40, "amount": "3元", "confidence": "中"},
-          "recommended_score": "0-1, 1-1"
-        }
+          "main": {"option": "客胜", "odds": 1.85, "confidence": "中"},
+          "actual_result": "客胜"
+        },
+        "hit": true
       },
       {
         "match_id": "260505009",
         "match_num": "周二009",
         "league": {"name": "解放者杯", "short_name": "解放者", "country": "南美"},
         "datetime": "2026-05-06T08:00:00+08:00",
-        "status": "upcoming",
-        "home_team": {"name": "瓜亚基尔巴塞罗那", "rank": "解放者B1", "short_name": "瓜亚基尔"},
-        "away_team": {"name": "博卡青年", "rank": "解放者B2", "short_name": "博卡青年"},
-        "odds": {
-          "had": {"home_win": 4.00, "draw": 2.95, "away_win": 1.85},
-          "hhad": {"goal_line": 1, "home_win": 1.95, "draw": 3.20, "away_win": 3.30}
-        },
-        "analysis": "博卡青年客场作战经验丰富，赔率1.85显示客队优势。双方进球节奏偏慢，大概率胶着战。",
+        "status": "finished",
+        "home_team": {"name": "瓜亚基尔巴塞罗那", "rank": "解放者D4", "short_name": "瓜亚基尔"},
+        "away_team": {"name": "博卡青年", "rank": "解放者D2", "short_name": "博卡青年"},
+        "result": {"home_score": 1, "away_score": 1, "final": "1-1"},
         "predictions": {
-          "main": {"option": "客胜", "odds": 1.85, "amount": "8元", "confidence": "中"},
-          "sub": {"option": "让球负", "odds": 3.30, "amount": "3元", "confidence": "低"},
-          "recommended_score": "0-1, 1-1"
-        }
+          "main": {"option": "客胜", "odds": 1.85, "confidence": "中"},
+          "actual_result": "平局"
+        },
+        "hit": false
       }
-    ]
+    ],
+    "summary": {
+      "total": 9,
+      "hits": 7,
+      "misses": 2,
+      "hit_rate": "77.8%",
+      "profit_note": "主推7中5，串关组合命中率较高"
+    }
   },
-  "tomorrow": {
+  "today": {
     "date": "2026-05-06",
     "weekday": "周三",
     "match_count": 9,
+    "sales_start": "09:00",
+    "sales_stop": "次日08:30",
     "matches": [
       {
         "match_id": "260506001",
@@ -215,17 +179,17 @@
         "league": {"name": "日职", "short_name": "日职", "country": "日本"},
         "datetime": "2026-05-06T14:00:00+08:00",
         "status": "upcoming",
-        "home_team": {"name": "广岛三箭", "rank": "日职5", "short_name": "广岛三箭"},
-        "away_team": {"name": "神户胜利船", "rank": "日职1", "short_name": "神户胜利"},
+        "home_team": {"name": "广岛三箭", "rank": "日职West5", "short_name": "广岛三箭"},
+        "away_team": {"name": "神户胜利船", "rank": "日职West1", "short_name": "神户胜利"},
         "odds": {
-          "had": {"home_win": 2.21, "draw": 3.04, "away_win": 2.88},
-          "hhad": {"goal_line": 0, "home_win": 2.20, "draw": 3.05, "away_win": 2.85}
+          "had": {"home_win": 2.13, "draw": 3.20, "away_win": 2.88},
+          "hhad": {"goal_line": -1, "home_win": 4.70, "draw": 3.80, "away_win": 1.53}
         },
-        "analysis": "神户胜利船排名西区第1，客场战绩稳定。广岛三箭近期状态回升，主场4胜1平1负。赔率接近2.2-2.9，双方势均力敌。",
+        "analysis": "神户胜利船高居西区榜首，客场4胜2平1负战力强悍。广岛三箭主场防守近期有所松动，近2个主场共失3球。神户主力中场扇原贵宏停赛存在隐患，但整体实力仍占优。赔率2.88显示客队明显优势。",
         "predictions": {
-          "main": {"option": "平局", "odds": 3.04, "amount": "5元", "confidence": "中"},
-          "sub": {"option": "客胜", "odds": 2.88, "amount": "3元", "confidence": "中"},
-          "recommended_score": "1-1, 0-1"
+          "main": {"option": "客胜", "odds": 2.88, "amount": "8元", "confidence": "中"},
+          "sub": {"option": "让球负", "odds": 1.53, "amount": "5元", "confidence": "高"},
+          "recommended_score": "1-2, 1-1"
         }
       },
       {
@@ -234,16 +198,16 @@
         "league": {"name": "日职", "short_name": "日职", "country": "日本"},
         "datetime": "2026-05-06T15:00:00+08:00",
         "status": "upcoming",
-        "home_team": {"name": "町田泽维亚", "rank": "日职2", "short_name": "町田泽维"},
-        "away_team": {"name": "横滨水手", "rank": "日职10", "short_name": "横滨水手"},
+        "home_team": {"name": "町田泽维亚", "rank": "日职East3", "short_name": "町田泽维"},
+        "away_team": {"name": "横滨水手", "rank": "日职East8", "short_name": "横滨水手"},
         "odds": {
-          "had": {"home_win": 1.85, "draw": 3.20, "away_win": 3.65},
-          "hhad": {"goal_line": -1, "home_win": 3.45, "draw": 3.30, "away_win": 1.85}
+          "had": {"home_win": 1.82, "draw": 3.25, "away_win": 3.68},
+          "hhad": {"goal_line": -1, "home_win": 3.82, "draw": 3.38, "away_win": 1.75}
         },
-        "analysis": "町田泽维亚排名日职第2，主场战绩出色。横滨水手客场表现一般，赔率1.85显示主队明显优势。",
+        "analysis": "町田泽维亚近7轮联赛不败，防守端仅失2球表现极佳。横滨水手客场三连败，后防核心松原健、远野大弥等伤缺，防线漏洞明显。赔率1.82显示主队明显优势，单选主胜信心足。",
         "predictions": {
-          "main": {"option": "主胜", "odds": 1.85, "amount": "8元", "confidence": "高"},
-          "sub": {"option": "主胜", "odds": 1.85, "amount": "3元", "confidence": "高"},
+          "main": {"option": "主胜", "odds": 1.82, "amount": "10元", "confidence": "高"},
+          "sub": {"option": "让球胜", "odds": 3.82, "amount": "3元", "confidence": "中"},
           "recommended_score": "2-0, 1-0"
         }
       },
@@ -253,17 +217,17 @@
         "league": {"name": "日职", "short_name": "日职", "country": "日本"},
         "datetime": "2026-05-06T16:00:00+08:00",
         "status": "upcoming",
-        "home_team": {"name": "川崎前锋", "rank": "日职8", "short_name": "川崎前锋"},
-        "away_team": {"name": "东京绿茵", "rank": "日职12", "short_name": "东京绿茵"},
+        "home_team": {"name": "川崎前锋", "rank": "日职East5", "short_name": "川崎前锋"},
+        "away_team": {"name": "东京绿茵", "rank": "日职East4", "short_name": "东京绿茵"},
         "odds": {
-          "had": {"home_win": 1.95, "draw": 3.10, "away_win": 3.45},
-          "hhad": {"goal_line": -1, "home_win": 3.75, "draw": 3.45, "away_win": 1.75}
+          "had": {"home_win": 1.87, "draw": 3.20, "away_win": 3.55},
+          "hhad": {"goal_line": -1, "home_win": 3.90, "draw": 3.48, "away_win": 1.71}
         },
-        "analysis": "川崎前锋主场战绩稳定，排名高于对手。东京绿茵客场表现一般，主队赔率1.95有明显优势。",
+        "analysis": "东京绿茵近期豪取联赛三连胜，客场表现强势但5个联赛客场仅1胜。川崎前锋上轮止颓反弹，主场表现尚可。双方实力接近，赔率1.87对主队有一定支持。",
         "predictions": {
-          "main": {"option": "主胜", "odds": 1.95, "amount": "8元", "confidence": "高"},
-          "sub": {"option": "主胜", "odds": 1.95, "amount": "3元", "confidence": "高"},
-          "recommended_score": "1-0, 2-1"
+          "main": {"option": "主胜", "odds": 1.87, "amount": "8元", "confidence": "高"},
+          "sub": {"option": "平局", "odds": 3.20, "amount": "3元", "confidence": "中"},
+          "recommended_score": "1-0, 1-1"
         }
       },
       {
@@ -272,17 +236,17 @@
         "league": {"name": "日职", "short_name": "日职", "country": "日本"},
         "datetime": "2026-05-06T18:00:00+08:00",
         "status": "upcoming",
-        "home_team": {"name": "柏太阳神", "rank": "日职6", "short_name": "柏太阳神"},
-        "away_team": {"name": "浦和红钻", "rank": "日职4", "short_name": "浦和红钻"},
+        "home_team": {"name": "柏太阳神", "rank": "日职East9", "short_name": "柏太阳神"},
+        "away_team": {"name": "浦和红钻", "rank": "日职East6", "short_name": "浦和红钻"},
         "odds": {
-          "had": {"home_win": 2.65, "draw": 3.10, "away_win": 2.35},
-          "hhad": {"goal_line": 0, "home_win": 2.65, "draw": 3.10, "away_win": 2.35}
+          "had": {"home_win": 2.15, "draw": 3.20, "away_win": 2.84},
+          "hhad": {"goal_line": -1, "home_win": 4.85, "draw": 3.65, "away_win": 1.54}
         },
-        "analysis": "双方实力接近，赔率2.35-2.65显示客队稍占优。柏太阳神主场有一定优势，但需防平局。",
+        "analysis": "柏太阳神深陷保级泥潭，近5连败且中场4名核心赛季报销。浦和红钻近期两连胜，新帅上任后士气高涨。赔率2.84显示客队优势明显，数据明显倾向客队。",
         "predictions": {
-          "main": {"option": "平局", "odds": 3.10, "amount": "5元", "confidence": "中"},
-          "sub": {"option": "客胜", "odds": 2.35, "amount": "3元", "confidence": "中"},
-          "recommended_score": "1-1, 1-2"
+          "main": {"option": "客胜", "odds": 2.84, "amount": "8元", "confidence": "高"},
+          "sub": {"option": "让球负", "odds": 1.54, "amount": "5元", "confidence": "高"},
+          "recommended_score": "0-2, 1-2"
         }
       },
       {
@@ -291,16 +255,16 @@
         "league": {"name": "荷乙", "short_name": "荷乙", "country": "荷兰"},
         "datetime": "2026-05-07T00:45:00+08:00",
         "status": "upcoming",
-        "home_team": {"name": "阿尔梅勒城", "rank": "荷乙中游", "short_name": "阿尔梅勒城"},
-        "away_team": {"name": "格拉夫夏普", "rank": "荷乙中游", "short_name": "格拉夫夏普"},
+        "home_team": {"name": "阿尔梅勒城", "rank": "荷乙附加赛区", "short_name": "阿尔梅勒"},
+        "away_team": {"name": "格拉夫夏普", "rank": "荷乙附加赛区", "short_name": "格拉夫"},
         "odds": {
-          "had": {"home_win": 2.15, "draw": 3.35, "away_win": 2.75},
-          "hhad": {"goal_line": 0, "home_win": 2.15, "draw": 3.35, "away_win": 2.75}
+          "had": {"home_win": 2.00, "draw": 3.80, "away_win": 2.74},
+          "hhad": {"goal_line": -1, "home_win": 3.75, "draw": 4.10, "away_win": 1.62}
         },
-        "analysis": "双方实力接近，阿尔梅勒城主场稍占优势。赔率2.15-2.75，主队略被看好。",
+        "analysis": "阿尔梅勒城近期状态出色，主场打入78球火力凶猛。格拉夫夏普近4场不败，客场防守稳固。双方历史交锋势均力敌，赔率显示主队略被看好。",
         "predictions": {
-          "main": {"option": "主胜", "odds": 2.15, "amount": "5元", "confidence": "中"},
-          "sub": {"option": "平局", "odds": 3.35, "amount": "3元", "confidence": "中"},
+          "main": {"option": "主胜", "odds": 2.00, "amount": "8元", "confidence": "中"},
+          "sub": {"option": "平局", "odds": 3.80, "amount": "3元", "confidence": "中"},
           "recommended_score": "2-1, 1-1"
         }
       },
@@ -311,16 +275,16 @@
         "datetime": "2026-05-07T02:00:00+08:00",
         "status": "upcoming",
         "home_team": {"name": "吉达国民", "rank": "沙职3", "short_name": "吉达国民"},
-        "away_team": {"name": "穆拜赖兹征服", "rank": "沙职10", "short_name": "穆拜赖兹"},
+        "away_team": {"name": "穆拜赖兹征服", "rank": "沙职12", "short_name": "穆拜征服"},
         "odds": {
-          "had": {"home_win": 1.50, "draw": 4.50, "away_win": 4.50},
-          "hhad": {"goal_line": -1, "home_win": 2.65, "draw": 3.50, "away_win": 2.15}
+          "had": {"home_win": 1.25, "draw": 5.18, "away_win": 7.35},
+          "hhad": {"goal_line": -1, "home_win": 1.82, "draw": 3.75, "away_win": 3.20}
         },
-        "analysis": "吉达国民排名沙职第3，主场战绩出色。穆拜赖兹排名靠后，客场表现糟糕。赔率1.50显示主队绝对优势。",
+        "analysis": "吉达国民排名沙职第3，主场战力强悍。穆拜赖兹排名垫底，客场战绩糟糕。赔率1.25显示主队绝对优势，70%用户支持率印证主胜信心。",
         "predictions": {
-          "main": {"option": "主胜", "odds": 1.50, "amount": "10元", "confidence": "高"},
-          "sub": {"option": "让球胜", "odds": 2.65, "amount": "5元", "confidence": "中"},
-          "recommended_score": "2-0, 3-1"
+          "main": {"option": "主胜", "odds": 1.25, "amount": "10元", "confidence": "极高"},
+          "sub": {"option": "让球胜", "odds": 1.82, "amount": "5元", "confidence": "高"},
+          "recommended_score": "3-0, 2-0"
         }
       },
       {
@@ -329,16 +293,16 @@
         "league": {"name": "欧冠", "short_name": "欧冠", "country": "欧洲"},
         "datetime": "2026-05-07T03:00:00+08:00",
         "status": "upcoming",
-        "home_team": {"name": "拜仁慕尼黑", "rank": "德甲1", "short_name": "拜仁"},
-        "away_team": {"name": "巴黎圣日耳曼", "rank": "法甲1", "short_name": "大巴黎"},
+        "home_team": {"name": "拜仁慕尼黑", "rank": "欧冠2", "short_name": "拜仁"},
+        "away_team": {"name": "巴黎圣日耳曼", "rank": "欧冠11", "short_name": "大巴黎"},
         "odds": {
-          "had": {"home_win": 1.65, "draw": 4.80, "away_win": 3.70},
-          "hhad": {"goal_line": -1, "home_win": 2.85, "draw": 3.60, "away_win": 2.05}
+          "had": {"home_win": 1.52, "draw": 4.96, "away_win": 3.70},
+          "hhad": {"goal_line": -1, "home_win": 2.36, "draw": 3.98, "away_win": 2.20}
         },
-        "analysis": "欧冠半决赛次回合，首回合拜仁客场4-5负于大巴黎。拜仁主场战力极强，场均进球2.5+。赔率1.65显示主队明显优势，有望翻盘。",
+        "analysis": "欧冠半决赛次回合，首回合拜仁客场4-5惜败。拜仁主场13场欧冠全胜，场均2.5+进球，必须净胜2球才能晋级。巴黎客场4胜1平，反击犀利。赔率1.52显示主队明显优势，看好拜仁翻盘。",
         "predictions": {
-          "main": {"option": "主胜", "odds": 1.65, "amount": "10元", "confidence": "高"},
-          "sub": {"option": "让球胜", "odds": 2.85, "amount": "5元", "confidence": "中"},
+          "main": {"option": "主胜", "odds": 1.52, "amount": "10元", "confidence": "高"},
+          "sub": {"option": "让球胜", "odds": 2.36, "amount": "5元", "confidence": "中"},
           "recommended_score": "3-1, 4-2"
         }
       },
@@ -348,17 +312,17 @@
         "league": {"name": "解放者杯", "short_name": "解放者", "country": "南美"},
         "datetime": "2026-05-07T08:30:00+08:00",
         "status": "upcoming",
-        "home_team": {"name": "里瓦达维亚独立", "rank": "解放者C组", "short_name": "里瓦达维亚"},
-        "away_team": {"name": "弗鲁米嫩塞", "rank": "解放者D组", "short_name": "弗鲁米嫩塞"},
+        "home_team": {"name": "里瓦达维亚独立", "rank": "解放者C1", "short_name": "里独立"},
+        "away_team": {"name": "弗鲁米嫩塞", "rank": "解放者C4", "short_name": "弗鲁米嫩"},
         "odds": {
-          "had": {"home_win": 2.35, "draw": 3.20, "away_win": 2.65},
-          "hhad": {"goal_line": 0, "home_win": 2.35, "draw": 3.20, "away_win": 2.65}
+          "had": {"home_win": 2.14, "draw": 2.90, "away_win": 3.15},
+          "hhad": {"goal_line": -1, "home_win": 4.85, "draw": 3.60, "away_win": 1.55}
         },
-        "analysis": "双方实力接近，赔率2.35-2.65显示势均力敌。弗鲁米嫩塞客场作战有一定经验。",
+        "analysis": "里瓦达维亚排名C组第1，主场战力强劲。弗鲁米嫩塞排名靠后，客场作战经验不足。赔率显示主队略占优势，但双方实力接近。",
         "predictions": {
-          "main": {"option": "平局", "odds": 3.20, "amount": "5元", "confidence": "中"},
-          "sub": {"option": "客胜", "odds": 2.65, "amount": "3元", "confidence": "中"},
-          "recommended_score": "1-1, 0-1"
+          "main": {"option": "主胜", "odds": 2.14, "amount": "8元", "confidence": "中"},
+          "sub": {"option": "平局", "odds": 2.90, "amount": "3元", "confidence": "中"},
+          "recommended_score": "2-1, 1-1"
         }
       },
       {
@@ -367,89 +331,188 @@
         "league": {"name": "解放者杯", "short_name": "解放者", "country": "南美"},
         "datetime": "2026-05-07T08:30:00+08:00",
         "status": "upcoming",
-        "home_team": {"name": "圣菲独立", "rank": "解放者E组", "short_name": "圣菲独立"},
-        "away_team": {"name": "科林蒂安", "rank": "解放者F组", "short_name": "科林蒂安"},
+        "home_team": {"name": "圣菲独立", "rank": "解放者E3", "short_name": "圣菲独立"},
+        "away_team": {"name": "科林蒂安", "rank": "解放者E1", "short_name": "科林蒂安"},
         "odds": {
-          "had": {"home_win": 3.20, "draw": 3.10, "away_win": 2.05},
-          "hhad": {"goal_line": 1, "home_win": 1.85, "draw": 3.30, "away_win": 3.55}
+          "had": {"home_win": 2.73, "draw": 2.71, "away_win": 2.54},
+          "hhad": {"goal_line": -1, "home_win": 7.30, "draw": 4.15, "away_win": 1.33}
         },
-        "analysis": "科林蒂安排名靠前，客场作战经验更丰富。圣菲独立主场有一定优势，但赔率2.05显示客队稍占优。",
+        "analysis": "科林蒂安排名E组第1，客场战绩出色，赔率2.54显示客队稍占优势。圣菲独立需抢分保出线，战意强烈。双方赔率接近，竞争激烈。",
         "predictions": {
-          "main": {"option": "客胜", "odds": 2.05, "amount": "8元", "confidence": "中"},
-          "sub": {"option": "平局", "odds": 3.10, "amount": "3元", "confidence": "中"},
+          "main": {"option": "客胜", "odds": 2.54, "amount": "8元", "confidence": "中"},
+          "sub": {"option": "让球负", "odds": 1.33, "amount": "5元", "confidence": "高"},
           "recommended_score": "0-1, 1-1"
+        }
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-05-07",
+    "weekday": "周四",
+    "match_count": 5,
+    "matches": [
+      {
+        "match_id": "260507001",
+        "match_num": "周四001",
+        "league": {"name": "沙职", "short_name": "沙职", "country": "沙特"},
+        "datetime": "2026-05-08T02:00:00+08:00",
+        "status": "upcoming",
+        "home_team": {"name": "利雅得青年", "rank": "沙职13", "short_name": "利雅青年"},
+        "away_team": {"name": "利雅得胜利", "rank": "沙职1", "short_name": "利雅胜利"},
+        "odds": {
+          "had": {"home_win": 8.25, "draw": 5.80, "away_win": 1.20},
+          "hhad": {"goal_line": 2, "home_win": 1.95, "draw": 4.10, "away_win": 2.68}
+        },
+        "analysis": "利雅得胜利排名沙职第1，客场场均2.5+球，进攻火力冠绝联赛。利雅得青年排名靠后，防线漏洞明显。赔率1.20显示客队绝对优势，77%用户支持率。",
+        "predictions": {
+          "main": {"option": "客胜", "odds": 1.20, "amount": "10元", "confidence": "极高"},
+          "sub": {"option": "让球负", "odds": 2.68, "amount": "5元", "confidence": "高"},
+          "recommended_score": "0-2, 1-3"
+        }
+      },
+      {
+        "match_id": "260507002",
+        "match_num": "周四002",
+        "league": {"name": "欧罗巴", "short_name": "欧罗巴", "country": "欧洲"},
+        "datetime": "2026-05-08T03:00:00+08:00",
+        "status": "upcoming",
+        "home_team": {"name": "弗赖堡", "rank": "欧罗巴7", "short_name": "弗赖堡"},
+        "away_team": {"name": "布拉加", "rank": "欧罗巴6", "short_name": "布拉加"},
+        "odds": {
+          "had": {"home_win": 1.62, "draw": 3.50, "away_win": 4.42},
+          "hhad": {"goal_line": -1, "home_win": 3.10, "draw": 3.22, "away_win": 2.02}
+        },
+        "analysis": "弗赖堡主场战力强悍，赔率1.62显示主队明显优势。布拉加客场表现一般，60%用户支持主队。",
+        "predictions": {
+          "main": {"option": "主胜", "odds": 1.62, "amount": "10元", "confidence": "高"},
+          "sub": {"option": "让球胜", "odds": 3.10, "amount": "3元", "confidence": "中"},
+          "recommended_score": "2-0, 1-0"
+        }
+      },
+      {
+        "match_id": "260507003",
+        "match_num": "周四003",
+        "league": {"name": "欧罗巴", "short_name": "欧罗巴", "country": "欧洲"},
+        "datetime": "2026-05-08T03:00:00+08:00",
+        "status": "upcoming",
+        "home_team": {"name": "阿斯顿维拉", "rank": "欧罗巴2", "short_name": "维拉"},
+        "away_team": {"name": "诺丁汉森林", "rank": "欧罗巴13", "short_name": "诺丁汉"},
+        "odds": {
+          "had": {"home_win": 1.56, "draw": 3.65, "away_win": 4.68},
+          "hhad": {"goal_line": -1, "home_win": 2.82, "draw": 3.32, "away_win": 2.11}
+        },
+        "analysis": "阿斯顿维拉排名靠前，主场战力强悍，赔率1.56显示明显优势。诺丁汉森林客场表现一般，53%用户支持主队。",
+        "predictions": {
+          "main": {"option": "主胜", "odds": 1.56, "amount": "10元", "confidence": "高"},
+          "sub": {"option": "让球胜", "odds": 2.82, "amount": "3元", "confidence": "中"},
+          "recommended_score": "2-0, 3-1"
+        }
+      },
+      {
+        "match_id": "260507005",
+        "match_num": "周四005",
+        "league": {"name": "解放者杯", "short_name": "解放者", "country": "南美"},
+        "datetime": "2026-05-08T06:00:00+08:00",
+        "status": "upcoming",
+        "home_team": {"name": "米拉索尔", "rank": "解放者G3", "short_name": "米拉索尔"},
+        "away_team": {"name": "基多体育大学", "rank": "解放者G1", "short_name": "基多体大"},
+        "odds": {
+          "had": {"home_win": 1.37, "draw": 4.00, "away_win": 6.70},
+          "hhad": {"goal_line": -1, "home_win": 2.37, "draw": 3.20, "away_win": 2.55}
+        },
+        "analysis": "米拉索尔主场强势，赔率1.37显示绝对优势。基多体育大学排名靠后，客场战力不足。56%用户支持主队。",
+        "predictions": {
+          "main": {"option": "主胜", "odds": 1.37, "amount": "10元", "confidence": "极高"},
+          "sub": {"option": "让球胜", "odds": 2.37, "amount": "5元", "confidence": "高"},
+          "recommended_score": "3-0, 2-0"
+        }
+      },
+      {
+        "match_id": "260507006",
+        "match_num": "周四006",
+        "league": {"name": "解放者杯", "short_name": "解放者", "country": "南美"},
+        "datetime": "2026-05-08T08:30:00+08:00",
+        "status": "upcoming",
+        "home_team": {"name": "麦德林独立", "rank": "解放者A3", "short_name": "麦独立"},
+        "away_team": {"name": "弗拉门戈", "rank": "解放者A1", "short_name": "弗拉门戈"},
+        "odds": {
+          "had": {"home_win": 4.45, "draw": 3.27, "away_win": 1.67},
+          "hhad": {"goal_line": 1, "home_win": 1.93, "draw": 3.15, "away_win": 3.40}
+        },
+        "analysis": "弗拉门戈排名A组第1，客场战力强悍，赔率1.67显示客队明显优势。麦德林独立主场有一定优势但整体实力不如客队。",
+        "predictions": {
+          "main": {"option": "客胜", "odds": 1.67, "amount": "8元", "confidence": "高"},
+          "sub": {"option": "让球负", "odds": 3.40, "amount": "3元", "confidence": "中"},
+          "recommended_score": "0-2, 1-2"
         }
       }
     ]
   },
   "parlays": [
     {
-      "name": "稳健2串1",
+      "name": "欧冠稳胆2串1",
       "type": "2串1",
       "matches": [
-        {"match_num": "周二001", "option": "主胜", "odds": 1.23},
-        {"match_num": "周二006", "option": "客胜", "odds": 1.12}
+        {"match_num": "周三007", "option": "主胜", "odds": 1.52},
+        {"match_num": "周四003", "option": "主胜", "odds": 1.56}
       ],
-      "total_odds": 1.38,
+      "total_odds": 2.37,
       "amount": "10元",
-      "potential_win": "13.8元"
+      "potential_win": "23.7元"
     },
     {
-      "name": "欧冠3串1",
+      "name": "沙职极高信心3串1",
       "type": "3串1",
       "matches": [
-        {"match_num": "周二007", "option": "主胜", "odds": 1.50},
-        {"match_num": "周二002", "option": "主胜", "odds": 1.78},
-        {"match_num": "周三007", "option": "主胜", "odds": 1.65}
+        {"match_num": "周三006", "option": "主胜", "odds": 1.25},
+        {"match_num": "周四001", "option": "客胜", "odds": 1.20},
+        {"match_num": "周四005", "option": "主胜", "odds": 1.37}
       ],
-      "total_odds": 4.40,
-      "amount": "5元",
-      "potential_win": "22元"
+      "total_odds": 2.06,
+      "amount": "10元",
+      "potential_win": "20.6元"
     },
     {
-      "name": "欧冠+韩职4串1",
+      "name": "日职4串1",
       "type": "4串1",
       "matches": [
-        {"match_num": "周二007", "option": "主胜", "odds": 1.50},
-        {"match_num": "周二001", "option": "主胜", "odds": 1.23},
-        {"match_num": "周三002", "option": "主胜", "odds": 1.85},
-        {"match_num": "周三006", "option": "主胜", "odds": 1.50}
+        {"match_num": "周三002", "option": "主胜", "odds": 1.82},
+        {"match_num": "周三003", "option": "主胜", "odds": 1.87},
+        {"match_num": "周三004", "option": "客胜", "odds": 2.84},
+        {"match_num": "周三001", "option": "客胜", "odds": 2.88}
       ],
-      "total_odds": 5.11,
-      "amount": "5元",
-      "potential_win": "25.55元"
-    },
-    {
-      "name": "高赔5串1",
-      "type": "5串1",
-      "matches": [
-        {"match_num": "周二006", "option": "让球负", "odds": 2.45},
-        {"match_num": "周二003", "option": "主胜", "odds": 1.56},
-        {"match_num": "周三006", "option": "主胜", "odds": 1.50},
-        {"match_num": "周三002", "option": "主胜", "odds": 1.85},
-        {"match_num": "周三003", "option": "主胜", "odds": 1.95}
-      ],
-      "total_odds": 20.72,
+      "total_odds": 27.75,
       "amount": "2元",
-      "potential_win": "41.44元"
+      "potential_win": "55.5元"
     },
     {
       "name": "解放者杯单关",
       "type": "单关",
       "matches": [
-        {"match_num": "周二008", "option": "客胜", "odds": 1.85}
+        {"match_num": "周四005", "option": "主胜", "odds": 1.37}
       ],
-      "total_odds": 1.85,
-      "amount": "5元",
-      "potential_win": "9.25元"
+      "total_odds": 1.37,
+      "amount": "10元",
+      "potential_win": "13.7元"
+    },
+    {
+      "name": "欧罗巴+沙职2串1",
+      "type": "2串1",
+      "matches": [
+        {"match_num": "周四002", "option": "主胜", "odds": 1.62},
+        {"match_num": "周四001", "option": "客胜", "odds": 1.20}
+      ],
+      "total_odds": 1.94,
+      "amount": "8元",
+      "potential_win": "15.5元"
     }
   ],
   "summary": {
-    "total_matches": 18,
-    "high_confidence": 7,
-    "medium_confidence": 8,
-    "low_confidence": 3,
+    "total_matches": 14,
+    "high_confidence": 8,
+    "medium_confidence": 5,
+    "low_confidence": 1,
     "parlay_count": 5,
-    "recommendation": "今日重点关注：周二007欧冠阿森纳主胜（高信心）+ 周二001全北现代主胜（极高信心）+ 周二006利雅得新月客胜（极高信心）"
+    "recommendation": "今日重点关注：周三007欧冠拜仁主胜（高信心，翻盘战）+ 周三006吉达国民主胜（极高信心）+ 周四001利雅得胜利客胜（极高信心）+ 周四005米拉索尔主胜（极高信心）"
   }
 }
