@@ -3370,7 +3370,7 @@
           "match": "维罗纳 vs 科莫"
         }
       ],
-      "total_odds": 1.80,
+      "total_odds": 1.8,
       "bet_amount": 10,
       "potential_win": 18.0,
       "confidence": "极高",
@@ -3615,6 +3615,243 @@
       "potential_win": 24.7,
       "confidence": "高",
       "reason": "意甲三强客战，赔率支持"
+    }
+  ],
+  "parlays": [
+    {
+      "name": "周六双铁胆2串1",
+      "type": "2串1",
+      "matches": [
+        {
+          "match_num": "周六023",
+          "option": "主胜",
+          "odds": 1.25
+        },
+        {
+          "match_num": "周六017",
+          "option": "主胜",
+          "odds": 1.2
+        }
+      ],
+      "total_odds": 1.5,
+      "amount": "10元",
+      "potential_win": "15.0元"
+    },
+    {
+      "name": "周六德甲3串1",
+      "type": "3串1",
+      "matches": [
+        {
+          "match_num": "周六015",
+          "option": "主胜",
+          "odds": 1.35
+        },
+        {
+          "match_num": "周六017",
+          "option": "主胜",
+          "odds": 1.2
+        },
+        {
+          "match_num": "周六024",
+          "option": "客胜",
+          "odds": 1.47
+        }
+      ],
+      "total_odds": 2.38,
+      "amount": "8元",
+      "potential_win": "19.0元"
+    },
+    {
+      "name": "周六英超3串1",
+      "type": "3串1",
+      "matches": [
+        {
+          "match_num": "周六006",
+          "option": "主胜",
+          "odds": 1.72
+        },
+        {
+          "match_num": "周六018",
+          "option": "客胜",
+          "odds": 1.74
+        },
+        {
+          "match_num": "周六023",
+          "option": "主胜",
+          "odds": 1.25
+        }
+      ],
+      "total_odds": 3.74,
+      "amount": "8元",
+      "potential_win": "29.9元"
+    },
+    {
+      "name": "周六尤文拜仁2串1",
+      "type": "2串1",
+      "matches": [
+        {
+          "match_num": "周六029",
+          "option": "客胜",
+          "odds": 1.32
+        },
+        {
+          "match_num": "周六024",
+          "option": "客胜",
+          "odds": 1.47
+        }
+      ],
+      "total_odds": 1.94,
+      "amount": "10元",
+      "potential_win": "19.4元"
+    },
+    {
+      "name": "周六豪门4串1",
+      "type": "4串1",
+      "matches": [
+        {
+          "match_num": "周六006",
+          "option": "主胜",
+          "odds": 1.72
+        },
+        {
+          "match_num": "周六017",
+          "option": "主胜",
+          "odds": 1.2
+        },
+        {
+          "match_num": "周六023",
+          "option": "主胜",
+          "odds": 1.25
+        },
+        {
+          "match_num": "周六029",
+          "option": "客胜",
+          "odds": 1.32
+        }
+      ],
+      "total_odds": 3.41,
+      "amount": "5元",
+      "potential_win": "17.1元"
+    },
+    {
+      "name": "周六西甲2串1",
+      "type": "2串1",
+      "matches": [
+        {
+          "match_num": "周六020",
+          "option": "主胜",
+          "odds": 1.95
+        },
+        {
+          "match_num": "周六025",
+          "option": "主胜",
+          "odds": 1.97
+        }
+      ],
+      "total_odds": 3.84,
+      "amount": "5元",
+      "potential_win": "19.2元"
+    },
+    {
+      "name": "周六国米尤文3串1",
+      "type": "3串1",
+      "matches": [
+        {
+          "match_num": "周六022",
+          "option": "客胜",
+          "odds": 1.59
+        },
+        {
+          "match_num": "周六029",
+          "option": "客胜",
+          "odds": 1.32
+        },
+        {
+          "match_num": "周六024",
+          "option": "客胜",
+          "odds": 1.47
+        }
+      ],
+      "total_odds": 3.08,
+      "amount": "8元",
+      "potential_win": "24.6元"
+    },
+    {
+      "name": "周六高赔博冷3串1",
+      "type": "3串1",
+      "matches": [
+        {
+          "match_num": "周六013",
+          "option": "客胜",
+          "odds": 1.58
+        },
+        {
+          "match_num": "周六026",
+          "option": "客胜",
+          "odds": 1.62
+        },
+        {
+          "match_num": "周六010",
+          "option": "主胜",
+          "odds": 1.38
+        }
+      ],
+      "total_odds": 3.53,
+      "amount": "5元",
+      "potential_win": "17.7元"
+    },
+    {
+      "name": "周六5串1容错",
+      "type": "5串1",
+      "matches": [
+        {
+          "match_num": "周六010",
+          "option": "主胜",
+          "odds": 1.38
+        },
+        {
+          "match_num": "周六015",
+          "option": "主胜",
+          "odds": 1.35
+        },
+        {
+          "match_num": "周六017",
+          "option": "主胜",
+          "odds": 1.2
+        },
+        {
+          "match_num": "周六023",
+          "option": "主胜",
+          "odds": 1.25
+        },
+        {
+          "match_num": "周六027",
+          "option": "客胜",
+          "odds": 1.35
+        }
+      ],
+      "total_odds": 3.74,
+      "amount": "3元",
+      "potential_win": "11.2元"
+    },
+    {
+      "name": "周六意甲2串1",
+      "type": "2串1",
+      "matches": [
+        {
+          "match_num": "周六022",
+          "option": "客胜",
+          "odds": 1.59
+        },
+        {
+          "match_num": "周六029",
+          "option": "客胜",
+          "odds": 1.32
+        }
+      ],
+      "total_odds": 2.1,
+      "amount": "10元",
+      "potential_win": "21.0元"
     }
   ]
 }
