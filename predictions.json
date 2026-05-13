@@ -1,9 +1,9 @@
 {
-  "version": "18.0",
-  "updated_at": "2026-05-12T12:30:00+08:00",
+  "version": "19.0",
+  "updated_at": "2026-05-13T12:30:00+08:00",
   "update_source": "竞彩网实时赔率 + 专家分析（搜索数据补全）",
   "data_valid_until": "2026-05-14T08:30:00+08:00",
-  "sales_notice": "5月12日（周二）竞彩足球开售8场（含韩职晚场、西甲、沙特德比C罗vs新月、英冠等），5月13日（周三）重点关注利雅得德比",
+  "sales_notice": "5月13日（周三）竞彩足球开售10场（含日职、韩职、西甲、法甲、英超、意杯等），重点关注曼城vs水晶宫、毕尔巴鄂vs西班牙人",
   "confidence_legend": {
     "极高": "赔率<1.50，强队vs弱队，隐含概率>66%",
     "高": "赔率1.50-2.00，有明显优势，隐含概率50%-66%",
@@ -25,473 +25,1082 @@
       "total_matches": 10,
       "finished": 10,
       "cancelled": 0,
-      "hit_count": 5,
-      "hit_rate": "50%",
-      "note": "周一赛果冷门较多！那不勒斯2-3爆冷负博洛尼亚、热刺1-1利兹联、米尔沃尔0-2赫尔城、本菲卡2-2布拉加均未打出主推"
+      "hit_count": 0,
+      "hit_rate": "0%",
+      "note": "昨日预测10场，命中0场，命中率0%"
     },
     "matches": [
       {
         "match_id": "260511001",
         "match_num": "周一001",
-        "league": {"name": "沙职", "short_name": "沙职", "country": "沙特"},
+        "league": {
+          "name": "沙职",
+          "short_name": "沙职",
+          "country": "沙特"
+        },
         "datetime": "2026-05-12T00:50:00+08:00",
         "status": "finished",
-        "home_team": {"name": "新未来SC", "rank": "沙职8", "short_name": "新未来"},
-        "away_team": {"name": "利雅得青年", "rank": "沙职13", "short_name": "利雅青年"},
-        "result": {"home_score": 2, "away_score": 1, "final": "2-1"},
-        "predictions": {"main": {"option": "平局", "odds": 3.62, "confidence": "中"}},
+        "home_team": {
+          "name": "新未来SC",
+          "rank": "沙职8",
+          "short_name": "新未来"
+        },
+        "away_team": {
+          "name": "利雅得青年",
+          "rank": "沙职13",
+          "short_name": "利雅青年"
+        },
+        "result": {
+          "home_score": 2,
+          "away_score": 1,
+          "final": "2-1"
+        },
+        "predictions": {
+          "main": {
+            "option": "平局",
+            "odds": 3.62,
+            "confidence": "中"
+          }
+        },
         "actual_result": "主胜",
         "hit": false
       },
       {
         "match_id": "260511002",
         "match_num": "周一002",
-        "league": {"name": "瑞超", "short_name": "瑞超", "country": "瑞典"},
+        "league": {
+          "name": "瑞超",
+          "short_name": "瑞超",
+          "country": "瑞典"
+        },
         "datetime": "2026-05-12T01:00:00+08:00",
         "status": "finished",
-        "home_team": {"name": "天狼星", "rank": "瑞超1", "short_name": "天狼星"},
-        "away_team": {"name": "厄尔格里特", "rank": "瑞超14", "short_name": "厄格里特"},
-        "result": {"home_score": 2, "away_score": 0, "final": "2-0"},
-        "predictions": {"main": {"option": "主胜", "odds": 1.42, "confidence": "极高"}},
+        "home_team": {
+          "name": "天狼星",
+          "rank": "瑞超1",
+          "short_name": "天狼星"
+        },
+        "away_team": {
+          "name": "厄尔格里特",
+          "rank": "瑞超14",
+          "short_name": "厄格里特"
+        },
+        "result": {
+          "home_score": 2,
+          "away_score": 0,
+          "final": "2-0"
+        },
+        "predictions": {
+          "main": {
+            "option": "主胜",
+            "odds": 1.42,
+            "confidence": "极高"
+          }
+        },
         "actual_result": "主胜",
         "hit": true
       },
       {
         "match_id": "260511003",
         "match_num": "周一003",
-        "league": {"name": "沙职", "short_name": "沙职", "country": "沙特"},
+        "league": {
+          "name": "沙职",
+          "short_name": "沙职",
+          "country": "沙特"
+        },
         "datetime": "2026-05-12T02:00:00+08:00",
         "status": "finished",
-        "home_team": {"name": "布赖代合作", "rank": "沙职5", "short_name": "布赖合作"},
-        "away_team": {"name": "吉达国民", "rank": "沙职3", "short_name": "吉达国民"},
-        "result": {"home_score": 1, "away_score": 2, "final": "1-2"},
-        "predictions": {"main": {"option": "客胜", "odds": 1.72, "confidence": "高"}},
+        "home_team": {
+          "name": "布赖代合作",
+          "rank": "沙职5",
+          "short_name": "布赖合作"
+        },
+        "away_team": {
+          "name": "吉达国民",
+          "rank": "沙职3",
+          "short_name": "吉达国民"
+        },
+        "result": {
+          "home_score": 1,
+          "away_score": 2,
+          "final": "1-2"
+        },
+        "predictions": {
+          "main": {
+            "option": "客胜",
+            "odds": 1.72,
+            "confidence": "高"
+          }
+        },
         "actual_result": "客胜",
         "hit": true
       },
       {
         "match_id": "260511004",
         "match_num": "周一004",
-        "league": {"name": "意甲", "short_name": "意甲", "country": "意大利"},
+        "league": {
+          "name": "意甲",
+          "short_name": "意甲",
+          "country": "意大利"
+        },
         "datetime": "2026-05-12T02:45:00+08:00",
         "status": "finished",
-        "home_team": {"name": "那不勒斯", "rank": "意甲2", "short_name": "那不勒斯"},
-        "away_team": {"name": "博洛尼亚", "rank": "意甲10", "short_name": "博洛尼亚"},
-        "result": {"home_score": 2, "away_score": 3, "final": "2-3"},
-        "predictions": {"main": {"option": "主胜", "odds": 1.41, "confidence": "极高"}},
+        "home_team": {
+          "name": "那不勒斯",
+          "rank": "意甲2",
+          "short_name": "那不勒斯"
+        },
+        "away_team": {
+          "name": "博洛尼亚",
+          "rank": "意甲10",
+          "short_name": "博洛尼亚"
+        },
+        "result": {
+          "home_score": 2,
+          "away_score": 3,
+          "final": "2-3"
+        },
+        "predictions": {
+          "main": {
+            "option": "主胜",
+            "odds": 1.41,
+            "confidence": "极高"
+          }
+        },
         "actual_result": "客胜",
         "hit": false
       },
       {
         "match_id": "260511005",
         "match_num": "周一005",
-        "league": {"name": "英超", "short_name": "英超", "country": "英格兰"},
+        "league": {
+          "name": "英超",
+          "short_name": "英超",
+          "country": "英格兰"
+        },
         "datetime": "2026-05-12T03:00:00+08:00",
         "status": "finished",
-        "home_team": {"name": "托特纳姆热刺", "rank": "英超17", "short_name": "热刺"},
-        "away_team": {"name": "利兹联", "rank": "英超16", "short_name": "利兹联"},
-        "result": {"home_score": 1, "away_score": 1, "final": "1-1"},
-        "predictions": {"main": {"option": "主胜", "odds": 1.65, "confidence": "高"}},
+        "home_team": {
+          "name": "托特纳姆热刺",
+          "rank": "英超17",
+          "short_name": "热刺"
+        },
+        "away_team": {
+          "name": "利兹联",
+          "rank": "英超16",
+          "short_name": "利兹联"
+        },
+        "result": {
+          "home_score": 1,
+          "away_score": 1,
+          "final": "1-1"
+        },
+        "predictions": {
+          "main": {
+            "option": "主胜",
+            "odds": 1.65,
+            "confidence": "高"
+          }
+        },
         "actual_result": "平局",
         "hit": false
       },
       {
         "match_id": "260511006",
         "match_num": "周一006",
-        "league": {"name": "英冠", "short_name": "英冠", "country": "英格兰"},
+        "league": {
+          "name": "英冠",
+          "short_name": "英冠",
+          "country": "英格兰"
+        },
         "datetime": "2026-05-12T03:00:00+08:00",
         "status": "finished",
-        "home_team": {"name": "米尔沃尔", "rank": "英冠3", "short_name": "米尔沃尔"},
-        "away_team": {"name": "赫尔城", "rank": "英冠6", "short_name": "赫尔城"},
-        "result": {"home_score": 0, "away_score": 2, "final": "0-2"},
-        "predictions": {"main": {"option": "主胜", "odds": 1.65, "confidence": "高"}},
+        "home_team": {
+          "name": "米尔沃尔",
+          "rank": "英冠3",
+          "short_name": "米尔沃尔"
+        },
+        "away_team": {
+          "name": "赫尔城",
+          "rank": "英冠6",
+          "short_name": "赫尔城"
+        },
+        "result": {
+          "home_score": 0,
+          "away_score": 2,
+          "final": "0-2"
+        },
+        "predictions": {
+          "main": {
+            "option": "主胜",
+            "odds": 1.65,
+            "confidence": "高"
+          }
+        },
         "actual_result": "客胜",
         "hit": false
       },
       {
         "match_id": "260511007",
         "match_num": "周一007",
-        "league": {"name": "西甲", "short_name": "西甲", "country": "西班牙"},
+        "league": {
+          "name": "西甲",
+          "short_name": "西甲",
+          "country": "西班牙"
+        },
         "datetime": "2026-05-12T03:00:00+08:00",
         "status": "finished",
-        "home_team": {"name": "巴列卡诺", "rank": "西甲11", "short_name": "巴列卡诺"},
-        "away_team": {"name": "赫罗纳", "rank": "西甲17", "short_name": "赫罗纳"},
-        "result": {"home_score": 1, "away_score": 1, "final": "1-1"},
-        "predictions": {"main": {"option": "让球客胜", "odds": 1.51, "confidence": "极高"}},
+        "home_team": {
+          "name": "巴列卡诺",
+          "rank": "西甲11",
+          "short_name": "巴列卡诺"
+        },
+        "away_team": {
+          "name": "赫罗纳",
+          "rank": "西甲17",
+          "short_name": "赫罗纳"
+        },
+        "result": {
+          "home_score": 1,
+          "away_score": 1,
+          "final": "1-1"
+        },
+        "predictions": {
+          "main": {
+            "option": "让球客胜",
+            "odds": 1.51,
+            "confidence": "极高"
+          }
+        },
         "actual_result": "平局",
         "hit": false
       },
       {
         "match_id": "260511008",
         "match_num": "周一008",
-        "league": {"name": "葡超", "short_name": "葡超", "country": "葡萄牙"},
+        "league": {
+          "name": "葡超",
+          "short_name": "葡超",
+          "country": "葡萄牙"
+        },
         "datetime": "2026-05-12T03:15:00+08:00",
         "status": "finished",
-        "home_team": {"name": "里奥阿维", "rank": "葡超12", "short_name": "里奥阿维"},
-        "away_team": {"name": "里斯本竞技", "rank": "葡超3", "short_name": "里斯本"},
-        "result": {"home_score": 1, "away_score": 4, "final": "1-4"},
-        "predictions": {"main": {"option": "客胜", "odds": 1.72, "confidence": "高"}},
+        "home_team": {
+          "name": "里奥阿维",
+          "rank": "葡超12",
+          "short_name": "里奥阿维"
+        },
+        "away_team": {
+          "name": "里斯本竞技",
+          "rank": "葡超3",
+          "short_name": "里斯本"
+        },
+        "result": {
+          "home_score": 1,
+          "away_score": 4,
+          "final": "1-4"
+        },
+        "predictions": {
+          "main": {
+            "option": "客胜",
+            "odds": 1.72,
+            "confidence": "高"
+          }
+        },
         "actual_result": "客胜",
         "hit": true
       },
       {
         "match_id": "260511009",
         "match_num": "周一009",
-        "league": {"name": "葡超", "short_name": "葡超", "country": "葡萄牙"},
+        "league": {
+          "name": "葡超",
+          "short_name": "葡超",
+          "country": "葡萄牙"
+        },
         "datetime": "2026-05-12T03:15:00+08:00",
         "status": "finished",
-        "home_team": {"name": "阿马多拉之星", "rank": "葡超15", "short_name": "阿马多拉"},
-        "away_team": {"name": "法马利康", "rank": "葡超5", "short_name": "法马利康"},
-        "result": {"home_score": 0, "away_score": 0, "final": "0-0"},
-        "predictions": {"main": {"option": "让球主胜", "odds": 1.64, "confidence": "高"}},
+        "home_team": {
+          "name": "阿马多拉之星",
+          "rank": "葡超15",
+          "short_name": "阿马多拉"
+        },
+        "away_team": {
+          "name": "法马利康",
+          "rank": "葡超5",
+          "short_name": "法马利康"
+        },
+        "result": {
+          "home_score": 0,
+          "away_score": 0,
+          "final": "0-0"
+        },
+        "predictions": {
+          "main": {
+            "option": "让球主胜",
+            "odds": 1.64,
+            "confidence": "高"
+          }
+        },
         "actual_result": "平局",
         "hit": true
       },
       {
         "match_id": "260511010",
         "match_num": "周一010",
-        "league": {"name": "葡超", "short_name": "葡超", "country": "葡萄牙"},
+        "league": {
+          "name": "葡超",
+          "short_name": "葡超",
+          "country": "葡萄牙"
+        },
         "datetime": "2026-05-12T03:15:00+08:00",
         "status": "finished",
-        "home_team": {"name": "本菲卡", "rank": "葡超2", "short_name": "本菲卡"},
-        "away_team": {"name": "布拉加", "rank": "葡超4", "short_name": "布拉加"},
-        "result": {"home_score": 2, "away_score": 2, "final": "2-2"},
-        "predictions": {"main": {"option": "主胜", "odds": 1.28, "confidence": "极高"}},
+        "home_team": {
+          "name": "本菲卡",
+          "rank": "葡超2",
+          "short_name": "本菲卡"
+        },
+        "away_team": {
+          "name": "布拉加",
+          "rank": "葡超4",
+          "short_name": "布拉加"
+        },
+        "result": {
+          "home_score": 2,
+          "away_score": 2,
+          "final": "2-2"
+        },
+        "predictions": {
+          "main": {
+            "option": "主胜",
+            "odds": 1.28,
+            "confidence": "极高"
+          }
+        },
         "actual_result": "平局",
         "hit": false
       }
     ]
   },
   "today": {
-    "date": "2026-05-12",
-    "weekday": "周二",
+    "date": "2026-05-13",
+    "weekday": "周三",
+    "match_count": 2,
+    "sales_start": "11:00",
+    "sales_stop": "次日08:30",
+    "matches": [
+      {
+        "match_id": "260513001",
+        "match_num": "周三001",
+        "league": {
+          "name": "日职",
+          "short_name": "日职",
+          "country": "日本"
+        },
+        "datetime": "2026-05-13T18:00:00+08:00",
+        "home_team": {
+          "name": "神户胜利船",
+          "rank": "日职西区2",
+          "short_name": "神户"
+        },
+        "away_team": {
+          "name": "京都不死鸟",
+          "rank": "日职西区9",
+          "short_name": "京都"
+        },
+        "odds": {
+          "had": {
+            "home": 1.63,
+            "draw": 3.55,
+            "away": 4.3
+          },
+          "hhad": {
+            "handicap": -1,
+            "home": 3.1,
+            "draw": 3.3,
+            "away": 1.99
+          }
+        },
+        "predictions": {
+          "main": {
+            "option": "主胜",
+            "odds": 1.63,
+            "bet_amount": 8,
+            "confidence": "高",
+            "reason": "神户主场优势明显，虽近期状态一般但仍有排名压力"
+          },
+          "secondary": {
+            "option": "平局",
+            "odds": 3.55,
+            "bet_amount": 4,
+            "confidence": "中",
+            "reason": "京都客场连败但保级战意强，需防平"
+          }
+        },
+        "analysis": "关西德比，两队近期状态都一般。神户少赛一轮落后榜首3分，抢分欲望强烈；京都积20分排名倒数第二，保级压力大。神户主场战力有保障，京都客场4连败，状态低迷。机构赔率明显倾向主胜。"
+      },
+      {
+        "match_id": "260513002",
+        "match_num": "周三002",
+        "league": {
+          "name": "韩职",
+          "short_name": "韩职",
+          "country": "韩国"
+        },
+        "datetime": "2026-05-13T18:30:00+08:00",
+        "home_team": {
+          "name": "富川FC",
+          "rank": "韩职11",
+          "short_name": "富川FC"
+        },
+        "away_team": {
+          "name": "全北现代",
+          "rank": "韩职3",
+          "short_name": "全北"
+        },
+        "odds": {
+          "had": {
+            "home": 4.65,
+            "draw": 3.15,
+            "away": 1.68
+          },
+          "hhad": {
+            "handicap": 1,
+            "home": 1.92,
+            "draw": 3.2,
+            "away": 3.38
+          }
+        },
+        "predictions": {
+          "main": {
+            "option": "客胜",
+            "odds": 1.68,
+            "bet_amount": 8,
+            "confidence": "高",
+            "reason": "全北现代实力碾压，李昇祐连续进球状态火热"
+          },
+          "secondary": {
+            "option": "让球客胜",
+            "odds": 3.38,
+            "bet_amount": 3,
+            "confidence": "中",
+            "reason": "富川主场7场不胜，但历史对阵全北从未输过，需防冷"
+          }
+        },
+        "analysis": "全北现代状态正佳，近4场2胜2平保持不败，核心李昇祐连续进球。富川FC排名垫底，主场7场不胜，进攻端哑火。但历史对阵全北6场1平5负从未赢过。机构赔率支持客队。"
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-05-14",
+    "weekday": "周四",
     "match_count": 8,
     "sales_start": "11:00",
     "sales_stop": "次日08:30",
     "matches": [
       {
-        "match_id": "260512001",
-        "match_num": "周二001",
-        "league": {"name": "韩职", "short_name": "韩职", "country": "韩国"},
-        "datetime": "2026-05-12T18:30:00+08:00",
-        "home_team": {"name": "仁川联", "rank": "韩职5", "short_name": "仁川联"},
-        "away_team": {"name": "浦项制铁", "rank": "韩职4", "short_name": "浦项制铁"},
-        "odds_note": "待开售/赔率较低",
+        "match_id": "260514003",
+        "match_num": "周四003",
+        "league": {
+          "name": "西甲",
+          "short_name": "西甲",
+          "country": "西班牙"
+        },
+        "datetime": "2026-05-14T01:00:00+08:00",
+        "home_team": {
+          "name": "比利亚雷亚尔",
+          "rank": "西甲3",
+          "short_name": "黄潜"
+        },
+        "away_team": {
+          "name": "塞维利亚",
+          "rank": "西甲13",
+          "short_name": "塞维利亚"
+        },
+        "odds": {
+          "had": {
+            "home": 1.98,
+            "draw": 3.35,
+            "away": 3.07
+          },
+          "hhad": {
+            "handicap": -1,
+            "home": 4.1,
+            "draw": 3.7,
+            "away": 1.63
+          }
+        },
+        "predictions": {
+          "main": {
+            "option": "主胜",
+            "odds": 1.98,
+            "bet_amount": 8,
+            "confidence": "高",
+            "reason": "比利亚雷亚尔稳居第3冲击欧冠，塞维利亚客场4连败状态低迷"
+          },
+          "secondary": {
+            "option": "让球主胜",
+            "odds": 4.1,
+            "bet_amount": 3,
+            "confidence": "低",
+            "reason": "塞维利亚客场防守漏洞大，但需防平"
+          }
+        },
+        "analysis": "比利亚雷亚尔稳居西甲第3，全力冲击欧冠资格，主场战绩出色。塞维利亚脱离降级区但无欲无求，客场4连败状态糟糕。赔率支持主队。"
+      },
+      {
+        "match_id": "260514004",
+        "match_num": "周四004",
+        "league": {
+          "name": "西甲",
+          "short_name": "西甲",
+          "country": "西班牙"
+        },
+        "datetime": "2026-05-14T01:00:00+08:00",
+        "home_team": {
+          "name": "西班牙人",
+          "rank": "西甲16",
+          "short_name": "西班牙人"
+        },
+        "away_team": {
+          "name": "毕尔巴鄂竞技",
+          "rank": "西甲9",
+          "short_name": "毕尔巴鄂"
+        },
+        "odds": {
+          "had": {
+            "home": 2.64,
+            "draw": 3.0,
+            "away": 2.4
+          },
+          "hhad": {
+            "handicap": 1,
+            "home": 1.43,
+            "draw": 4.0,
+            "away": 5.6
+          }
+        },
         "predictions": {
           "main": {
             "option": "客队不败",
-            "odds": 1.45,
+            "odds": 1.4,
             "bet_amount": 8,
-            "confidence": "高",
-            "reason": "仁川联3名防守球员缺阵，防线受损严重；浦项制铁防守韩职最佳，客场拿分能力强"
-          },
-          "secondary": {
-            "option": "平局",
-            "odds": 2.80,
-            "bet_amount": 4,
-            "confidence": "中",
-            "reason": "两队积分接近，往绩浦项4胜5平1负占优，小球率偏高"
-          }
-        },
-        "analysis": "仁川联排名第5，浦项制铁第4仅差1分。仁川联进攻端场均1.31球，但防守端场均失球1.23远逊浦项的0.77。关键伤停对主队极为不利：3名防守球员缺阵（红牌停赛+伤缺），防线体系严重受损。浦项制铁仅1名中卫伤停，阵容完整度占优。往绩方面浦项近10次交手4胜5平1负，心理优势明显。浦项本赛季小球率高达84.6%，防守反击风格突出。综合看客队不败概率更高。"
-      },
-      {
-        "match_id": "260512002",
-        "match_num": "周二002",
-        "league": {"name": "韩职", "short_name": "韩职", "country": "韩国"},
-        "datetime": "2026-05-12T18:30:00+08:00",
-        "home_team": {"name": "光州FC", "rank": "韩职12", "short_name": "光州FC"},
-        "away_team": {"name": "FC首尔", "rank": "韩职1", "short_name": "首尔FC"},
-        "odds_note": "赔率差距明显",
-        "predictions": {
-          "main": {
-            "option": "客胜",
-            "odds": 1.35,
-            "bet_amount": 10,
             "confidence": "极高",
-            "reason": "FC首尔26分领跑，光州仅7分深陷降级区。首尔客场胜率71.4%，光州场均失球2.46防守崩溃"
+            "reason": "毕尔巴鄂距欧战仅1分战意强，西班牙人18轮不胜+阵容残缺"
           },
           "secondary": {
             "option": "让球客胜",
-            "odds": 1.75,
-            "bet_amount": 5,
-            "confidence": "高",
-            "reason": "首尔客场大球率61.5%，光州5人缺阵防线雪上加霜"
+            "odds": 5.6,
+            "bet_amount": 3,
+            "confidence": "中",
+            "reason": "四家机构集体看好毕尔巴鄂，信号明确"
           }
         },
-        "analysis": "积分榜首尾之战，FC首尔26分领跑，光州仅7分深陷降级区，实力悬殊明显。首尔客场5胜1平1负胜率71.4%，客场盘路赢率同样71.4%，客场龙属性突出。光州近6场0胜1平5负，状态极差，场均失球高达2.46球。阵容方面光州5人缺阵，主力门将遭禁赛，3名球员资格限制，防守体系雪上加霜。首尔大球率61.5%，光州防线千疮百孔，此役客队全取三分问题不大。"
+        "analysis": "西班牙人深陷保级区，18轮联赛未尝胜绩，阵容残缺（卡莱罗、多兰缺阵）。毕尔巴鄂积44分距欧协联仅1分，功勋主帅离任在即，全队战意拉满。四家机构一致看好客队。"
       },
       {
-        "match_id": "260512003",
-        "match_num": "周二003",
-        "league": {"name": "西甲", "short_name": "西甲", "country": "西班牙"},
-        "datetime": "2026-05-13T01:00:00+08:00",
-        "home_team": {"name": "维戈塞尔塔", "rank": "西甲6", "short_name": "塞尔塔"},
-        "away_team": {"name": "莱万特", "rank": "西甲19", "short_name": "莱万特"},
-        "odds_note": "待开售/赔率待确认",
+        "match_id": "260514005",
+        "match_num": "周四005",
+        "league": {
+          "name": "法甲",
+          "short_name": "法甲",
+          "country": "法国"
+        },
+        "datetime": "2026-05-14T01:00:00+08:00",
+        "home_team": {
+          "name": "布雷斯特",
+          "rank": "法甲12",
+          "short_name": "布雷斯特"
+        },
+        "away_team": {
+          "name": "斯特拉斯堡",
+          "rank": "法甲8",
+          "short_name": "斯特堡"
+        },
+        "odds": {
+          "had": {
+            "home": 2.6,
+            "draw": 3.45,
+            "away": 2.2
+          },
+          "hhad": {
+            "handicap": 1,
+            "home": 1.51,
+            "draw": 4.0,
+            "away": 4.6
+          }
+        },
         "predictions": {
           "main": {
-            "option": "主胜/防平",
-            "odds": 1.65,
+            "option": "客队不败",
+            "odds": 1.55,
             "bet_amount": 7,
             "confidence": "高",
-            "reason": "塞尔塔第6对莱万特第19，排名差距明显。塞尔塔短传直塞克制莱万特惧怕边路和直塞的防守弱点"
+            "reason": "斯特拉斯堡需分心欧协联但实力占优，布雷斯特主场一般"
           },
           "secondary": {
-            "option": "让球主胜",
-            "odds": 2.20,
+            "option": "平局",
+            "odds": 3.45,
             "bet_amount": 4,
             "confidence": "中",
-            "reason": "塞尔塔主场胜率29.4%联赛第19，主场反而是软肋，需防冷"
+            "reason": "两队实力接近，平局概率不低"
           }
         },
-        "analysis": "塞尔塔第6对莱万特第19，排名差距明显但各有隐忧。塞尔塔主场胜率仅29.4%联赛第19，主场反成软肋；莱万特身处降级区但近6场3胜1平2负，保级战意强烈。战术上塞尔塔短传直塞恰好克制莱万特惧怕边路和直塞的防守弱点。莱万特5人伤停且集中在中后场（2后卫+1后腰+1门将），本就场均失球1.63的防线更加脆弱。塞尔塔主场虽差但整体进攻端更优，莱万特半场落后从未逆转。塞尔塔不败格局，但需警惕平局可能。"
+        "analysis": "布雷斯特排名12冲击欧战资格，主场战绩稳定。斯特拉斯堡排名第8需分心欧协联半决赛，体能处于劣势。赔率显示双方实力接近，客队略占优。"
       },
       {
-        "match_id": "260512004",
-        "match_num": "周二004",
-        "league": {"name": "沙职", "short_name": "沙职", "country": "沙特"},
-        "datetime": "2026-05-13T02:00:00+08:00",
-        "home_team": {"name": "利雅得胜利", "rank": "沙职1", "short_name": "利雅胜利"},
-        "away_team": {"name": "利雅得新月", "rank": "沙职2", "short_name": "利雅新月"},
-        "odds_note": "焦点战赔率待开售",
+        "match_id": "260514006",
+        "match_num": "周四006",
+        "league": {
+          "name": "英超",
+          "short_name": "英超",
+          "country": "英格兰"
+        },
+        "datetime": "2026-05-14T03:00:00+08:00",
+        "home_team": {
+          "name": "曼彻斯特城",
+          "rank": "英超2",
+          "short_name": "曼城"
+        },
+        "away_team": {
+          "name": "水晶宫",
+          "rank": "英超15",
+          "short_name": "水晶宫"
+        },
+        "odds": {
+          "had": {
+            "home": 1.22,
+            "draw": 5.5,
+            "away": 9.0
+          },
+          "hhad": {
+            "handicap": -2,
+            "home": 2.3,
+            "draw": 3.9,
+            "away": 2.29
+          }
+        },
         "predictions": {
           "main": {
-            "option": "主胜",
-            "odds": 2.10,
+            "option": "让球主胜",
+            "odds": 2.3,
             "bet_amount": 8,
-            "confidence": "中",
-            "reason": "利雅得德比！胜利主场93.3%胜率魔鬼主场，进攻更猛；新月6人伤停进攻受损严重"
+            "confidence": "高",
+            "reason": "曼城主场统治级，哈兰德状态火热，需赢2球以上"
           },
           "secondary": {
-            "option": "让球主胜/让平",
-            "odds": 3.20,
-            "bet_amount": 3,
-            "confidence": "低",
-            "reason": "新月赛季不败底蕴深厚，但阵容残缺是硬伤，这场极可能分出胜负"
-          }
-        },
-        "analysis": "沙特联争冠天王山之战！利雅得胜利82分榜首，利雅得新月77分紧随其后，仅差5分。胜利主场15战14胜0平1负胜率93.3%，堪称魔鬼主场；新月本赛季31场联赛保持不败（23胜8平），防守端场均失球0.84。胜利进攻更猛（场均2.69球vs2.61球），C罗领衔的攻击线火力全开。但新月6人伤停/缺阵，其中宾森马、马尔甘、D.纽尼斯等进攻端主力缺阵，火力受损严重。胜利仅2人缺阵（前锋+门将），阵容完整度占优。盘路方面新月初盘平手/半球赢盘率73.3%极强。胜利主场超强势，这场极可能分出胜负。"
-      },
-      {
-        "match_id": "260512005",
-        "match_num": "周二005",
-        "league": {"name": "西甲", "short_name": "西甲", "country": "西班牙"},
-        "datetime": "2026-05-13T02:00:00+08:00",
-        "home_team": {"name": "皇家贝蒂斯", "rank": "西甲5", "short_name": "贝蒂斯"},
-        "away_team": {"name": "埃尔切", "rank": "西甲14", "short_name": "埃尔切"},
-        "odds_note": "待开售",
-        "predictions": {
-          "main": {
             "option": "主胜",
-            "odds": 1.50,
+            "odds": 1.22,
             "bet_amount": 10,
             "confidence": "极高",
-            "reason": "贝蒂斯主场47.1%胜率，埃尔切客场胜率5.9%联赛垫底，场均失球2.06客场虫"
-          },
-          "secondary": {
-            "option": "让球主胜",
-            "odds": 2.40,
-            "bet_amount": 4,
-            "confidence": "高",
-            "reason": "埃尔切在半球/一球盘口下历史赢盘率仅31.6%，近6场该盘口连输5场"
+            "reason": "主胜赔率极低，但需防小冷"
           }
         },
-        "analysis": "贝蒂斯第5对埃尔切第14，排名差距明显。贝蒂斯主场8胜6平3负胜率47.1%，主场仅失17球防守稳固；埃尔切客场17场1胜4平12负，胜率5.9%联赛垫底，场均客场失球2.06球堪称客场虫。关键数据：埃尔切在半球/一球盘口下历史赢盘率仅31.6%，近6场该盘口连输5场；半场落后从未逆转。贝蒂斯近6场2胜4平保持不败，亚盘赢盘率83.3%极强。但贝蒂斯后防3人伤停。埃尔切3名进攻球员缺阵，客场本就疲软更难有作为。贝蒂斯主场优势突出。"
+        "analysis": "曼城争冠生死战，距阿森纳5分少赛1场，主场17场13胜1平3负统治级。水晶宫保级上岸无欲无求，客场17场7胜2平8负表现一般。主力后卫格瓦迪奥尔缺阵，但进攻核心哈兰德状态火热。赔率显示主队大热，需防平。"
       },
       {
-        "match_id": "260512006",
-        "match_num": "周二006",
-        "league": {"name": "法乙升级附加赛", "short_name": "法乙", "country": "法国"},
-        "datetime": "2026-05-13T02:30:00+08:00",
-        "home_team": {"name": "圣旺红星", "rank": "法乙4", "short_name": "红星"},
-        "away_team": {"name": "罗德兹", "rank": "法乙5", "short_name": "罗德兹"},
-        "odds_note": "待开售",
+        "match_id": "260514007",
+        "match_num": "周四007",
+        "league": {
+          "name": "意杯",
+          "short_name": "意杯",
+          "country": "意大利"
+        },
+        "datetime": "2026-05-14T03:00:00+08:00",
+        "home_team": {
+          "name": "拉齐奥",
+          "rank": "意甲6",
+          "short_name": "拉齐奥"
+        },
+        "away_team": {
+          "name": "国际米兰",
+          "rank": "意甲2",
+          "short_name": "国米"
+        },
+        "odds": {
+          "had": {
+            "home": 5.35,
+            "draw": 3.75,
+            "away": 1.48
+          },
+          "hhad": {
+            "handicap": 1,
+            "home": 2.25,
+            "draw": 3.4,
+            "away": 2.56
+          }
+        },
+        "predictions": {
+          "main": {
+            "option": "客队不败",
+            "odds": 1.4,
+            "bet_amount": 8,
+            "confidence": "极高",
+            "reason": "国米整体实力更强，阵容完整，拉齐奥后防伤病潮"
+          },
+          "secondary": {
+            "option": "让球客胜",
+            "odds": 2.56,
+            "bet_amount": 4,
+            "confidence": "高",
+            "reason": "国米客场防守稳固，近4场3胜1平"
+          }
+        },
+        "analysis": "意大利杯决赛，中立场地进行。拉齐奥遭遇严重后防伤病潮，防线稳定性大幅下降。国米阵容完整，近期状态火热，历史交锋占优。"
+      },
+      {
+        "match_id": "260514008",
+        "match_num": "周四008",
+        "league": {
+          "name": "法甲",
+          "short_name": "法甲",
+          "country": "法国"
+        },
+        "datetime": "2026-05-14T03:00:00+08:00",
+        "home_team": {
+          "name": "朗斯",
+          "rank": "法甲2",
+          "short_name": "朗斯"
+        },
+        "away_team": {
+          "name": "巴黎圣日耳曼",
+          "rank": "法甲1",
+          "short_name": "巴黎"
+        },
+        "odds": {
+          "had": {
+            "home": 2.9,
+            "draw": 3.75,
+            "away": 1.93
+          },
+          "hhad": {
+            "handicap": 1,
+            "home": 1.68,
+            "draw": 3.95,
+            "away": 3.56
+          }
+        },
+        "predictions": {
+          "main": {
+            "option": "客队不败",
+            "odds": 1.55,
+            "bet_amount": 7,
+            "confidence": "高",
+            "reason": "巴黎已锁定冠军可能轮换，但底蕴深厚仍占优"
+          },
+          "secondary": {
+            "option": "让球客胜",
+            "odds": 3.56,
+            "bet_amount": 3,
+            "confidence": "中",
+            "reason": "巴黎客场对阵朗斯向来不好踢，需防冷"
+          }
+        },
+        "analysis": "巴黎已提前锁定联赛冠军，本场可能轮换阵容。朗斯全力冲击欧冠资格，主场战力强劲。巴黎客场对阵朗斯向来不好踢，但底蕴深厚。"
+      },
+      {
+        "match_id": "260514009",
+        "match_num": "周四009",
+        "league": {
+          "name": "西甲",
+          "short_name": "西甲",
+          "country": "西班牙"
+        },
+        "datetime": "2026-05-14T03:30:00+08:00",
+        "home_team": {
+          "name": "阿拉维斯",
+          "rank": "西甲18",
+          "short_name": "阿拉维斯"
+        },
+        "away_team": {
+          "name": "巴塞罗那",
+          "rank": "西甲1",
+          "short_name": "巴萨"
+        },
+        "odds": {
+          "had": {
+            "home": 2.8,
+            "draw": 3.7,
+            "away": 2.0
+          },
+          "hhad": {
+            "handicap": 1,
+            "home": 1.62,
+            "draw": 4.0,
+            "away": 3.85
+          }
+        },
         "predictions": {
           "main": {
             "option": "客队不败",
             "odds": 1.55,
             "bet_amount": 8,
             "confidence": "高",
-            "reason": "罗德兹近10场4胜6平不败，客场盘路赢率70.6%；红星2名中卫同时伤停防线重大隐患"
-          },
-          "secondary": {
-            "option": "平局",
-            "odds": 2.90,
-            "bet_amount": 4,
-            "confidence": "中",
-            "reason": "两队同积58分实力接近，往绩红星6场不败但本场阵容残缺"
-          }
-        },
-        "analysis": "两队同积58分，红星第4对罗德兹第5，净胜球仅差1个，实力旗鼓相当。罗德兹近10场不败（4胜6平），近6场赢盘率83.3%极为强势，客场盘路赢率70.6%。红星近6场胜负交替状态波动，主场赢盘率仅41.2%，明显不如客场。往绩方面红星近6次交手保持不败，心理占优，但阵容上红星2名中卫同时伤停，防线存在重大隐患；罗德兹仅1名中锋缺阵。盘路数据强烈指向客队：罗德兹近6场赢盘率83.3%对红星50%，客场赢盘率70.6%对红星主场41.2%。综合看罗德兹近期状态更稳、盘路更强，客队不败可能性更大。"
-      },
-      {
-        "match_id": "260512007",
-        "match_num": "周二007",
-        "league": {"name": "英冠附加赛", "short_name": "英冠", "country": "英格兰"},
-        "datetime": "2026-05-13T03:00:00+08:00",
-        "home_team": {"name": "南安普敦", "rank": "英冠4", "short_name": "南安普敦"},
-        "away_team": {"name": "米德尔斯堡", "rank": "英冠5", "short_name": "米堡"},
-        "odds_note": "待开售",
-        "predictions": {
-          "main": {
-            "option": "主队不败",
-            "odds": 1.60,
-            "bet_amount": 8,
-            "confidence": "高",
-            "reason": "南安普敦换帅后从第15追到第4，状态大火；米堡主力中卫琼斯伤缺，防守受损"
-          },
-          "secondary": {
-            "option": "平局",
-            "odds": 3.20,
-            "bet_amount": 4,
-            "confidence": "中",
-            "reason": "往绩1胜3平2负略处下风，但南安近期状态明显优于米堡"
-          }
-        },
-        "analysis": "南安普敦，英超降班马，身价约1.22亿欧。本赛季22胜14平10负积80分排第4，进82球失56球，进球第二多。近6场5胜1平0负，上1轮3-1客胜普雷斯顿。换帅后像开了挂，排名从15追到第4，状态大好。米堡上赛季第10，本赛季同积80分排第5，进72球失47球，失球第二少。近6场2胜3平1负，上1轮2-2客平雷克瑟姆。主力中卫琼斯伤缺。往绩方面1胜3平2负略处下风，首回合米堡让0.25，0-0平。指数从南安让0.25降为平手，总进球2.75。看法：主队换帅后状态大好，但指数让得太浅，客不败。"
-      },
-      {
-        "match_id": "260512008",
-        "match_num": "周二008",
-        "league": {"name": "西甲", "short_name": "西甲", "country": "西班牙"},
-        "datetime": "2026-05-13T03:30:00+08:00",
-        "home_team": {"name": "奥萨苏纳", "rank": "西甲10", "short_name": "奥萨苏纳"},
-        "away_team": {"name": "马德里竞技", "rank": "西甲4", "short_name": "马竞"},
-        "odds_note": "待开售",
-        "predictions": {
-          "main": {
-            "option": "客队不败",
-            "odds": 1.40,
-            "bet_amount": 8,
-            "confidence": "极高",
-            "reason": "马竞排名第4，客场盘路赢率73.3%极强；奥萨苏纳一门停赛+主力前锋赛季报销"
+            "reason": "巴萨整体实力占优，阿拉维斯保级战意强但防守一般"
           },
           "secondary": {
             "option": "让球客胜",
-            "odds": 2.10,
-            "bet_amount": 5,
-            "confidence": "高",
-            "reason": "马竞客场胜率47.1%排第7，奥萨苏纳防守一般"
+            "odds": 3.85,
+            "bet_amount": 3,
+            "confidence": "低",
+            "reason": "巴萨体能一般(周中欧冠)，阿拉维斯主场防守硬"
           }
         },
-        "analysis": "奥萨苏纳上赛季排第9，身价约8260万欧。本赛季11胜9平15负积42分排第10，进42球失45球。近6场1胜2平3负，上1轮2-3客负莱万特，一门埃雷拉被红牌罚下，本场停赛。主力前锋贝尼托上轮国王杯中十字韧带撕裂赛季报销。主场强排第5。马竞上赛季排第3，身价约5.84亿欧。本赛季18胜6平10负积63分排第4，进58球失38球。近6场2胜0平4负，上1轮0-1主负塞尔塔。主力射手阿尔瓦雷斯、主力前锋小西蒙尼、主力前锋冈萨雷斯、主力中场卡尔多索以及主力边后卫莫利纳均伤缺。客场不强排第7。交锋2胜0平4负劣势，去年10月马竞让1升1.5，1-0胜。指数奥萨苏纳平盘，总进球2.5。客不败。"
+        "analysis": "阿拉维斯深陷降级区倒数第2，保级战意强烈，主场防守尚可。巴萨争夺第2稳固欧冠资格，整体实力明显占优，但周中刚打完欧冠体能一般。"
+      },
+      {
+        "match_id": "260514010",
+        "match_num": "周四010",
+        "league": {
+          "name": "西甲",
+          "short_name": "西甲",
+          "country": "西班牙"
+        },
+        "datetime": "2026-05-14T03:30:00+08:00",
+        "home_team": {
+          "name": "赫塔费",
+          "rank": "西甲7",
+          "short_name": "赫塔费"
+        },
+        "away_team": {
+          "name": "马洛卡",
+          "rank": "西甲15",
+          "short_name": "马洛卡"
+        },
+        "odds": {
+          "had": {
+            "home": 2.03,
+            "draw": 2.8,
+            "away": 3.58
+          },
+          "hhad": {
+            "handicap": -1,
+            "home": 4.75,
+            "draw": 3.4,
+            "away": 1.6
+          }
+        },
+        "predictions": {
+          "main": {
+            "option": "主胜",
+            "odds": 2.03,
+            "bet_amount": 7,
+            "confidence": "中",
+            "reason": "赫塔费主场稳定，马洛卡客场表现一般"
+          },
+          "secondary": {
+            "option": "平局",
+            "odds": 2.8,
+            "bet_amount": 5,
+            "confidence": "中",
+            "reason": "两队都偏防守，小比分概率高"
+          }
+        },
+        "analysis": "赫塔费排名第7仍有冲击欧战希望，主场战力稳定。马洛卡排名15无欲无求，客场表现一般。两队都偏防守，比赛节奏预计较慢。"
       }
     ]
   },
-  "tomorrow": {
-    "date": "2026-05-13",
-    "weekday": "周三",
-    "match_count": 0,
-    "matches_note": "周三赛事待确认，重点关注5月14日（周四）赛程",
-    "matches": []
-  },
   "parlays": {
-    "date": "2026-05-12",
+    "date": "2026-05-13",
     "total_parlays": 6,
     "combinations": [
       {
-        "name": "串关A：韩职2串1",
+        "name": "串关A：稳胆2串1",
         "type": "2串1",
         "matches": [
-          {"match_num": "周二001", "option": "客队不败", "odds": 1.45, "reason": "浦项防守最佳"},
-          {"match_num": "周二002", "option": "客胜", "odds": 1.35, "reason": "首尔26分领跑"}
+          {
+            "match_num": "周三001",
+            "option": "主胜",
+            "odds": 1.63,
+            "reason": "神户主场优势"
+          },
+          {
+            "match_num": "周四004",
+            "option": "客队不败",
+            "odds": 1.4,
+            "reason": "毕尔巴鄂战意强"
+          }
         ],
-        "total_odds": 1.96,
+        "total_odds": 2.28,
         "bet_amount": 6,
-        "potential_win": 11.76,
+        "potential_win": 13.68,
         "confidence": "极高",
-        "note": "韩职两场客队方向串关，总赔率接近2.0合理"
+        "note": "神户+毕尔巴鄂双稳胆"
       },
       {
-        "name": "串关B：主推稳胆2串1",
+        "name": "串关B：客队2串1",
         "type": "2串1",
         "matches": [
-          {"match_num": "周二002", "option": "客胜", "odds": 1.35, "reason": "FC首尔榜首实力碾压"},
-          {"match_num": "周二005", "option": "主胜", "odds": 1.50, "reason": "贝蒂斯主场对阵埃尔切"}
+          {
+            "match_num": "周三002",
+            "option": "客胜",
+            "odds": 1.68,
+            "reason": "全北实力碾压"
+          },
+          {
+            "match_num": "周四007",
+            "option": "客队不败",
+            "odds": 1.4,
+            "reason": "国米阵容完整"
+          }
         ],
-        "total_odds": 2.03,
+        "total_odds": 2.35,
         "bet_amount": 5,
-        "potential_win": 10.15,
+        "potential_win": 11.75,
         "confidence": "极高",
-        "note": "首尔+贝蒂斯双稳胆，总赔率2.03合理"
+        "note": "全北+国米双客胜"
       },
       {
         "name": "串关C：让球3串1",
         "type": "3串1",
         "matches": [
-          {"match_num": "周二002", "option": "让球客胜", "odds": 1.75, "reason": "首尔大球率61.5%"},
-          {"match_num": "周二005", "option": "让球主胜", "odds": 2.40, "reason": "埃尔切客场盘路差"},
-          {"match_num": "周二007", "option": "主队不败", "odds": 1.60, "reason": "南安换帅后状态佳"}
+          {
+            "match_num": "周三002",
+            "option": "客胜",
+            "odds": 1.68,
+            "reason": "全北状态火热"
+          },
+          {
+            "match_num": "周四006",
+            "option": "让球主胜",
+            "odds": 2.3,
+            "reason": "曼城主场统治级"
+          },
+          {
+            "match_num": "周四007",
+            "option": "客队不败",
+            "odds": 1.4,
+            "reason": "国米实力更强"
+          }
         ],
-        "total_odds": 6.72,
+        "total_odds": 5.41,
         "bet_amount": 2,
-        "potential_win": 13.44,
+        "potential_win": 10.82,
         "confidence": "高",
-        "note": "让球混合串关，赔率较高"
+        "note": "让球混合串关"
       },
       {
-        "name": "串关D：德比焦点4串1",
-        "type": "4串1",
+        "name": "串关D：英超焦点",
+        "type": "2串1",
         "matches": [
-          {"match_num": "周二002", "option": "客胜", "odds": 1.35, "reason": "首尔实力碾压"},
-          {"match_num": "周二004", "option": "主胜", "odds": 2.10, "reason": "利雅得德比胜利主场强"},
-          {"match_num": "周二005", "option": "主胜", "odds": 1.50, "reason": "贝蒂斯主场稳健"},
-          {"match_num": "周二008", "option": "客队不败", "odds": 1.40, "reason": "马竞客场盘路强"}
+          {
+            "match_num": "周四006",
+            "option": "主胜",
+            "odds": 1.22,
+            "reason": "曼城主场极强"
+          },
+          {
+            "match_num": "周四009",
+            "option": "客队不败",
+            "odds": 1.55,
+            "reason": "巴萨实力占优"
+          }
         ],
-        "total_odds": 5.93,
-        "bet_amount": 2,
-        "potential_win": 11.86,
-        "confidence": "高",
-        "note": "含利雅得德比焦点战，4场混合串关"
+        "total_odds": 1.89,
+        "bet_amount": 8,
+        "potential_win": 15.12,
+        "confidence": "极高",
+        "note": "曼城+巴萨稳胆组合"
       },
       {
-        "name": "串关E：冷门博取3串1",
+        "name": "串关E：西甲专场",
         "type": "3串1",
         "matches": [
-          {"match_num": "周二003", "option": "让球主胜", "odds": 2.20, "reason": "塞尔塔赔率高可博"},
-          {"match_num": "周二004", "option": "让球主胜", "odds": 3.20, "reason": "利雅得德比赔率高"},
-          {"match_num": "周二006", "option": "客胜", "odds": 2.50, "reason": "罗德兹近期状态更稳"}
+          {
+            "match_num": "周四003",
+            "option": "主胜",
+            "odds": 1.98,
+            "reason": "比利亚雷亚尔主场强势"
+          },
+          {
+            "match_num": "周四004",
+            "option": "客队不败",
+            "odds": 1.4,
+            "reason": "毕尔巴鄂战意强"
+          },
+          {
+            "match_num": "周四009",
+            "option": "客队不败",
+            "odds": 1.55,
+            "reason": "巴萨实力占优"
+          }
         ],
-        "total_odds": 17.60,
+        "total_odds": 4.29,
         "bet_amount": 2,
-        "potential_win": 35.20,
-        "confidence": "低",
-        "note": "高赔博冷串关，仅供娱乐"
+        "potential_win": 8.58,
+        "confidence": "高",
+        "note": "西甲3场串关"
       },
       {
         "name": "串关F：单关高赔",
         "type": "单关",
         "matches": [
-          {"match_num": "周二004", "option": "主胜", "odds": 2.10, "reason": "利雅得德比C罗领衔主场93%胜率"}
+          {
+            "match_num": "周四006",
+            "option": "让球主胜",
+            "odds": 2.3,
+            "reason": "曼城需赢2球以上"
+          }
         ],
-        "total_odds": 2.10,
+        "total_odds": 2.3,
         "bet_amount": 10,
-        "potential_win": 21.00,
-        "confidence": "中",
-        "note": "单关投注德比焦点战"
+        "potential_win": 23.0,
+        "confidence": "高",
+        "note": "曼城让球单关"
       }
     ]
   },
   "stats": {
     "date": "2026-05-12",
     "history": {
-      "total_matches": 167,
-      "hit_count": 117,
+      "total_matches": 175,
+      "hit_count": 123,
       "hit_rate": "70.1%",
       "roi": "+21.8%",
       "by_confidence": {
-        "极高": {"total": 49, "hit": 41, "hit_rate": "83.7%"},
-        "高": {"total": 66, "hit": 47, "hit_rate": "71.2%"},
-        "中": {"total": 40, "hit": 23, "hit_rate": "57.5%"},
-        "低": {"total": 12, "hit": 6, "hit_rate": "50.0%"}
+        "极高": {
+          "total": 49,
+          "hit": 41,
+          "hit_rate": "83.7%"
+        },
+        "高": {
+          "total": 66,
+          "hit": 47,
+          "hit_rate": "71.2%"
+        },
+        "中": {
+          "total": 40,
+          "hit": 23,
+          "hit_rate": "57.5%"
+        },
+        "低": {
+          "total": 12,
+          "hit": 6,
+          "hit_rate": "50.0%"
+        }
       }
     },
     "recent_7days": {
-      "dates": ["05-06", "05-07", "05-08", "05-09", "05-10", "05-11", "05-12"],
-      "hit_rates": ["75%", "70%", "72%", "71%", "72%", "50%", "--"]
+      "dates": [
+        "05-07",
+        "05-08",
+        "05-09",
+        "05-10",
+        "05-11",
+        "05-12",
+        "05-13"
+      ],
+      "hit_rates": [
+        "70%",
+        "72%",
+        "71%",
+        "72%",
+        "50%",
+        "75%",
+        "--"
+      ]
     }
   },
-  "next_update": "2026-05-13T12:30:00+08:00",
+  "next_update": "2026-05-14T12:30:00+08:00",
   "website_url": "https://983354000.github.io/jingcai-data/"
 }
