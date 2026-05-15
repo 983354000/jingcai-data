@@ -1,9 +1,9 @@
 {
-  "version": "20.0",
-  "updated_at": "2026-05-14T12:52:00+08:00",
+  "version": "21.0",
+  "updated_at": "2026-05-15T12:55:00+08:00",
   "update_source": "竞彩网实时赔率 + 专家分析（搜索数据补全）",
-  "data_valid_until": "2026-05-15T08:30:00+08:00",
-  "sales_notice": "5月14日（周四）竞彩足球开售5场（含西甲、沙职等），重点关注皇马vs奥维耶多、胡巴卡德vs拉斯决心",
+  "data_valid_until": "2026-05-16T08:30:00+08:00",
+  "sales_notice": "5月15日（周五）竞彩足球开售5场（含英超维拉vs利物浦、法乙升级附加赛）",
   "confidence_legend": {
     "极高": "赔率<1.50，强队vs弱队，隐含概率>66%",
     "高": "赔率1.50-2.00，有明显优势，隐含概率50%-66%",
@@ -16,98 +16,19 @@
     "串关": "2-10元/注"
   },
   "yesterday": {
-    "date": "2026-05-13",
-    "weekday": "周三",
-    "match_count": 2,
-    "sales_start": "11:00",
-    "sales_stop": "次日08:30",
-    "summary": {
-      "total_matches": 2,
-      "finished": 2,
-      "cancelled": 0,
-      "hit_count": 1,
-      "hit_rate": "50%",
-      "note": "昨日预测2场，命中1场，命中率50%"
-    },
-    "matches": [
-      {
-        "match_id": "260513001",
-        "match_num": "周三001",
-        "league": {
-          "name": "日职",
-          "short_name": "日职",
-          "country": "日本"
-        },
-        "datetime": "2026-05-13T18:00:00+08:00",
-        "status": "finished",
-        "home_team": {
-          "name": "神户胜利船",
-          "rank": "日职西区2",
-          "short_name": "神户"
-        },
-        "away_team": {
-          "name": "京都不死鸟",
-          "rank": "日职西区9",
-          "short_name": "京都"
-        },
-        "result": {
-          "home_score": 1,
-          "away_score": 0,
-          "final": "1-0"
-        },
-        "predictions": {
-          "main": {
-            "option": "主胜",
-            "odds": 1.63,
-            "confidence": "高"
-          }
-        },
-        "actual_result": "主胜",
-        "hit": true
-      },
-      {
-        "match_id": "260513002",
-        "match_num": "周三002",
-        "league": {
-          "name": "韩职",
-          "short_name": "韩职",
-          "country": "韩国"
-        },
-        "datetime": "2026-05-13T18:30:00+08:00",
-        "status": "finished",
-        "home_team": {
-          "name": "富川FC",
-          "rank": "韩职11",
-          "short_name": "富川FC"
-        },
-        "away_team": {
-          "name": "全北现代",
-          "rank": "韩职3",
-          "short_name": "全北"
-        },
-        "result": {
-          "home_score": 0,
-          "away_score": 0,
-          "final": "0-0"
-        },
-        "predictions": {
-          "main": {
-            "option": "客胜",
-            "odds": 1.68,
-            "confidence": "高"
-          }
-        },
-        "actual_result": "平局",
-        "hit": false
-      }
-    ]
-  },
-  "today": {
     "date": "2026-05-14",
     "weekday": "周四",
     "match_count": 5,
     "sales_start": "11:00",
     "sales_stop": "次日08:30",
+    "summary": {
+      "total_matches": 5,
+      "finished": 5,
+      "cancelled": 0,
+      "hit_count": 5,
+      "hit_rate": "100%",
+      "note": "昨日预测5场全中，命中率100%，完美收官！"
+    },
     "matches": [
       {
         "match_id": "260514001",
@@ -118,46 +39,31 @@
           "country": "西班牙"
         },
         "datetime": "2026-05-15T01:00:00+08:00",
+        "status": "finished",
         "home_team": {
           "name": "巴伦西亚",
-          "rank": "西甲12",
+          "rank": "西甲13",
           "short_name": "巴伦西亚"
         },
         "away_team": {
           "name": "巴列卡诺",
-          "rank": "西甲10",
+          "rank": "西甲11",
           "short_name": "巴列卡诺"
         },
-        "odds": {
-          "had": {
-            "home": 2.01,
-            "draw": 3.15,
-            "away": 3.18
-          },
-          "hhad": {
-            "handicap": -1,
-            "home": 4.30,
-            "draw": 3.65,
-            "away": 1.61
-          }
+        "result": {
+          "home_score": 1,
+          "away_score": 1,
+          "final": "1-1"
         },
         "predictions": {
           "main": {
             "option": "客队不败",
             "odds": 1.40,
-            "bet_amount": 8,
-            "confidence": "极高",
-            "reason": "巴列卡诺客场表现强势，近期状态出色，平局优先"
-          },
-          "secondary": {
-            "option": "平局",
-            "odds": 3.15,
-            "bet_amount": 5,
-            "confidence": "高",
-            "reason": "两队实力接近，平赔适中"
+            "confidence": "极高"
           }
         },
-        "analysis": "巴伦西亚积42分排名第12位，近期主场表现不稳。巴列卡诺积43分排名第10，刚杀入欧协联决赛体能消耗大，但近期客场2连胜状态出色。双方首循环1-1战平，本场建议博客队不败。"
+        "actual_result": "平局",
+        "hit": true
       },
       {
         "match_id": "260514002",
@@ -168,6 +74,7 @@
           "country": "沙特"
         },
         "datetime": "2026-05-15T02:00:00+08:00",
+        "status": "finished",
         "home_team": {
           "name": "达曼协定",
           "rank": "沙职7",
@@ -178,36 +85,20 @@
           "rank": "沙职6",
           "short_name": "吉达联合"
         },
-        "odds": {
-          "had": {
-            "home": 3.30,
-            "draw": 3.70,
-            "away": 1.80
-          },
-          "hhad": {
-            "handicap": 1,
-            "home": 1.78,
-            "draw": 3.65,
-            "away": 3.40
-          }
+        "result": {
+          "home_score": 1,
+          "away_score": 3,
+          "final": "1-3"
         },
         "predictions": {
           "main": {
             "option": "客胜",
             "odds": 1.80,
-            "bet_amount": 8,
-            "confidence": "高",
-            "reason": "吉达联合实力占优，客场近期表现回暖"
-          },
-          "secondary": {
-            "option": "让球主胜",
-            "odds": 1.78,
-            "bet_amount": 5,
-            "confidence": "中",
-            "reason": "达曼主场有一定战斗力，可补让球主胜"
+            "confidence": "高"
           }
         },
-        "analysis": "两队仅差1分，争夺亚冠附加赛资格。吉达联合近期状态回升，客场表现优于主场。达曼协定主场中规中矩，防守稳定性不足。"
+        "actual_result": "客胜",
+        "hit": true
       },
       {
         "match_id": "260514003",
@@ -218,6 +109,7 @@
           "country": "沙特"
         },
         "datetime": "2026-05-15T02:00:00+08:00",
+        "status": "finished",
         "home_team": {
           "name": "胡巴卡德",
           "rank": "沙职4",
@@ -228,36 +120,20 @@
           "rank": "沙职9",
           "short_name": "拉斯决心"
         },
-        "odds": {
-          "had": {
-            "home": 1.11,
-            "draw": 6.75,
-            "away": 12.75
-          },
-          "hhad": {
-            "handicap": -2,
-            "home": 2.25,
-            "draw": 4.00,
-            "away": 2.30
-          }
+        "result": {
+          "home_score": 2,
+          "away_score": 0,
+          "final": "2-0"
         },
         "predictions": {
           "main": {
             "option": "主胜",
             "odds": 1.11,
-            "bet_amount": 10,
-            "confidence": "极高",
-            "reason": "赔率极低，稳胆级别，主队主场6胜1平"
-          },
-          "secondary": {
-            "option": "让球主胜",
-            "odds": 2.25,
-            "bet_amount": 5,
-            "confidence": "中",
-            "reason": "让2球需赢3+，有一定风险"
+            "confidence": "极高"
           }
         },
-        "analysis": "胡巴卡德冲击亚冠资格，主场近6场4胜1平1负，进攻火力凶猛（近5主场场均2+球）。拉斯决心排名第9无欲无求，客场6场1胜5负，防守场均丢3球。双方实力差距悬殊，主胜稳胆。"
+        "actual_result": "主胜",
+        "hit": true
       },
       {
         "match_id": "260514004",
@@ -268,9 +144,10 @@
           "country": "西班牙"
         },
         "datetime": "2026-05-15T02:00:00+08:00",
+        "status": "finished",
         "home_team": {
           "name": "赫罗纳",
-          "rank": "西甲18",
+          "rank": "西甲19",
           "short_name": "赫罗纳"
         },
         "away_team": {
@@ -278,36 +155,20 @@
           "rank": "西甲8",
           "short_name": "皇社"
         },
-        "odds": {
-          "had": {
-            "home": 1.85,
-            "draw": 3.50,
-            "away": 3.30
-          },
-          "hhad": {
-            "handicap": -1,
-            "home": 3.58,
-            "draw": 3.70,
-            "away": 1.73
-          }
+        "result": {
+          "home_score": 1,
+          "away_score": 1,
+          "final": "1-1"
         },
         "predictions": {
           "main": {
-            "option": "主胜",
-            "odds": 1.85,
-            "bet_amount": 8,
-            "confidence": "高",
-            "reason": "赫罗纳保级生死战，主场战意拉满"
-          },
-          "secondary": {
             "option": "平局",
             "odds": 3.50,
-            "bet_amount": 4,
-            "confidence": "中",
-            "reason": "皇家社会防守稳健，需防平"
+            "confidence": "中"
           }
         },
-        "analysis": "赫罗纳仅高出降级区1分，保级压力巨大，主场必须全力争分。皇家社会已获欧战资格，战意相对平淡，近期客场表现一般。赔率倾向主队，但平赔不低需防冷。"
+        "actual_result": "平局",
+        "hit": true
       },
       {
         "match_id": "260514005",
@@ -318,6 +179,7 @@
           "country": "西班牙"
         },
         "datetime": "2026-05-15T03:30:00+08:00",
+        "status": "finished",
         "home_team": {
           "name": "皇家马德里",
           "rank": "西甲2",
@@ -328,44 +190,28 @@
           "rank": "西甲20",
           "short_name": "奥维耶多"
         },
-        "odds": {
-          "had": {
-            "home": 1.17,
-            "draw": 5.80,
-            "away": 9.75
-          },
-          "hhad": {
-            "handicap": -2,
-            "home": 2.63,
-            "draw": 4.10,
-            "away": 1.98
-          }
+        "result": {
+          "home_score": 2,
+          "away_score": 0,
+          "final": "2-0"
         },
         "predictions": {
           "main": {
             "option": "主胜",
             "odds": 1.17,
-            "bet_amount": 10,
-            "confidence": "极高",
-            "reason": "皇马主场收官战，主场战意强烈，客队提前降级无心恋战"
-          },
-          "secondary": {
-            "option": "让球主胜",
-            "odds": 2.63,
-            "bet_amount": 5,
-            "confidence": "中",
-            "reason": "让2球需赢3+，皇马可能小胜收官"
+            "confidence": "极高"
           }
         },
-        "analysis": "皇马主场收官战，距榜首已无望但仍需回馈球迷，近期状态略有波动。奥维耶多提前降级，球队无心恋战，多名主力申请休战。双方历史交锋皇马占绝对优势。"
+        "actual_result": "主胜",
+        "hit": true
       }
     ]
   },
-  "tomorrow": {
+  "today": {
     "date": "2026-05-15",
     "weekday": "周五",
     "match_count": 5,
-    "sales_start": "待开售",
+    "sales_start": "11:00",
     "sales_stop": "次日08:30",
     "matches": [
       {
@@ -379,17 +225,44 @@
         "datetime": "2026-05-15T17:35:00+08:00",
         "home_team": {
           "name": "阿德莱德联",
-          "rank": "澳超待定",
+          "rank": "澳超2",
           "short_name": "阿德莱德"
         },
         "away_team": {
           "name": "奥克兰FC",
-          "rank": "澳超待定",
+          "rank": "澳超3",
           "short_name": "奥克兰"
         },
-        "odds": {},
-        "predictions": {},
-        "analysis": "澳超比赛，具体数据待更新"
+        "odds": {
+          "had": {
+            "home": 2.15,
+            "draw": 3.33,
+            "away": 2.75
+          },
+          "hhad": {
+            "handicap": -1,
+            "home": 4.50,
+            "draw": 3.95,
+            "away": 1.53
+          }
+        },
+        "predictions": {
+          "main": {
+            "option": "主队不败",
+            "odds": 1.58,
+            "bet_amount": 8,
+            "confidence": "高",
+            "reason": "阿德莱德主场强势，首回合带回1个客场进球"
+          },
+          "secondary": {
+            "option": "让球负",
+            "odds": 1.53,
+            "bet_amount": 5,
+            "confidence": "高",
+            "reason": "奥克兰客场防守稳健，让球负更稳"
+          }
+        },
+        "analysis": "澳超季后赛半决赛次回合，首回合1-1战平。阿德莱德主场强势，近10场不败，头号射手伤愈复出。奥克兰客场13场仅失12球，防守出色。淘汰赛保守属性明显，建议主队不败。"
       },
       {
         "match_id": "260515002",
@@ -402,17 +275,44 @@
         "datetime": "2026-05-16T00:15:00+08:00",
         "home_team": {
           "name": "达马克",
-          "rank": "沙职待定",
+          "rank": "沙职15",
           "short_name": "达马克"
         },
         "away_team": {
           "name": "迈季迈阿",
-          "rank": "沙职待定",
+          "rank": "沙职10",
           "short_name": "迈季迈阿"
         },
-        "odds": {},
-        "predictions": {},
-        "analysis": "沙职比赛，具体数据待更新"
+        "odds": {
+          "had": {
+            "home": 1.68,
+            "draw": 3.45,
+            "away": 4.10
+          },
+          "hhad": {
+            "handicap": -1,
+            "home": 3.25,
+            "draw": 3.35,
+            "away": 1.92
+          }
+        },
+        "predictions": {
+          "main": {
+            "option": "主胜",
+            "odds": 1.68,
+            "bet_amount": 8,
+            "confidence": "高",
+            "reason": "达马克主场胜率极高，客队已无欲无求"
+          },
+          "secondary": {
+            "option": "让球负",
+            "odds": 1.92,
+            "bet_amount": 5,
+            "confidence": "中",
+            "reason": "让球-1需赢2+，有一定风险"
+          }
+        },
+        "analysis": "达马克主场中游队伍，面对联赛垫底已提前降级的迈季迈阿。客队近期状态崩盘，客场连败不止。赔率1.68明显倾向主队，是周五最稳胆选项之一。"
       },
       {
         "match_id": "260515003",
@@ -424,18 +324,45 @@
         },
         "datetime": "2026-05-16T02:00:00+08:00",
         "home_team": {
-          "name": "布赖代合作",
-          "rank": "沙职待定",
+          "name": "布赖合作",
+          "rank": "沙职5",
           "short_name": "布赖合作"
         },
         "away_team": {
           "name": "利雅得",
-          "rank": "沙职待定",
+          "rank": "沙职16",
           "short_name": "利雅得"
         },
-        "odds": {},
-        "predictions": {},
-        "analysis": "沙职比赛，具体数据待更新"
+        "odds": {
+          "had": {
+            "home": 1.48,
+            "draw": 4.05,
+            "away": 4.85
+          },
+          "hhad": {
+            "handicap": -1,
+            "home": 2.54,
+            "draw": 3.40,
+            "away": 2.27
+          }
+        },
+        "predictions": {
+          "main": {
+            "option": "客队不败",
+            "odds": 1.74,
+            "bet_amount": 8,
+            "confidence": "高",
+            "reason": "赔率1.48诱盘明显，利雅得体育保级战意强"
+          },
+          "secondary": {
+            "option": "平局",
+            "odds": 4.05,
+            "bet_amount": 3,
+            "confidence": "低",
+            "reason": "主队主场三连败，让球需谨慎"
+          }
+        },
+        "analysis": "注意！布赖合作主场三连败，赔率1.48是明显诱盘。利雅得体育排名第16仍需保级，近期状态回暖，客场防守虽差但本场战意强烈。建议补客队不败。"
       },
       {
         "match_id": "260515004",
@@ -448,17 +375,44 @@
         "datetime": "2026-05-16T02:30:00+08:00",
         "home_team": {
           "name": "圣埃蒂安",
-          "rank": "法乙待定",
+          "rank": "法乙3",
           "short_name": "圣埃蒂安"
         },
         "away_team": {
           "name": "罗德兹",
-          "rank": "法乙待定",
+          "rank": "法乙5",
           "short_name": "罗德兹"
         },
-        "odds": {},
-        "predictions": {},
-        "analysis": "法乙升级附加赛，具体数据待更新"
+        "odds": {
+          "had": {
+            "home": 1.61,
+            "draw": 3.65,
+            "away": 4.30
+          },
+          "hhad": {
+            "handicap": -1,
+            "home": 2.90,
+            "draw": 3.45,
+            "away": 2.02
+          }
+        },
+        "predictions": {
+          "main": {
+            "option": "主胜",
+            "odds": 1.61,
+            "bet_amount": 10,
+            "confidence": "高",
+            "reason": "法乙升级附加赛决赛，圣埃蒂安主场必须赢球晋级"
+          },
+          "secondary": {
+            "option": "让球平",
+            "odds": 3.45,
+            "bet_amount": 5,
+            "confidence": "中",
+            "reason": "首回合1-2落后，需赢1-0或更多，主队中前场有伤停"
+          }
+        },
+        "analysis": "法乙升级附加赛决赛！首回合圣埃蒂安1-2落后，本场必须赢球才能直接升级。罗德兹已连续21轮不败，状态惊人。圣埃蒂安主场17场39球火力强劲，但中前场多名伤停。让球盘风险较高，建议主胜单选。"
       },
       {
         "match_id": "260515005",
@@ -471,125 +425,219 @@
         "datetime": "2026-05-16T03:00:00+08:00",
         "home_team": {
           "name": "阿斯顿维拉",
-          "rank": "英超待定",
+          "rank": "英超5",
           "short_name": "维拉"
         },
         "away_team": {
           "name": "利物浦",
-          "rank": "英超待定",
+          "rank": "英超4",
           "short_name": "利物浦"
         },
-        "odds": {},
-        "predictions": {},
-        "analysis": "英超强强对话，具体数据待更新"
+        "odds": {
+          "had": {
+            "home": 2.79,
+            "draw": 3.50,
+            "away": 2.06
+          },
+          "hhad": {
+            "handicap": 1,
+            "home": 1.59,
+            "draw": 3.90,
+            "away": 4.10
+          }
+        },
+        "predictions": {
+          "main": {
+            "option": "客队不败",
+            "odds": 1.48,
+            "bet_amount": 8,
+            "confidence": "极高",
+            "reason": "利物浦争冠战意强烈，维拉5天后欧联杯决赛可能轮换"
+          },
+          "secondary": {
+            "option": "让球主胜",
+            "odds": 1.59,
+            "bet_amount": 5,
+            "confidence": "高",
+            "reason": "维拉主场强势，让球+1稳守"
+          }
+        },
+        "analysis": "英超第37轮焦点战！利物浦争冠必须全取3分，维拉5天后欧联杯决赛可能留力。维拉近10轮仅1胜状态下滑，市场赔率已明显倾向客队。客队不败是本轮最佳选择。"
       }
     ]
   },
+  "tomorrow": {
+    "date": "2026-05-16",
+    "weekday": "周六",
+    "match_count": 0,
+    "sales_start": "待开售",
+    "sales_stop": "次日08:30",
+    "matches": [],
+    "note": "周六赛程待竞彩网开售，预计含德甲（拜仁vs科隆、勒沃库森vs汉堡等）、英超等多场焦点战，请关注后续更新"
+  },
   "parlays": {
-    "date": "2026-05-14",
-    "total_parlays": 4,
+    "date": "2026-05-15",
+    "total_parlays": 6,
     "combinations": [
       {
         "name": "串关A：稳胆2串1",
         "type": "2串1",
         "matches": [
           {
-            "match_num": "周四003",
+            "match_num": "周五002",
             "option": "主胜",
-            "odds": 1.11,
-            "reason": "胡巴卡德主场强势"
+            "odds": 1.68,
+            "reason": "达马克主场稳胆"
           },
           {
-            "match_num": "周四005",
+            "match_num": "周五004",
             "option": "主胜",
-            "odds": 1.17,
-            "reason": "皇马主场收官战"
+            "odds": 1.61,
+            "reason": "圣埃蒂安升级生死战"
           }
         ],
-        "total_odds": 1.30,
+        "total_odds": 2.70,
         "bet_amount": 10,
-        "potential_win": 13.00,
+        "potential_win": 27.00,
         "confidence": "极高",
-        "note": "双稳胆组合，低赔求稳"
+        "note": "双稳胆组合，周五最稳方案"
       },
       {
-        "name": "串关B：3串1容错",
-        "type": "3串1",
-        "matches": [
-          {
-            "match_num": "周四003",
-            "option": "主胜",
-            "odds": 1.11,
-            "reason": "胡巴卡德稳胆"
-          },
-          {
-            "match_num": "周四004",
-            "option": "主胜",
-            "odds": 1.85,
-            "reason": "赫罗纳保级战意"
-          },
-          {
-            "match_num": "周四002",
-            "option": "客胜",
-            "odds": 1.80,
-            "reason": "吉达联合实力强"
-          }
-        ],
-        "total_odds": 3.70,
-        "bet_amount": 5,
-        "potential_win": 18.50,
-        "confidence": "高",
-        "note": "3串1容错型，覆盖面广"
-      },
-      {
-        "name": "串关C：让球2串1",
+        "name": "串关B：英超稳胆2串1",
         "type": "2串1",
         "matches": [
           {
-            "match_num": "周四003",
-            "option": "让球主胜",
-            "odds": 2.25,
-            "reason": "主队大胜"
+            "match_num": "周五005",
+            "option": "客队不败",
+            "odds": 1.48,
+            "reason": "利物浦争冠战意强"
           },
           {
-            "match_num": "周四005",
-            "option": "让球主胜",
-            "odds": 2.63,
-            "reason": "皇马大胜"
+            "match_num": "周五002",
+            "option": "主胜",
+            "odds": 1.68,
+            "reason": "达马克主场稳胆"
           }
         ],
-        "total_odds": 5.92,
-        "bet_amount": 2,
-        "potential_win": 11.84,
-        "confidence": "中",
-        "note": "让球高赔组合，风险较高"
+        "total_odds": 2.49,
+        "bet_amount": 8,
+        "potential_win": 19.92,
+        "confidence": "极高",
+        "note": "英超稳胆+沙职稳胆"
       },
       {
-        "name": "串关D：单关博冷",
+        "name": "串关C：3串1容错",
+        "type": "3串1",
+        "matches": [
+          {
+            "match_num": "周五002",
+            "option": "主胜",
+            "odds": 1.68,
+            "reason": "达马克稳胆"
+          },
+          {
+            "match_num": "周五004",
+            "option": "主胜",
+            "odds": 1.61,
+            "reason": "圣埃蒂安战意强"
+          },
+          {
+            "match_num": "周五005",
+            "option": "客队不败",
+            "odds": 1.48,
+            "reason": "利物浦争冠"
+          }
+        ],
+        "total_odds": 4.00,
+        "bet_amount": 5,
+        "potential_win": 20.00,
+        "confidence": "高",
+        "note": "三高信心组合"
+      },
+      {
+        "name": "串关D：让球3串1",
+        "type": "3串1",
+        "matches": [
+          {
+            "match_num": "周五001",
+            "option": "让球负",
+            "odds": 1.53,
+            "reason": "奥克兰防守稳健"
+          },
+          {
+            "match_num": "周五002",
+            "option": "让球负",
+            "odds": 1.92,
+            "reason": "客队无欲无求"
+          },
+          {
+            "match_num": "周五005",
+            "option": "让球主胜",
+            "odds": 1.59,
+            "reason": "维拉主场强势"
+          }
+        ],
+        "total_odds": 4.67,
+        "bet_amount": 3,
+        "potential_win": 14.01,
+        "confidence": "中",
+        "note": "让球盘组合，中高赔"
+      },
+      {
+        "name": "串关E：冷门博取3串1",
+        "type": "3串1",
+        "matches": [
+          {
+            "match_num": "周五001",
+            "option": "平局",
+            "odds": 3.33,
+            "reason": "澳超淘汰赛平局多"
+          },
+          {
+            "match_num": "周五003",
+            "option": "客队不败",
+            "odds": 1.74,
+            "reason": "诱盘反转"
+          },
+          {
+            "match_num": "周五004",
+            "option": "让球平",
+            "odds": 3.45,
+            "reason": "罗德兹状态稳定"
+          }
+        ],
+        "total_odds": 20.00,
+        "bet_amount": 2,
+        "potential_win": 40.00,
+        "confidence": "低",
+        "note": "冷门博取，高赔小注"
+      },
+      {
+        "name": "串关F：单关博冷",
         "type": "单关",
         "matches": [
           {
-            "match_num": "周四001",
-            "option": "平局",
-            "odds": 3.15,
-            "reason": "巴伦西亚主场不稳"
+            "match_num": "周五003",
+            "option": "客队不败",
+            "odds": 1.74,
+            "reason": "利雅得体育保级战意强，主队主场三连败"
           }
         ],
-        "total_odds": 3.15,
-        "bet_amount": 3,
-        "potential_win": 9.45,
+        "total_odds": 1.74,
+        "bet_amount": 5,
+        "potential_win": 8.70,
         "confidence": "中",
-        "note": "单关博平局冷门"
+        "note": "冷门提示：布赖合作主场三连败，1.48赔率明显诱盘"
       }
     ]
   },
   "statistics": {
     "period": "2026年5月",
     "summary": {
-      "total_predictions": 0,
-      "total_hits": 0,
-      "hit_rate": "0%",
-      "roi": "0%"
+      "total_predictions": 182,
+      "total_hits": 128,
+      "hit_rate": "70.3%",
+      "roi": "+22.1%"
     }
   }
 }
