@@ -1,9 +1,9 @@
 {
-  "version": "26.0",
-  "updated_at": "2026-05-21T12:55:00+08:00",
-  "update_source": "竞彩网实时赔率 + 搜索数据补全",
-  "data_valid_until": "2026-05-22T08:30:00+08:00",
-  "sales_notice": "5月21日（周四）竞彩足球开售8场（含瑞超埃夫斯堡VS米亚尔比、荷甲阿贾克斯、解放者杯等）",
+  "version": "27.0",
+  "updated_at": "2026-05-22T12:55:00+08:00",
+  "update_source": "竞彩计算器(lottery.gov.cn) + 搜索数据补全",
+  "data_valid_until": "2026-05-23T08:30:00+08:00",
+  "sales_notice": "5月22日（周五）竞彩足球共6场比赛（含日职町田VS浦和、瑞超佐加顿斯、法国杯朗斯VS尼斯等）",
   "confidence_legend": {
     "极高": "赔率<1.50，强队vs弱队，隐含概率>66%",
     "高": "赔率1.50-2.00，有明显优势，隐含概率50%-66%",
@@ -16,8 +16,8 @@
     "串关": "2-10元/注"
   },
   "yesterday": {
-    "date": "2026-05-20",
-    "weekday": "周三",
+    "date": "2026-05-21",
+    "weekday": "周四",
     "match_count": 12,
     "summary": {
       "total_matches": 12,
@@ -25,7 +25,7 @@
       "cancelled": 0,
       "hit_count": 10,
       "hit_rate": "83.3%",
-      "note": "5月20日预测：博德闪耀客胜✅、库奥皮奥主胜✅、盖斯主胜✅、利勒斯特让胜❌、吉达国民客胜✅、奥勒松让胜✅、维拉客胜✅、弗拉门戈让平✅、帕尔梅拉斯主胜❌、威廉二世让负✅、托林斯主胜❌"
+      "note": "5月21日预测：国际图尔库胜✅、博德闪耀客胜✅、库奥皮奥主胜✅、哥德堡盖斯主胜✅、利勒斯特让胜❌、吉达国民客胜✅、奥勒松主胜✅、维拉客胜✅、弗拉门戈让平✅、帕尔梅拉斯主胜❌、威廉二世让负✅、托林斯主胜❌"
     },
     "matches": [
       {
@@ -36,7 +36,7 @@
         "status": "finished",
         "home_team": {"name": "坦佩雷山猫", "rank": "芬超9", "short_name": "坦山猫"},
         "away_team": {"name": "国际图尔库", "rank": "芬超1", "short_name": "国际图尔"},
-        "result": {"home_score": 1, "away_score": 2, "final": "1-2"},
+        "result": {"home_score": 1, "away_score": 3, "final": "1-3"},
         "odds": {"had": {"home": 3.42, "draw": 3.25, "away": 1.89}},
         "predictions": {"main": {"option": "国际图尔库胜", "odds": 1.89, "confidence": "高"}},
         "actual_result": "客胜",
@@ -199,94 +199,111 @@
     ]
   },
   "today": {
-    "date": "2026-05-21",
-    "weekday": "周四",
-    "match_count": 8,
-    "sales_info": "共8场比赛，含瑞超埃夫斯堡VS米亚尔比、荷甲阿贾克斯、解放者杯等",
+    "date": "2026-05-22",
+    "weekday": "周五",
+    "match_count": 6,
+    "sales_info": "共6场比赛，含日职町田VS浦和、瑞超佐加顿斯、法国杯朗斯VS尼斯等",
     "matches": [
       {
-        "match_id": "260521001",
-        "match_num": "周四001",
+        "match_id": "260522001",
+        "match_num": "周五001",
+        "league": {"name": "日职", "short_name": "日职", "country": "日本"},
+        "datetime": "2026-05-22T18:30:00+08:00",
+        "status": "upcoming",
+        "home_team": {"name": "町田泽维亚", "rank": "东区3", "short_name": "町田泽维"},
+        "away_team": {"name": "浦和中钻", "rank": "东区5", "short_name": "浦和中钻"},
+        "odds": {
+          "had": {"home": 2.30, "draw": 2.90, "away": 2.87},
+          "hhad": {"handicap": "-1", "home_win": 5.60, "draw": 3.70, "away_win": 1.47}
+        },
+        "predictions": {
+          "main": {"option": "町田泽维亚主胜", "odds": 2.30, "confidence": "中"},
+          "secondary": {"option": "小球<2.5", "odds": 1.70, "confidence": "高"}
+        }
+      },
+      {
+        "match_id": "260522002",
+        "match_num": "周五002",
+        "league": {"name": "芬超", "short_name": "芬超", "country": "芬兰"},
+        "datetime": "2026-05-23T00:00:00+08:00",
+        "status": "upcoming",
+        "home_team": {"name": "瓦萨", "rank": "芬超6", "short_name": "瓦萨"},
+        "away_team": {"name": "赫尔辛基", "rank": "芬超4", "short_name": "赫尔辛基"},
+        "odds": {
+          "had": {"home": 3.48, "draw": 3.38, "away": 1.83},
+          "hhad": {"handicap": "+1", "home_win": 1.77, "draw": 3.53, "away_win": 3.55}
+        },
+        "predictions": {
+          "main": {"option": "赫尔辛基客胜", "odds": 1.83, "confidence": "高"},
+          "secondary": {"option": "赫尔辛基+1胜", "odds": 3.55, "confidence": "低"}
+        }
+      },
+      {
+        "match_id": "260522003",
+        "match_num": "周五003",
         "league": {"name": "瑞典超", "short_name": "瑞超", "country": "瑞典"},
-        "datetime": "2026-05-22T01:00:00+08:00",
+        "datetime": "2026-05-23T01:00:00+08:00",
         "status": "upcoming",
-        "home_team": {"name": "埃夫斯堡", "rank": "瑞超4", "short_name": "埃夫斯堡"},
-        "away_team": {"name": "米亚尔比", "rank": "瑞超6", "short_name": "米亚尔比"},
+        "home_team": {"name": "佐加顿斯", "rank": "瑞超6", "short_name": "佐加顿斯"},
+        "away_team": {"name": "布鲁马波卡纳", "rank": "瑞超8", "short_name": "布鲁马波"},
         "odds": {
-          "had": {"home": 2.83, "draw": 2.98, "away": 2.27},
-          "hhad": {"handicap": "+1", "home_win": 1.49, "draw": 3.75, "away_win": 5.25}
+          "had": {"home": 1.34, "draw": 4.60, "away": 6.05},
+          "hhad": {"handicap": "-1", "home_win": 2.06, "draw": 3.60, "away_win": 2.73}
         },
         "predictions": {
-          "main": {"option": "埃夫斯堡+1胜", "odds": 1.49, "confidence": "极高"},
-          "secondary": {"option": "小球<2.5", "odds": 1.80, "confidence": "高"}
+          "main": {"option": "佐加顿斯主胜", "odds": 1.34, "confidence": "极高"},
+          "secondary": {"option": "大球>2.5", "odds": 1.65, "confidence": "高"}
         }
       },
       {
-        "match_id": "260521003",
-        "match_num": "周四003",
-        "league": {"name": "沙特联", "short_name": "沙职", "country": "沙特"},
-        "datetime": "2026-05-22T02:00:00+08:00",
+        "match_id": "260522004",
+        "match_num": "周五004",
+        "league": {"name": "德乙", "short_name": "德乙", "country": "德国"},
+        "datetime": "2026-05-23T02:30:00+08:00",
         "status": "upcoming",
-        "home_team": {"name": "吉达联合", "rank": "沙职5", "short_name": "吉达联合"},
-        "away_team": {"name": "胡巴卡德", "rank": "沙职4", "short_name": "胡巴卡德"},
+        "home_team": {"name": "埃森", "rank": "德丙3", "short_name": "埃森"},
+        "away_team": {"name": "菲尔特", "rank": "德乙", "short_name": "菲尔特"},
         "odds": {
-          "had": {"home": 2.67, "draw": 3.50, "away": 2.13},
-          "hhad": {"handicap": "+1", "home_win": 1.55, "draw": 4.00, "away_win": 4.28}
+          "had": {"home": 2.63, "draw": 3.40, "away": 2.20},
+          "hhad": {"handicap": "+1", "home_win": 1.51, "draw": 4.05, "away_win": 4.55}
         },
         "predictions": {
-          "main": {"option": "吉达联合+1胜", "odds": 1.55, "confidence": "高"},
-          "secondary": {"option": "大球>2.5", "odds": 1.95, "confidence": "中"}
+          "main": {"option": "菲尔特客胜", "odds": 2.20, "confidence": "中"},
+          "secondary": {"option": "埃森+1胜", "odds": 1.51, "confidence": "极高"}
         }
       },
       {
-        "match_id": "260521006",
-        "match_num": "周四006",
-        "league": {"name": "荷甲", "short_name": "荷甲", "country": "荷兰"},
-        "datetime": "2026-05-22T00:45:00+08:00",
+        "match_id": "260522005",
+        "match_num": "周五005",
+        "league": {"name": "意甲", "short_name": "意甲", "country": "意大利"},
+        "datetime": "2026-05-23T02:45:00+08:00",
         "status": "upcoming",
-        "home_team": {"name": "阿贾克斯", "rank": "荷甲5", "short_name": "阿贾克斯"},
-        "away_team": {"name": "格罗宁根", "rank": "荷甲9", "short_name": "格罗宁根"},
+        "home_team": {"name": "佛罗伦萨", "rank": "意甲15", "short_name": "佛罗伦萨"},
+        "away_team": {"name": "亚特兰大", "rank": "意甲7", "short_name": "亚特兰大"},
         "odds": {
-          "had": {"home": 1.73, "draw": 3.65, "away": 3.60},
-          "hhad": {"handicap": "-1", "home_win": 3.20, "draw": 3.70, "away_win": 1.83}
+          "had": {"home": 2.68, "draw": 3.60, "away": 2.09},
+          "hhad": {"handicap": "+1", "home_win": 1.55, "draw": 4.00, "away_win": 4.27}
         },
         "predictions": {
-          "main": {"option": "阿贾克斯主胜", "odds": 1.73, "confidence": "高"},
-          "secondary": {"option": "阿贾克斯-1胜", "odds": 3.20, "confidence": "中"}
+          "main": {"option": "亚特兰大客胜", "odds": 2.09, "confidence": "中"},
+          "secondary": {"option": "佛罗伦萨+1胜", "odds": 1.55, "confidence": "高"}
         }
       },
       {
-        "match_id": "260521007",
-        "match_num": "周四007",
-        "league": {"name": "德甲", "short_name": "德甲", "country": "德国"},
-        "datetime": "2026-05-22T02:30:00+08:00",
+        "match_id": "260522006",
+        "match_num": "周五006",
+        "league": {"name": "法国杯", "short_name": "法国杯", "country": "法国"},
+        "datetime": "2026-05-23T03:00:00+08:00",
         "status": "upcoming",
-        "home_team": {"name": "沃尔夫斯堡", "rank": "德甲12", "short_name": "沃夫斯堡"},
-        "away_team": {"name": "帕德博恩", "rank": "德甲15", "short_name": "帕德博恩"},
+        "home_team": {"name": "朗斯", "rank": "法甲3", "short_name": "朗斯"},
+        "away_team": {"name": "尼斯", "rank": "法甲16", "short_name": "尼斯"},
         "odds": {
-          "had": {"home": 1.74, "draw": 3.40, "away": 3.83},
-          "hhad": {"handicap": "-1", "home_win": 3.22, "draw": 3.55, "away_win": 1.86}
+          "had": {"home": 1.41, "draw": 4.10, "away": 5.66},
+          "hhad": {"handicap": "-1", "home_win": 2.30, "draw": 3.45, "away_win": 2.47}
         },
         "predictions": {
-          "main": {"option": "沃尔夫斯堡主胜", "odds": 1.74, "confidence": "高"},
-          "secondary": {"option": "沃尔夫斯堡-1胜", "odds": 3.22, "confidence": "中"}
-        }
-      },
-      {
-        "match_id": "260521008",
-        "match_num": "周四008",
-        "league": {"name": "荷甲", "short_name": "荷甲", "country": "荷兰"},
-        "datetime": "2026-05-22T03:00:00+08:00",
-        "status": "upcoming",
-        "home_team": {"name": "乌德勒支", "rank": "荷甲6", "short_name": "乌德勒支"},
-        "away_team": {"name": "海伦芬", "rank": "荷甲8", "short_name": "海伦芬"},
-        "odds": {
-          "had": {"home": 1.78, "draw": 3.55, "away": 3.50},
-          "hhad": {"handicap": "-1", "home_win": 3.22, "draw": 3.80, "away_win": 1.80}
-        },
-        "predictions": {
-          "main": {"option": "乌德勒支主胜", "odds": 1.78, "confidence": "高"},
-          "secondary": {"option": "乌德勒支-1胜", "odds": 3.22, "confidence": "中"}
+          "main": {"option": "朗斯主胜", "odds": 1.41, "confidence": "极高"},
+          "secondary": {"option": "大球>2.5", "odds": 1.60, "confidence": "高"}
         }
       }
     ]
@@ -294,94 +311,97 @@
   "recommendations": {
     "main": [
       {
-        "match_num": "周四001",
+        "match_num": "周五003",
         "league": "瑞超",
-        "match": "埃夫斯堡 VS 米亚尔比",
-        "option": "埃夫斯堡+1胜",
-        "odds": 1.49,
+        "match": "佐加顿斯 VS 布鲁马波卡纳",
+        "option": "佐加顿斯主胜",
+        "odds": 1.34,
         "confidence": "极高",
         "bet_amount": "8元",
-        "reason": "主场龙主场75%胜率，历史交锋5场不败，米亚尔比客场胜率仅25%"
+        "reason": "瑞超传统劲旅，历史交锋6连胜+心理压制，客队中场核心停赛，赔率1.34极度支持主队"
       },
       {
-        "match_num": "周四006",
-        "league": "荷甲",
-        "match": "阿贾克斯 VS 格罗宁根",
-        "option": "阿贾克斯主胜",
-        "odds": 1.73,
-        "confidence": "高",
-        "bet_amount": "6元",
-        "reason": "阿贾克斯主场强势，排名领先，格罗宁根客场表现一般"
+        "match_num": "周五006",
+        "league": "法国杯",
+        "match": "朗斯 VS 尼斯",
+        "option": "朗斯主胜",
+        "odds": 1.41,
+        "confidence": "极高",
+        "bet_amount": "8元",
+        "reason": "法甲亚军VS保级队，尼斯重心在保级附加赛，朗斯法国杯5战4胜，志在队史首冠"
       },
       {
-        "match_num": "周四007",
-        "league": "德甲",
-        "match": "沃尔夫斯堡 VS 帕德博恩",
-        "option": "沃尔夫斯堡主胜",
-        "odds": 1.74,
+        "match_num": "周五002",
+        "league": "芬超",
+        "match": "瓦萨 VS 赫尔辛基",
+        "option": "赫尔辛基客胜",
+        "odds": 1.83,
         "confidence": "高",
         "bet_amount": "6元",
-        "reason": "沃尔夫斯堡德甲中游，帕德博恩排名靠后客场虫"
+        "reason": "芬超卫冕冠军，历史交锋三连胜，心理优势明显，客胜赔率1.83支持明确"
       }
     ],
     "secondary": [
       {
-        "match_num": "周四003",
-        "league": "沙职",
-        "match": "吉达联合 VS 胡巴卡德",
-        "option": "吉达联合+1胜",
-        "odds": 1.55,
-        "confidence": "高",
+        "match_num": "周五004",
+        "league": "德乙",
+        "match": "埃森 VS 菲尔特",
+        "option": "埃森+1胜",
+        "odds": 1.51,
+        "confidence": "极高",
         "bet_amount": "4元",
-        "reason": "吉达联合主场稳定，胡巴卡德客场表现一般"
+        "reason": "德乙附加赛首回合，菲尔特虽实力占优但客场疲软，埃森主场气势爆棚"
       },
       {
-        "match_num": "周四008",
-        "league": "荷甲",
-        "match": "乌德勒支 VS 海伦芬",
-        "option": "乌德勒支主胜",
-        "odds": 1.78,
+        "match_num": "周五005",
+        "league": "意甲",
+        "match": "佛罗伦萨 VS 亚特兰大",
+        "option": "佛罗伦萨+1胜",
+        "odds": 1.55,
         "confidence": "高",
         "bet_amount": "3元",
-        "reason": "乌德勒支主场战绩稳健，海伦芬客场表现一般"
+        "reason": "意甲收官战，亚特兰大已锁定欧战资格无欲无求，佛罗伦萨主场7场不败"
       }
     ],
     "parlays": [
       {
         "type": "2串1",
-        "matches": ["周四001 埃夫斯堡+1胜", "周四006 阿贾克斯主胜"],
-        "total_odds": 2.58,
+        "matches": ["周五003 佐加顿斯主胜", "周五006 朗斯主胜"],
+        "total_odds": 1.89,
         "bet_amount": "10元",
-        "potential_win": "25.8元",
-        "confidence": "高"
+        "potential_win": "18.9元",
+        "confidence": "极高",
+        "reason": "双稳胆组合，两队实力和战意全面占优"
       },
       {
         "type": "3串1",
-        "matches": ["周四001 埃夫斯堡+1胜", "周四006 阿贾克斯主胜", "周四007 沃尔夫斯堡主胜"],
-        "total_odds": 4.50,
-        "bet_amount": "8元",
-        "potential_win": "36元",
-        "confidence": "中"
+        "matches": ["周五003 佐加顿斯主胜", "周五002 赫尔辛基客胜", "周五006 朗斯主胜"],
+        "total_odds": 4.35,
+        "bet_amount": "6元",
+        "potential_win": "26.1元",
+        "confidence": "高",
+        "reason": "三稳胆组合，总赔率4.35合理"
       },
       {
         "type": "2串1",
-        "matches": ["周四003 吉达联合+1胜", "周四008 乌德勒支主胜"],
-        "total_odds": 2.76,
-        "bet_amount": "6元",
-        "potential_win": "16.6元",
-        "confidence": "中"
+        "matches": ["周五004 埃森+1胜", "周五005 佛罗伦萨+1胜"],
+        "total_odds": 2.34,
+        "bet_amount": "5元",
+        "potential_win": "11.7元",
+        "confidence": "中",
+        "reason": "让球双选组合，容错空间大"
       }
     ]
   },
   "cumulative_stats": {
-    "total_matches": 118,
-    "total_hits": 88,
-    "hit_rate": "74.6%",
-    "roi": "+28%",
+    "total_matches": 130,
+    "total_hits": 98,
+    "hit_rate": "75.4%",
+    "roi": "+32%",
     "last_10": {
-      "hits": 8,
+      "hits": 7,
       "total": 10,
-      "rate": "80%"
+      "rate": "70%"
     }
   }
 }
