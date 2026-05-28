@@ -1,9 +1,9 @@
 {
-  "version": "31.0",
-  "updated_at": "2026-05-26T12:55:00+08:00",
-  "update_source": "搜索数据补全（竞彩API被拦截）",
-  "data_valid_until": "2026-05-27T08:30:00+08:00",
-  "sales_notice": "5月26日（周二）竞彩足球共7场比赛，含德乙1场、法甲1场、解放者杯5场",
+  "version": "32.0",
+  "updated_at": "2026-05-28T12:56:00+08:00",
+  "update_source": "竞彩官网数据采集",
+  "data_valid_until": "2026-05-29T08:30:00+08:00",
+  "sales_notice": "5月28日（周四）竞彩足球：周三7场（含欧协联决赛）+周四5场",
   "confidence_legend": {
     "极高": "赔率<1.50，强队vs弱队，隐含概率>66%",
     "高": "赔率1.50-2.00，有明显优势，隐含概率50%-66%",
@@ -16,246 +16,370 @@
     "串关": "2-10元/注"
   },
   "yesterday": {
-    "date": "2026-05-25",
-    "weekday": "周一",
-    "match_count": 9,
-    "summary": {
-      "total_matches": 9,
-      "finished": 9,
-      "cancelled": 0,
-      "hit_count": 1,
-      "hit_rate": "11.1%",
-      "note": "5月25日预测核对（9场）：斯达✅、汉坎❌、特罗姆瑟❌、奥斯KFUM❌、萨普斯堡❌、哥德堡❌、埃夫斯堡❌、桑纳菲❌、帕德博恩❌（周一冷门日）"
-    },
-    "matches": [
-      {"match_id": "260525001", "match_num": "周一001", "league": "挪超", "home_team": "斯达", "away_team": "瓦勒伦加", "home_score": 2, "away_score": 0, "final": "2-0", "pred": "瓦勒伦加客胜", "hit": false},
-      {"match_id": "260525002", "match_num": "周一002", "league": "挪超", "home_team": "汉坎", "away_team": "利勒斯特", "home_score": 2, "away_score": 0, "final": "2-0", "pred": "利勒斯特客胜", "hit": false},
-      {"match_id": "260525003", "match_num": "周一003", "league": "挪超", "home_team": "特罗姆瑟", "away_team": "奥勒松", "home_score": 1, "away_score": 1, "final": "1-1", "pred": "特罗姆瑟主胜", "hit": false},
-      {"match_id": "260525004", "match_num": "周一004", "league": "挪超", "home_team": "奥斯KFUM", "away_team": "罗森博格", "home_score": 2, "away_score": 0, "final": "2-0", "pred": "奥斯KFUM主胜", "hit": true},
-      {"match_id": "260525005", "match_num": "周一005", "league": "挪超", "home_team": "萨普斯堡", "away_team": "莫尔德", "home_score": 2, "away_score": 1, "final": "2-1", "pred": "莫尔德客胜", "hit": false},
-      {"match_id": "260525006", "match_num": "周一006", "league": "瑞超", "home_team": "哥德堡", "away_team": "米亚尔比", "home_score": 1, "away_score": 1, "final": "1-1", "pred": "米亚尔比客胜", "hit": false},
-      {"match_id": "260525007", "match_num": "周一007", "league": "瑞超", "home_team": "埃夫斯堡", "away_team": "赫根", "home_score": 1, "away_score": 1, "final": "1-1", "pred": "赫根客胜", "hit": false},
-      {"match_id": "260525008", "match_num": "周一008", "league": "挪超", "home_team": "桑纳菲", "away_team": "腓特烈", "home_score": 1, "away_score": 1, "final": "1-1", "pred": "桑纳菲主胜", "hit": false},
-      {"match_id": "260525009", "match_num": "周一009", "league": "德甲", "home_team": "帕德博恩", "away_team": "沃尔夫斯堡", "home_score": 1, "away_score": 1, "final": "1-1", "pred": "沃尔夫斯堡客胜", "hit": false}
-    ]
-  },
-  "today": {
     "date": "2026-05-26",
     "weekday": "周二",
     "match_count": 7,
-    "sales_info": "共7场比赛，含德乙1场、法甲1场、解放者杯5场",
+    "summary": {
+      "total_matches": 7,
+      "finished": 7,
+      "cancelled": 0,
+      "hit_count": 5,
+      "hit_rate": "71.4%",
+      "note": "5月26日预测核对（7场）：菲尔特2-0✅、圣埃蒂安0-0❌、拉努斯1-0✅、基多体大3-2✅、弗拉门戈3-0✅、蒙国民1-0✅、大学生0-0❌"
+    },
+    "matches": [
+      {"match_id": "260526001", "match_num": "周二001", "league": "德乙", "home_team": "菲尔特", "away_team": "埃森", "home_score": 2, "away_score": 0, "final": "2-0", "pred": "菲尔特主胜", "hit": true},
+      {"match_id": "260526002", "match_num": "周二002", "league": "法甲", "home_team": "圣埃蒂安", "away_team": "尼斯", "home_score": 0, "away_score": 0, "final": "0-0", "pred": "圣埃蒂安主胜", "hit": false},
+      {"match_id": "260526003", "match_num": "周二003", "league": "解放者杯", "home_team": "拉努斯", "away_team": "米拉索尔", "home_score": 1, "away_score": 0, "final": "1-0", "pred": "拉努斯主胜", "hit": true},
+      {"match_id": "260526004", "match_num": "周二004", "league": "解放者杯", "home_team": "基多体大", "away_team": "时刻准备", "home_score": 3, "away_score": 2, "final": "3-2", "pred": "基多体大主胜", "hit": true},
+      {"match_id": "260526005", "match_num": "周二005", "league": "解放者杯", "home_team": "弗拉门戈", "away_team": "库斯科", "home_score": 3, "away_score": 0, "final": "3-0", "pred": "弗拉门戈主胜", "hit": true},
+      {"match_id": "260526006", "match_num": "周二006", "league": "解放者杯", "home_team": "蒙得维的亚国民", "away_team": "科金博联", "home_score": 1, "away_score": 0, "final": "1-0", "pred": "蒙国民主胜", "hit": true},
+      {"match_id": "260526007", "match_num": "周二007", "league": "解放者杯", "home_team": "大学生体育", "away_team": "托利马体育", "home_score": 0, "away_score": 0, "final": "0-0", "pred": "大学生主胜", "hit": false}
+    ]
+  },
+  "today": {
+    "date": "2026-05-28",
+    "weekday": "周四",
+    "match_count": 7,
+    "sales_info": "周三共7场比赛，含欧协联决赛1场、解放者杯6场",
     "matches": [
       {
-        "match_id": "260526001",
-        "match_num": "周二001",
-        "league": {"name": "德乙", "short_name": "德乙", "country": "德国"},
-        "datetime": "2026-05-27T02:30:00+08:00",
+        "match_id": "260527001",
+        "match_num": "周三001",
+        "league": {"name": "欧协联", "short_name": "欧协联", "country": "欧洲"},
+        "datetime": "2026-05-28T03:00:00+08:00",
         "status": "upcoming",
-        "home_team": {"name": "菲尔特", "rank": "德乙第16", "short_name": "菲尔特"},
-        "away_team": {"name": "埃森", "rank": "德丙第3", "short_name": "埃森"},
+        "home_team": {"name": "水晶宫", "rank": "欧协联第10", "short_name": "水晶宫"},
+        "away_team": {"name": "巴列卡诺", "rank": "欧协联第5", "short_name": "巴列卡诺"},
         "odds": {
-          "had": {"home": 1.75, "draw": 3.47, "away": 3.70},
-          "hhad": {"handicap": "-1", "home_win": 3.25, "draw": 3.55, "away_win": 1.85}
+          "had": {"home": 1.88, "draw": 3.00, "away": 3.78},
+          "hhad": {"handicap": "-1", "home_win": 4.20, "draw": 3.35, "away_win": 1.69}
         },
         "predictions": {
-          "main": {"option": "菲尔特主胜", "odds": 1.75, "confidence": "高"},
-          "secondary": {"option": "让负(-1球)", "odds": 1.85, "confidence": "高"}
+          "main": {"option": "水晶宫主胜", "odds": 1.88, "confidence": "中"},
+          "secondary": {"option": "让负(-1球)", "odds": 1.69, "confidence": "高"}
         }
       },
       {
-        "match_id": "260526002",
-        "match_num": "周二002",
-        "league": {"name": "法甲", "short_name": "法甲", "country": "法国"},
-        "datetime": "2026-05-27T02:45:00+08:00",
-        "status": "upcoming",
-        "home_team": {"name": "圣埃蒂安", "rank": "法乙第3", "short_name": "圣埃蒂安"},
-        "away_team": {"name": "尼斯", "rank": "法甲第16", "short_name": "尼斯"},
-        "odds": {
-          "had": {"home": 2.04, "draw": 3.35, "away": 2.94},
-          "hhad": {"handicap": "-1", "home_win": 4.15, "draw": 3.80, "away_win": 1.60}
-        },
-        "predictions": {
-          "main": {"option": "圣埃蒂安主胜", "odds": 2.04, "confidence": "中"},
-          "secondary": {"option": "让负(-1球)", "odds": 1.60, "confidence": "高"}
-        }
-      },
-      {
-        "match_id": "260526003",
-        "match_num": "周二003",
+        "match_id": "260527002",
+        "match_num": "周三002",
         "league": {"name": "解放者杯", "short_name": "解放者杯", "country": "南美"},
-        "datetime": "2026-05-27T06:00:00+08:00",
+        "datetime": "2026-05-28T06:00:00+08:00",
         "status": "upcoming",
-        "home_team": {"name": "拉努斯", "rank": "阿甲", "short_name": "拉努斯"},
-        "away_team": {"name": "米拉索尔", "rank": "巴甲", "short_name": "米拉索尔"},
+        "home_team": {"name": "德尔瓦耶", "rank": "H组第2", "short_name": "德尔瓦耶"},
+        "away_team": {"name": "罗萨里奥", "rank": "H组第1", "short_name": "罗萨里奥"},
         "odds": {
-          "had": {"home": 1.68, "draw": 3.20, "away": 4.55},
-          "hhad": {"handicap": "-1", "home_win": 3.35, "draw": 3.25, "away_win": 1.91}
+          "had": {"home": 2.05, "draw": 2.70, "away": 3.68},
+          "hhad": {"handicap": "-1", "home_win": 4.50, "draw": 3.70, "away_win": 1.57}
         },
         "predictions": {
-          "main": {"option": "拉努斯主胜", "odds": 1.68, "confidence": "高"},
-          "secondary": {"option": "让负(-1球)", "odds": 1.91, "confidence": "高"}
+          "main": {"option": "平局优先", "odds": 2.70, "confidence": "中"},
+          "secondary": {"option": "让负(-1球)", "odds": 1.57, "confidence": "高"}
         }
       },
       {
-        "match_id": "260526004",
-        "match_num": "周二004",
+        "match_id": "260527003",
+        "match_num": "周三003",
         "league": {"name": "解放者杯", "short_name": "解放者杯", "country": "南美"},
-        "datetime": "2026-05-27T06:00:00+08:00",
+        "datetime": "2026-05-28T06:00:00+08:00",
         "status": "upcoming",
-        "home_team": {"name": "基多体大", "rank": "厄甲", "short_name": "基多体大"},
-        "away_team": {"name": "时刻准备", "rank": "玻利甲", "short_name": "时刻准备"},
+        "home_team": {"name": "亚自由", "rank": "H组第4(垫底)", "short_name": "亚自由"},
+        "away_team": {"name": "中央大学", "rank": "H组第3", "short_name": "中央大学"},
         "odds": {
-          "had": {"home": 1.35, "draw": 4.20, "away": 8.00}
+          "had": {"home": 1.32, "draw": 4.60, "away": 6.50},
+          "hhad": {"handicap": "-1", "home_win": 2.23, "draw": 3.05, "away_win": 2.83}
         },
         "predictions": {
-          "main": {"option": "基多体大主胜", "odds": 1.35, "confidence": "极高"},
-          "secondary": {"option": "让胜/让平", "odds": 1.80, "confidence": "高"}
+          "main": {"option": "让负(-1球)", "odds": 2.83, "confidence": "中", "note": "主队5连败诱盘陷阱"},
+          "secondary": {"option": "平局", "odds": 4.60, "confidence": "中"}
         }
       },
       {
-        "match_id": "260526005",
-        "match_num": "周二005",
+        "match_id": "260527004",
+        "match_num": "周三004",
         "league": {"name": "解放者杯", "short_name": "解放者杯", "country": "南美"},
-        "datetime": "2026-05-27T08:30:00+08:00",
+        "datetime": "2026-05-28T08:30:00+08:00",
         "status": "upcoming",
-        "home_team": {"name": "弗拉门戈", "rank": "巴甲豪门", "short_name": "弗拉门戈"},
-        "away_team": {"name": "库斯科", "rank": "秘鲁球队", "short_name": "库斯科"},
+        "home_team": {"name": "玻利瓦尔", "rank": "C组第2", "short_name": "玻利瓦尔"},
+        "away_team": {"name": "里独立", "rank": "C组第1", "short_name": "里独立"},
         "odds": {
-          "had": {"home": 1.14, "draw": 6.50, "away": 15.00}
+          "had": {"home": 2.38, "draw": 2.95, "away": 2.70},
+          "hhad": {"handicap": "-1", "home_win": 5.40, "draw": 4.10, "away_win": 1.43}
         },
         "predictions": {
-          "main": {"option": "弗拉门戈主胜", "odds": 1.14, "confidence": "极高"},
-          "secondary": {"option": "让胜-2球", "odds": 2.10, "confidence": "中"}
+          "main": {"option": "玻利瓦尔主胜", "odds": 2.38, "confidence": "中"},
+          "secondary": {"option": "让负(-1球)", "odds": 1.43, "confidence": "极高"}
         }
       },
       {
-        "match_id": "260526006",
-        "match_num": "周二006",
+        "match_id": "260527005",
+        "match_num": "周三005",
         "league": {"name": "解放者杯", "short_name": "解放者杯", "country": "南美"},
-        "datetime": "2026-05-27T08:30:00+08:00",
+        "datetime": "2026-05-28T08:30:00+08:00",
         "status": "upcoming",
-        "home_team": {"name": "蒙得维的亚国民", "rank": "乌拉圭", "short_name": "蒙国民"},
-        "away_team": {"name": "科金博联", "rank": "智利", "short_name": "科金博联"},
+        "home_team": {"name": "弗鲁米嫩", "rank": "C组第3", "short_name": "弗鲁米嫩"},
+        "away_team": {"name": "拉瓜伊拉", "rank": "C组第4", "short_name": "拉瓜伊拉"},
         "odds": {
-          "had": {"home": 1.89, "draw": 3.00, "away": 3.75}
+          "had": {"home": 1.25, "draw": 4.50, "away": 8.50}
         },
         "predictions": {
-          "main": {"option": "蒙国民主胜", "odds": 1.89, "confidence": "高"},
-          "secondary": {"option": "小球<2.5", "odds": 1.65, "confidence": "高"}
+          "main": {"option": "弗鲁米嫩主胜", "odds": 1.25, "confidence": "极高"},
+          "secondary": {"option": "让平-2球", "odds": 3.45, "confidence": "中"}
         }
       },
       {
-        "match_id": "260526007",
-        "match_num": "周二007",
+        "match_id": "260527006",
+        "match_num": "周三006",
         "league": {"name": "解放者杯", "short_name": "解放者杯", "country": "南美"},
-        "datetime": "2026-05-27T08:30:00+08:00",
+        "datetime": "2026-05-28T08:30:00+08:00",
         "status": "upcoming",
-        "home_team": {"name": "大学生体育", "rank": "秘鲁", "short_name": "大学生"},
-        "away_team": {"name": "托利马体育", "rank": "哥伦比亚", "short_name": "托利马"},
+        "home_team": {"name": "佩纳罗尔", "rank": "E组第4", "short_name": "佩纳罗尔"},
+        "away_team": {"name": "圣菲独立", "rank": "E组第3", "short_name": "圣菲独立"},
         "odds": {
-          "had": {"home": 1.89, "draw": 3.00, "away": 3.75},
-          "hhad": {"handicap": "-1", "home_win": 4.20, "draw": 3.30, "away_win": 1.70}
+          "had": {"home": 1.73, "draw": 3.15, "away": 4.27},
+          "hhad": {"handicap": "-1", "home_win": 3.75, "draw": 3.05, "away_win": 1.87}
         },
         "predictions": {
-          "main": {"option": "大学生主胜", "odds": 1.89, "confidence": "高"},
-          "secondary": {"option": "让负(-1球)", "odds": 1.70, "confidence": "高"}
+          "main": {"option": "平局", "odds": 3.15, "confidence": "中"},
+          "secondary": {"option": "让负(-1球)", "odds": 1.87, "confidence": "高"}
+        }
+      },
+      {
+        "match_id": "260527007",
+        "match_num": "周三007",
+        "league": {"name": "解放者杯", "short_name": "解放者杯", "country": "南美"},
+        "datetime": "2026-05-28T08:30:00+08:00",
+        "status": "upcoming",
+        "home_team": {"name": "科林蒂安", "rank": "E组第1", "short_name": "科林蒂安"},
+        "away_team": {"name": "普拉滕斯", "rank": "E组第2", "short_name": "普拉滕斯"},
+        "odds": {
+          "had": {"home": 1.54, "draw": 3.30, "away": 5.65},
+          "hhad": {"handicap": "-1", "home_win": 3.16, "draw": 2.93, "away_win": 2.12}
+        },
+        "predictions": {
+          "main": {"option": "科林蒂安主胜", "odds": 1.54, "confidence": "高"},
+          "secondary": {"option": "让平(-1球)", "odds": 2.93, "confidence": "中"}
         }
       }
     ]
   },
   "tomorrow": {
-    "date": "2026-05-27",
-    "weekday": "周三",
-    "match_count": 0,
-    "matches": []
+    "date": "2026-05-29",
+    "weekday": "周五",
+    "match_count": 5,
+    "sales_info": "周四共5场比赛，含葡超1场、解放者杯4场",
+    "matches": [
+      {
+        "match_id": "260528002",
+        "match_num": "周四002",
+        "league": {"name": "葡超", "short_name": "葡超", "country": "葡萄牙"},
+        "datetime": "2026-05-29T03:00:00+08:00",
+        "status": "upcoming",
+        "home_team": {"name": "卡萨皮亚", "rank": "葡超第14", "short_name": "卡萨皮亚"},
+        "away_team": {"name": "托林斯", "rank": "葡超第7", "short_name": "托林斯"},
+        "odds": {
+          "had": {"home": 2.10, "draw": 2.86, "away": 3.30},
+          "hhad": {"handicap": "-1", "home_win": 5.05, "draw": 3.40, "away_win": 1.57}
+        },
+        "predictions": {
+          "main": {"option": "让负(-1球)", "odds": 1.57, "confidence": "极高"},
+          "secondary": {"option": "平局", "odds": 2.86, "confidence": "中"}
+        }
+      },
+      {
+        "match_id": "260528003",
+        "match_num": "周四003",
+        "league": {"name": "解放者杯", "short_name": "解放者杯", "country": "南美"},
+        "datetime": "2026-05-29T06:00:00+08:00",
+        "status": "upcoming",
+        "home_team": {"name": "波特诺", "rank": "F组第1", "short_name": "波特诺"},
+        "away_team": {"name": "水晶体育", "rank": "F组第3", "short_name": "水晶体育"},
+        "odds": {
+          "had": {"home": 1.54, "draw": 3.50, "away": 5.15},
+          "hhad": {"handicap": "-1", "home_win": 2.87, "draw": 3.15, "away_win": 2.16}
+        },
+        "predictions": {
+          "main": {"option": "波特诺主胜", "odds": 1.54, "confidence": "高"},
+          "secondary": {"option": "让胜(-1球)", "odds": 2.87, "confidence": "中"}
+        }
+      },
+      {
+        "match_id": "260528004",
+        "match_num": "周四004",
+        "league": {"name": "解放者杯", "short_name": "解放者杯", "country": "南美"},
+        "datetime": "2026-05-29T06:00:00+08:00",
+        "status": "upcoming",
+        "home_team": {"name": "帕梅拉斯", "rank": "F组第2", "short_name": "帕梅拉斯"},
+        "away_team": {"name": "巴兰基亚", "rank": "F组第4", "short_name": "巴兰基亚"},
+        "odds": {
+          "had": {"home": 1.11, "draw": 6.10, "away": 15.50},
+          "hhad": {"handicap": "-2", "home_win": 2.57, "draw": 3.72, "away_win": 2.12}
+        },
+        "predictions": {
+          "main": {"option": "帕梅拉斯主胜", "odds": 1.11, "confidence": "极高"},
+          "secondary": {"option": "让平-2球", "odds": 3.72, "confidence": "中"}
+        }
+      },
+      {
+        "match_id": "260528005",
+        "match_num": "周四005",
+        "league": {"name": "解放者杯", "short_name": "解放者杯", "country": "南美"},
+        "datetime": "2026-05-29T08:30:00+08:00",
+        "status": "upcoming",
+        "home_team": {"name": "博卡", "rank": "D组第3", "short_name": "博卡"},
+        "away_team": {"name": "天主大学", "rank": "D组第1", "short_name": "天主大学"},
+        "odds": {
+          "had": {"home": 1.25, "draw": 4.60, "away": 9.00},
+          "hhad": {"handicap": "-1", "home_win": 2.02, "draw": 3.22, "away_win": 3.10}
+        },
+        "predictions": {
+          "main": {"option": "博卡主胜", "odds": 1.25, "confidence": "极高"},
+          "secondary": {"option": "让平(-1球)", "odds": 3.22, "confidence": "中"}
+        }
+      }
+    ]
   },
   "recommendations": {
     "singles": [
       {
         "id": 1,
-        "match": "周二001",
-        "league": "德乙",
-        "teams": "菲尔特 VS 埃森",
-        "bet_type": "胜平负",
-        "selection": "菲尔特主胜",
-        "odds": 1.75,
+        "match": "周三001",
+        "league": "欧协联决赛",
+        "teams": "水晶宫 VS 巴列卡诺",
+        "bet_type": "让球胜平负",
+        "selection": "让负(-1球)",
+        "odds": 1.69,
         "confidence": "高",
         "amount": "8元",
-        "reason": "德乙vs德丙实力差距，菲尔特背水一战主场强攻"
+        "reason": "欧协联决赛，巴列卡诺近期状态更稳定，市场大热主胜有诱盘嫌疑"
       },
       {
         "id": 2,
-        "match": "周二004",
+        "match": "周三003",
         "league": "解放者杯",
-        "teams": "基多体大 VS 时刻准备",
-        "bet_type": "胜平负",
-        "selection": "基多体大主胜",
-        "odds": 1.35,
-        "confidence": "极高",
-        "amount": "10元",
-        "reason": "高原主场优势，客队客场0进球"
+        "teams": "亚自由 VS 中央大学",
+        "bet_type": "让球胜平负",
+        "selection": "让负(-1球)",
+        "odds": 2.83,
+        "confidence": "中",
+        "amount": "5元",
+        "reason": "主队解放者杯5连败，盘口过深为诱主陷阱"
       },
       {
         "id": 3,
-        "match": "周二005",
+        "match": "周三004",
         "league": "解放者杯",
-        "teams": "弗拉门戈 VS 库斯科",
-        "bet_type": "胜平负",
-        "selection": "弗拉门戈主胜",
-        "odds": 1.14,
+        "teams": "玻利瓦尔 VS 里独立",
+        "bet_type": "让球胜平负",
+        "selection": "让负(-1球)",
+        "odds": 1.43,
         "confidence": "极高",
         "amount": "10元",
-        "reason": "巴甲豪门主场碾压，客队实力差距悬殊"
+        "reason": "客队已锁定头名，门将伤缺+高原客场可能留力"
       },
       {
         "id": 4,
-        "match": "周二006",
+        "match": "周三005",
         "league": "解放者杯",
-        "teams": "蒙国民 VS 科金博联",
+        "teams": "弗鲁米嫩 VS 拉瓜伊拉",
         "bet_type": "胜平负",
-        "selection": "蒙国民主胜",
-        "odds": 1.89,
-        "confidence": "高",
-        "amount": "6元",
-        "reason": "乌拉圭豪门主场优势明显"
+        "selection": "弗鲁米嫩主胜",
+        "odds": 1.25,
+        "confidence": "极高",
+        "amount": "10元",
+        "reason": "巴甲强队必须赢球晋级，主场战意十足"
+      },
+      {
+        "id": 5,
+        "match": "周四002",
+        "league": "葡超",
+        "teams": "卡萨皮亚 VS 托林斯",
+        "bet_type": "让球胜平负",
+        "selection": "让负(-1球)",
+        "odds": 1.57,
+        "confidence": "极高",
+        "amount": "10元",
+        "reason": "盘口偏浅，客队排名更高，当让主负"
+      },
+      {
+        "id": 6,
+        "match": "周四004",
+        "league": "解放者杯",
+        "teams": "帕梅拉斯 VS 巴兰基亚",
+        "bet_type": "胜平负",
+        "selection": "帕梅拉斯主胜",
+        "odds": 1.11,
+        "confidence": "极高",
+        "amount": "10元",
+        "reason": "巴甲豪门实力碾压，让2球大胜可期"
+      },
+      {
+        "id": 7,
+        "match": "周四005",
+        "league": "解放者杯",
+        "teams": "博卡 VS 天主大学",
+        "bet_type": "胜平负",
+        "selection": "博卡主胜",
+        "odds": 1.25,
+        "confidence": "极高",
+        "amount": "10元",
+        "reason": "阿甲豪门主场强势，解放者杯战绩稳定"
       }
     ],
     "parlays": [
       {
         "id": 1,
-        "name": "2串1稳健型",
-        "matches": ["周二004 基多体大主胜", "周二005 弗拉门戈主胜"],
-        "total_odds": 1.54,
+        "name": "2串1极高信心",
+        "matches": ["周三005 弗鲁米嫩主胜", "周四004 帕梅拉斯主胜"],
+        "total_odds": 1.39,
         "confidence": "极高",
         "amount": "10元",
-        "potential_win": "15.4元"
+        "potential_win": "13.9元"
       },
       {
         "id": 2,
-        "name": "2串1次推组合",
-        "matches": ["周二002 让负(圣埃蒂安-1)", "周二007 让负(大学生-1)"],
-        "total_odds": 2.72,
+        "name": "2串1解放者杯",
+        "matches": ["周三005 弗鲁米嫩主胜", "周四005 博卡主胜"],
+        "total_odds": 1.56,
+        "confidence": "极高",
+        "amount": "8元",
+        "potential_win": "12.5元"
+      },
+      {
+        "id": 3,
+        "name": "2串1让球稳健",
+        "matches": ["周三004 让负(里独立-1)", "周四002 让负(托林斯-1)"],
+        "total_odds": 2.25,
+        "confidence": "极高",
+        "amount": "6元",
+        "potential_win": "13.5元"
+      },
+      {
+        "id": 4,
+        "name": "3串1解放者杯+欧协联",
+        "matches": ["周三001 让负(巴列卡诺-1)", "周三005 弗鲁米嫩主胜", "周三007 科林蒂安主胜"],
+        "total_odds": 2.71,
         "confidence": "高",
         "amount": "5元",
         "potential_win": "13.6元"
       },
       {
-        "id": 3,
-        "name": "3串1解放者杯",
-        "matches": ["周二003 拉努斯主胜", "周二004 基多体大主胜", "周二005 弗拉门戈主胜"],
-        "total_odds": 2.61,
-        "confidence": "极高",
-        "amount": "5元",
-        "potential_win": "13.1元"
+        "id": 5,
+        "name": "3串1高赔",
+        "matches": ["周三002 平局", "周三006 平局", "周四002 让负(托林斯-1)"],
+        "total_odds": 4.93,
+        "confidence": "中",
+        "amount": "3元",
+        "potential_win": "14.8元"
       },
       {
-        "id": 4,
-        "name": "3串1混合型",
-        "matches": ["周二001 菲尔特主胜", "周二004 基多体大主胜", "周二005 弗拉门戈主胜"],
-        "total_odds": 2.49,
-        "confidence": "极高",
+        "id": 6,
+        "name": "4串1混合型",
+        "matches": ["周三003 让负(-1)", "周三005 弗鲁米嫩主胜", "周四004 帕梅拉斯主胜", "周四005 博卡主胜"],
+        "total_odds": 2.53,
+        "confidence": "高",
         "amount": "5元",
-        "potential_win": "12.5元"
+        "potential_win": "12.7元"
       }
     ]
   }
