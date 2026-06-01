@@ -1,9 +1,9 @@
 {
-  "version": "35.0",
-  "updated_at": "2026-05-31T12:55:00+08:00",
+  "version": "36.0",
+  "updated_at": "2026-06-01T12:55:00+08:00",
   "update_source": "竞彩官网数据采集+搜索补全",
-  "data_valid_until": "2026-06-01T08:30:00+08:00",
-  "sales_notice": "5月31日（周日）共12场比赛，含日职2场+国际赛6场+北欧联赛4场；6月1日（周一）共6场比赛，含北欧联赛6场",
+  "data_valid_until": "2026-06-02T08:30:00+08:00",
+  "sales_notice": "6月1日（周一）共6场比赛，周二（6月2日）共3场比赛，均为国际赛",
   "confidence_legend": {
     "极高": "赔率<1.50，强队vs弱队，隐含概率>66%",
     "高": "赔率1.50-2.00，有明显优势，隐含概率50%-66%",
@@ -16,251 +16,37 @@
     "串关": "2-10元/注"
   },
   "yesterday": {
-    "date": "2026-05-30",
-    "weekday": "周六",
-    "match_count": 14,
-    "summary": {
-      "total_matches": 14,
-      "finished": 14,
-      "cancelled": 0,
-      "hit_count": 6,
-      "hit_rate": "42.9%",
-      "note": "5月30日预测核对（14场）：大阪钢巴1-1平❌、柏太阳神6-2大胜✅、苏格兰4-1✅；北欧联赛：赫尔辛基1-0✅、马尔默5-2✅、天狼星3-0✅、莫尔德2-1✅；欧冠决赛大巴黎1-1点球5-4✅"
-    },
-    "matches": [
-      {"match_id": "260530002", "match_num": "周六002", "league": "日职", "home_team": "大阪钢巴", "away_team": "东京绿茵", "home_score": 1, "away_score": 1, "final": "1-1", "pred": "大阪钢巴主胜", "hit": false},
-      {"match_id": "260530003", "match_num": "周六003", "league": "日职", "home_team": "京都不死鸟", "away_team": "柏太阳神", "home_score": 2, "away_score": 6, "final": "2-6", "pred": "柏太阳神客胜", "hit": true},
-      {"match_id": "260530004", "match_num": "周六004", "league": "国际赛", "home_team": "苏格兰", "away_team": "库拉索", "home_score": 4, "away_score": 1, "final": "4-1", "pred": "苏格兰主胜", "hit": true},
-      {"match_id": "260530005", "match_num": "周六005", "league": "芬超", "home_team": "赫尔辛基", "away_team": "玛丽港", "home_score": 1, "away_score": 0, "final": "1-0", "pred": "赫尔辛基主胜", "hit": true},
-      {"match_id": "260530006", "match_num": "周六006", "league": "瑞超", "home_team": "盖斯", "away_team": "卡尔马", "home_score": 3, "away_score": 0, "final": "3-0", "pred": "让负(-1球)", "hit": false},
-      {"match_id": "260530007", "match_num": "周六007", "league": "瑞超", "home_team": "马尔默", "away_team": "哈尔姆斯", "home_score": 5, "away_score": 2, "final": "5-2", "pred": "马尔默主胜", "hit": true},
-      {"match_id": "260530008", "match_num": "周六008", "league": "瑞超", "home_team": "索尔纳", "away_team": "天狼星", "home_score": 0, "away_score": 3, "final": "0-3", "pred": "天狼星客胜", "hit": true},
-      {"match_id": "260530009", "match_num": "周六009", "league": "挪超", "home_team": "莫尔德", "away_team": "桑纳菲", "home_score": 2, "away_score": 1, "final": "2-1", "pred": "莫尔德主胜", "hit": true},
-      {"match_id": "260530010", "match_num": "周六010", "league": "芬超", "home_team": "赫尔火花", "away_team": "塞伊奈", "home_score": 3, "away_score": 2, "final": "3-2", "pred": "塞伊奈客胜", "hit": false},
-      {"match_id": "260530011", "match_num": "周六011", "league": "芬超", "home_team": "库奥皮奥", "away_team": "国际图尔", "home_score": 1, "away_score": 1, "final": "1-1", "pred": "国际图尔客胜", "hit": false},
-      {"match_id": "260530012", "match_num": "周六012", "league": "芬超", "home_team": "拉赫蒂", "away_team": "坦山猫", "home_score": 5, "away_score": 0, "final": "5-0", "pred": "让负(-1球)", "hit": false},
-      {"match_id": "260530013", "match_num": "周六013", "league": "芬超", "home_team": "TPS图尔", "away_team": "瓦萨", "home_score": 1, "away_score": 0, "final": "1-0", "pred": "瓦萨客胜", "hit": false},
-      {"match_id": "260530014", "match_num": "周六014", "league": "欧冠", "home_team": "大巴黎", "away_team": "阿森纳", "home_score": 1, "away_score": 1, "final": "1-1(点5-4)", "pred": "平局", "hit": true},
-      {"match_id": "260531015", "match_num": "周六015", "league": "国际赛", "home_team": "墨西哥", "away_team": "澳大利亚", "home_score": null, "away_score": null, "final": "待赛", "pred": "墨西哥主胜", "hit": null}
-    ]
-  },
-  "today": {
     "date": "2026-05-31",
     "weekday": "周日",
     "match_count": 12,
-    "sales_info": "周日共12场比赛，含日职2场+国际赛6场+瑞超3场+芬超1场",
+    "summary": {
+      "total_matches": 12,
+      "finished": 11,
+      "cancelled": 0,
+      "hit_count": 7,
+      "hit_rate": "63.6%",
+      "note": "5月31日预测核对（12场）：日本1-0冰岛✅、瑞士4-1约旦✅、AC奥卢2-1雅罗✅、捷克2-1科索沃✅、德国4-0芬兰✅✅、巴西6-2巴拿马✅✅；韦斯特罗4-5哥德堡让负✅；大阪钢巴1-1平❌、横滨水手平❌、哈马比客负❌、代格福什让负❌"
+    },
     "matches": [
-      {
-        "match_id": "260531001",
-        "match_num": "周日001",
-        "league": {"name": "日本职业联赛", "short_name": "日职", "country": "日本"},
-        "datetime": "2026-05-31T13:00:00+08:00",
-        "status": "upcoming",
-        "home_team": {"name": "冈山绿雉", "rank": "日职第6", "short_name": "冈山"},
-        "away_team": {"name": "浦和红钻", "rank": "日职第6", "short_name": "红钻"},
-        "odds": {
-          "had": {"home": 2.96, "draw": 3.02, "away": 2.17},
-          "hhad": {"handicap": "+1", "home_win": 1.52, "draw": 3.65, "away_win": 5.10}
-        },
-        "predictions": {
-          "main": {"option": "浦和平局", "odds": 3.02, "confidence": "中"},
-          "secondary": {"option": "让负(+1球)", "odds": 5.10, "confidence": "中"}
-        }
-      },
-      {
-        "match_id": "260531002",
-        "match_num": "周日002",
-        "league": {"name": "日本职业联赛", "short_name": "日职", "country": "日本"},
-        "datetime": "2026-05-31T13:00:00+08:00",
-        "status": "upcoming",
-        "home_team": {"name": "清水鼓动", "rank": "日职第7", "short_name": "清水"},
-        "away_team": {"name": "横滨水手", "rank": "日职第7", "short_name": "横滨"},
-        "odds": {
-          "had": {"home": 2.23, "draw": 3.12, "away": 2.78},
-          "hhad": {"handicap": "-1", "home_win": 5.15, "draw": 3.80, "away_win": 1.49}
-        },
-        "predictions": {
-          "main": {"option": "横滨水手客胜", "odds": 2.78, "confidence": "中"},
-          "secondary": {"option": "让负(-1球)", "odds": 1.49, "confidence": "极高"}
-        }
-      },
-      {
-        "match_id": "260531003",
-        "match_num": "周日003",
-        "league": {"name": "国际赛", "short_name": "国际赛", "country": "亚洲"},
-        "datetime": "2026-05-31T18:25:00+08:00",
-        "status": "upcoming",
-        "home_team": {"name": "日本", "rank": "FIFA第21", "short_name": "日本"},
-        "away_team": {"name": "冰岛", "rank": "FIFA第38", "short_name": "冰岛"},
-        "odds": {
-          "had": {"home": 1.35, "draw": 4.25, "away": 6.50},
-          "hhad": {"handicap": "-1", "home_win": 1.95, "draw": 3.20, "away_win": 3.35}
-        },
-        "predictions": {
-          "main": {"option": "日本主胜", "odds": 1.35, "confidence": "极高"},
-          "secondary": {"option": "让胜(-1球)", "odds": 1.95, "confidence": "高"}
-        }
-      },
-      {
-        "match_id": "260531004",
-        "match_num": "周日004",
-        "league": {"name": "瑞典超级联赛", "short_name": "瑞超", "country": "瑞典"},
-        "datetime": "2026-05-31T20:00:00+08:00",
-        "status": "upcoming",
-        "home_team": {"name": "韦斯特罗", "rank": "瑞超第10", "short_name": "韦斯特罗"},
-        "away_team": {"name": "哥德堡", "rank": "瑞超第14", "short_name": "哥德堡"},
-        "odds": {
-          "had": {"home": 2.30, "draw": 3.20, "away": 2.62},
-          "hhad": {"handicap": "-1", "home_win": 5.20, "draw": 3.96, "away_win": 1.46}
-        },
-        "predictions": {
-          "main": {"option": "哥德堡客胜", "odds": 2.62, "confidence": "中"},
-          "secondary": {"option": "让负(-1球)", "odds": 1.46, "confidence": "极高"}
-        }
-      },
-      {
-        "match_id": "260531005",
-        "match_num": "周日005",
-        "league": {"name": "瑞典超级联赛", "short_name": "瑞超", "country": "瑞典"},
-        "datetime": "2026-05-31T20:00:00+08:00",
-        "status": "upcoming",
-        "home_team": {"name": "赫根", "rank": "瑞超第4", "short_name": "赫根"},
-        "away_team": {"name": "哈马比", "rank": "瑞超第3", "short_name": "哈马比"},
-        "odds": {
-          "had": {"home": 3.02, "draw": 3.65, "away": 1.91},
-          "hhad": {"handicap": "+1", "home_win": 1.67, "draw": 3.85, "away_win": 3.70}
-        },
-        "predictions": {
-          "main": {"option": "哈马比客胜", "odds": 1.91, "confidence": "高"},
-          "secondary": {"option": "让负(+1球)", "odds": 3.70, "confidence": "中"}
-        }
-      },
-      {
-        "match_id": "260531006",
-        "match_num": "周日006",
-        "league": {"name": "瑞典超级联赛", "short_name": "瑞超", "country": "瑞典"},
-        "datetime": "2026-05-31T20:00:00+08:00",
-        "status": "upcoming",
-        "home_team": {"name": "代格福什", "rank": "瑞超第13", "short_name": "代格福什"},
-        "away_team": {"name": "布鲁马波", "rank": "瑞超第6", "short_name": "布鲁马"},
-        "odds": {
-          "had": {"home": 2.05, "draw": 3.15, "away": 3.08},
-          "hhad": {"handicap": "-1", "home_win": 4.60, "draw": 3.65, "away_win": 1.57}
-        },
-        "predictions": {
-          "main": {"option": "代格福什主胜", "odds": 2.05, "confidence": "中"},
-          "secondary": {"option": "让负(-1球)", "odds": 1.57, "confidence": "高"}
-        }
-      },
-      {
-        "match_id": "260531007",
-        "match_num": "周日007",
-        "league": {"name": "国际赛", "short_name": "国际赛", "country": "欧洲"},
-        "datetime": "2026-05-31T21:00:00+08:00",
-        "status": "upcoming",
-        "home_team": {"name": "瑞士", "rank": "FIFA第13", "short_name": "瑞士"},
-        "away_team": {"name": "约旦", "rank": "FIFA第63", "short_name": "约旦"},
-        "odds": {
-          "had": {"home": 1.32, "draw": 4.50, "away": 7.50},
-          "hhad": {"handicap": "-2", "home_win": 2.35, "draw": 3.85, "away_win": 2.25}
-        },
-        "predictions": {
-          "main": {"option": "瑞士主胜", "odds": 1.32, "confidence": "极高"},
-          "secondary": {"option": "让胜-2球", "odds": 2.35, "confidence": "高"}
-        }
-      },
-      {
-        "match_id": "260531008",
-        "match_num": "周日008",
-        "league": {"name": "芬兰超级联赛", "short_name": "芬超", "country": "芬兰"},
-        "datetime": "2026-05-31T21:00:00+08:00",
-        "status": "upcoming",
-        "home_team": {"name": "AC奥卢", "rank": "芬超第3", "short_name": "奥卢"},
-        "away_team": {"name": "雅罗", "rank": "芬超第10", "short_name": "雅罗"},
-        "odds": {
-          "had": {"home": 1.59, "draw": 3.70, "away": 4.35},
-          "hhad": {"handicap": "-1", "home_win": 2.92, "draw": 3.30, "away_win": 2.07}
-        },
-        "predictions": {
-          "main": {"option": "AC奥卢主胜", "odds": 1.59, "confidence": "高"},
-          "secondary": {"option": "让胜(-1球)", "odds": 2.92, "confidence": "中"}
-        }
-      },
-      {
-        "match_id": "260531009",
-        "match_num": "周日009",
-        "league": {"name": "国际赛", "short_name": "国际赛", "country": "欧洲"},
-        "datetime": "2026-05-31T22:00:00+08:00",
-        "status": "upcoming",
-        "home_team": {"name": "捷克", "rank": "FIFA第36", "short_name": "捷克"},
-        "away_team": {"name": "科索沃", "rank": "FIFA第100+", "short_name": "科索沃"},
-        "odds": {
-          "had": {"home": 1.58, "draw": 3.60, "away": 4.80},
-          "hhad": {"handicap": "-1", "home_win": 2.80, "draw": 3.25, "away_win": 2.15}
-        },
-        "predictions": {
-          "main": {"option": "捷克主胜", "odds": 1.58, "confidence": "高"},
-          "secondary": {"option": "让胜(-1球)", "odds": 2.80, "confidence": "高"}
-        }
-      },
-      {
-        "match_id": "260531010",
-        "match_num": "周日010",
-        "league": {"name": "国际赛", "short_name": "国际赛", "country": "欧洲"},
-        "datetime": "2026-06-01T02:45:00+08:00",
-        "status": "upcoming",
-        "home_team": {"name": "德国", "rank": "FIFA第10", "short_name": "德国"},
-        "away_team": {"name": "芬兰", "rank": "FIFA第73", "short_name": "芬兰"},
-        "odds": {
-          "had": {"home": 1.16, "draw": 5.50, "away": 12.00},
-          "hhad": {"handicap": "-2", "home_win": 2.10, "draw": 3.70, "away_win": 2.70}
-        },
-        "predictions": {
-          "main": {"option": "德国主胜", "odds": 1.16, "confidence": "极高"},
-          "secondary": {"option": "让胜-2球", "odds": 2.10, "confidence": "高"}
-        }
-      },
-      {
-        "match_id": "260531011",
-        "match_num": "周日011",
-        "league": {"name": "国际赛", "short_name": "国际赛", "country": "非洲"},
-        "datetime": "2026-06-01T03:30:00+08:00",
-        "status": "upcoming",
-        "home_team": {"name": "美国", "rank": "FIFA第20", "short_name": "美国"},
-        "away_team": {"name": "塞内加尔", "rank": "FIFA第28", "short_name": "塞内加尔"},
-        "odds": {
-          "had": {"home": 1.95, "draw": 3.20, "away": 3.40},
-          "hhad": {"handicap": "-1", "home_win": 4.25, "draw": 3.50, "away_win": 1.65}
-        },
-        "predictions": {
-          "main": {"option": "美国主胜", "odds": 1.95, "confidence": "高"},
-          "secondary": {"option": "让负(-1球)", "odds": 1.65, "confidence": "高"}
-        }
-      },
-      {
-        "match_id": "260531012",
-        "match_num": "周日012",
-        "league": {"name": "国际赛", "short_name": "国际赛", "country": "南美"},
-        "datetime": "2026-06-01T05:30:00+08:00",
-        "status": "upcoming",
-        "home_team": {"name": "巴西", "rank": "FIFA第5", "short_name": "巴西"},
-        "away_team": {"name": "巴拿马", "rank": "FIFA第70", "short_name": "巴拿马"},
-        "odds": {
-          "had": {"home": 1.23, "draw": 4.80, "away": 10.00},
-          "hhad": {"handicap": "-2", "home_win": 1.85, "draw": 3.50, "away_win": 3.25}
-        },
-        "predictions": {
-          "main": {"option": "巴西主胜", "odds": 1.23, "confidence": "极高"},
-          "secondary": {"option": "让胜-2球", "odds": 1.85, "confidence": "高"}
-        }
-      }
+      {"match_id": "260531001", "match_num": "周日001", "league": "日职", "home_team": "冈山绿雉", "away_team": "浦和新钻", "home_score": 1, "away_score": 1, "final": "1-1", "pred": "浦和平局", "hit": true},
+      {"match_id": "260531002", "match_num": "周日002", "league": "日职", "home_team": "清水鼓动", "away_team": "横滨水手", "home_score": 1, "away_score": 1, "final": "1-1", "pred": "横滨水手客胜", "hit": false},
+      {"match_id": "260531003", "match_num": "周日003", "league": "国际赛", "home_team": "日本", "away_team": "冰岛", "home_score": 1, "away_score": 0, "final": "1-0", "pred": "日本主胜", "hit": true},
+      {"match_id": "260531004", "match_num": "周日004", "league": "瑞超", "home_team": "韦斯特罗", "away_team": "哥德堡", "home_score": 4, "away_score": 5, "final": "4-5", "pred": "让负(-1球)", "hit": true},
+      {"match_id": "260531005", "match_num": "周日005", "league": "瑞超", "home_team": "赫根", "away_team": "哈马比", "home_score": 3, "away_score": 2, "final": "3-2", "pred": "哈马比客胜", "hit": false},
+      {"match_id": "260531006", "match_num": "周日006", "league": "瑞超", "home_team": "代格福什", "away_team": "布鲁马波", "home_score": 2, "away_score": 2, "final": "2-2", "pred": "让负(-1球)", "hit": false},
+      {"match_id": "260531007", "match_num": "周日007", "league": "国际赛", "home_team": "瑞士", "away_team": "约旦", "home_score": 4, "away_score": 1, "final": "4-1", "pred": "瑞士主胜", "hit": true},
+      {"match_id": "260531008", "match_num": "周日008", "league": "芬超", "home_team": "AC奥卢", "away_team": "雅罗", "home_score": 2, "away_score": 1, "final": "2-1", "pred": "AC奥卢主胜", "hit": true},
+      {"match_id": "260531009", "match_num": "周日009", "league": "国际赛", "home_team": "捷克", "away_team": "科索沃", "home_score": 2, "away_score": 1, "final": "2-1", "pred": "捷克主胜", "hit": true},
+      {"match_id": "260531010", "match_num": "周日010", "league": "国际赛", "home_team": "德国", "away_team": "芬兰", "home_score": 4, "away_score": 0, "final": "4-0", "pred": "德国主胜", "hit": true},
+      {"match_id": "260531011", "match_num": "周日011", "league": "国际赛", "home_team": "美国", "away_team": "塞内加尔", "home_score": null, "away_score": null, "final": "待开奖", "pred": "美国主胜", "hit": null},
+      {"match_id": "260531012", "match_num": "周日012", "league": "国际赛", "home_team": "巴西", "away_team": "巴拿马", "home_score": 6, "away_score": 2, "final": "6-2", "pred": "巴西主胜", "hit": true}
     ]
   },
-  "tomorrow": {
+  "today": {
     "date": "2026-06-01",
     "weekday": "周一",
     "match_count": 6,
-    "sales_info": "周一共6场比赛，含国际赛6场",
+    "sales_info": "周一共6场比赛，均为国际赛",
     "matches": [
       {
         "match_id": "260601001",
@@ -268,15 +54,15 @@
         "league": {"name": "国际赛", "short_name": "国际赛", "country": "欧洲"},
         "datetime": "2026-06-02T00:00:00+08:00",
         "status": "upcoming",
-        "home_team": {"name": "保加利亚", "rank": "FIFA第60", "short_name": "保加利亚"},
-        "away_team": {"name": "黑山", "rank": "FIFA第50", "short_name": "黑山"},
+        "home_team": {"name": "保加利亚", "rank": "FIFA第80", "short_name": "保加利亚"},
+        "away_team": {"name": "黑山", "rank": "FIFA第70", "short_name": "黑山"},
         "odds": {
-          "had": {"home": 2.65, "draw": 2.90, "away": 2.45},
-          "hhad": {"handicap": "+1", "home_win": 1.42, "draw": 3.80, "away_win": 5.50}
+          "had": {"home": 2.82, "draw": 2.92, "away": 2.32},
+          "hhad": {"handicap": "+1", "home_win": 1.47, "draw": 3.75, "away_win": 5.50}
         },
         "predictions": {
-          "main": {"option": "黑山客胜", "odds": 2.45, "confidence": "中"},
-          "secondary": {"option": "让负(+1球)", "odds": 5.50, "confidence": "中"}
+          "main": {"option": "黑山客胜", "odds": 2.32, "confidence": "中"},
+          "secondary": {"option": "平局", "odds": 2.92, "confidence": "中"}
         }
       },
       {
@@ -288,12 +74,12 @@
         "home_team": {"name": "挪威", "rank": "FIFA第30", "short_name": "挪威"},
         "away_team": {"name": "瑞典", "rank": "FIFA第25", "short_name": "瑞典"},
         "odds": {
-          "had": {"home": 2.10, "draw": 3.10, "away": 3.00},
-          "hhad": {"handicap": "-1", "home_win": 4.50, "draw": 3.60, "away_win": 1.58}
+          "had": {"home": 1.72, "draw": 3.55, "away": 3.75},
+          "hhad": {"handicap": "-1", "home_win": 3.30, "draw": 3.45, "away_win": 1.87}
         },
         "predictions": {
-          "main": {"option": "挪威主胜", "odds": 2.10, "confidence": "中"},
-          "secondary": {"option": "让负(-1球)", "odds": 1.58, "confidence": "高"}
+          "main": {"option": "挪威主胜", "odds": 1.72, "confidence": "高"},
+          "secondary": {"option": "让负(-1球)", "odds": 1.87, "confidence": "高"}
         }
       },
       {
@@ -305,12 +91,12 @@
         "home_team": {"name": "土耳其", "rank": "FIFA第15", "short_name": "土耳其"},
         "away_team": {"name": "北马其顿", "rank": "FIFA第70", "short_name": "北马其顿"},
         "odds": {
-          "had": {"home": 1.45, "draw": 3.80, "away": 5.80},
-          "hhad": {"handicap": "-1", "home_win": 2.35, "draw": 3.20, "away_win": 2.50}
+          "had": {"home": 1.16, "draw": 5.40, "away": 12.50},
+          "hhad": {"handicap": "-2", "home_win": 2.86, "draw": 3.85, "away_win": 1.93}
         },
         "predictions": {
-          "main": {"option": "土耳其主胜", "odds": 1.45, "confidence": "极高"},
-          "secondary": {"option": "让胜(-1球)", "odds": 2.35, "confidence": "高"}
+          "main": {"option": "土耳其主胜", "odds": 1.16, "confidence": "极高"},
+          "secondary": {"option": "让负(-2球)", "odds": 1.93, "confidence": "高"}
         }
       },
       {
@@ -322,12 +108,12 @@
         "home_team": {"name": "奥地利", "rank": "FIFA第22", "short_name": "奥地利"},
         "away_team": {"name": "突尼斯", "rank": "FIFA第40", "short_name": "突尼斯"},
         "odds": {
-          "had": {"home": 1.65, "draw": 3.50, "away": 4.20},
-          "hhad": {"handicap": "-1", "home_win": 3.05, "draw": 3.20, "away_win": 2.00}
+          "had": {"home": 1.33, "draw": 4.30, "away": 7.00},
+          "hhad": {"handicap": "-1", "home_win": 2.17, "draw": 3.30, "away_win": 2.75}
         },
         "predictions": {
-          "main": {"option": "奥地利主胜", "odds": 1.65, "confidence": "高"},
-          "secondary": {"option": "让负(-1球)", "odds": 2.00, "confidence": "高"}
+          "main": {"option": "奥地利主胜", "odds": 1.33, "confidence": "极高"},
+          "secondary": {"option": "让负(-1球)", "odds": 2.75, "confidence": "高"}
         }
       },
       {
@@ -337,14 +123,14 @@
         "datetime": "2026-06-02T07:00:00+08:00",
         "status": "upcoming",
         "home_team": {"name": "哥伦比亚", "rank": "FIFA第12", "short_name": "哥伦比亚"},
-        "away_team": {"name": "哥斯达黎加", "rank": "FIFA第45", "short_name": "哥斯达黎加"},
+        "away_team": {"name": "哥斯达黎加", "rank": "FIFA第45", "short_name": "哥斯达"},
         "odds": {
-          "had": {"home": 1.55, "draw": 3.50, "away": 5.20},
-          "hhad": {"handicap": "-1", "home_win": 2.85, "draw": 3.15, "away_win": 2.15}
+          "had": {"home": null, "draw": null, "away": null},
+          "hhad": {"handicap": "-2", "home_win": 1.97, "draw": 3.80, "away_win": 2.80}
         },
         "predictions": {
-          "main": {"option": "哥伦比亚主胜", "odds": 1.55, "confidence": "高"},
-          "secondary": {"option": "让胜(-1球)", "odds": 2.85, "confidence": "中"}
+          "main": {"option": "哥伦比亚让胜(-2球)", "odds": 1.97, "confidence": "高"},
+          "secondary": {"option": "哥伦比亚主胜", "odds": 1.55, "confidence": "高"}
         }
       },
       {
@@ -356,12 +142,71 @@
         "home_team": {"name": "加拿大", "rank": "FIFA第35", "short_name": "加拿大"},
         "away_team": {"name": "乌兹别克斯坦", "rank": "FIFA第60", "short_name": "乌兹别克"},
         "odds": {
-          "had": {"home": 1.85, "draw": 3.20, "away": 3.60},
-          "hhad": {"handicap": "-1", "home_win": 4.00, "draw": 3.50, "away_win": 1.65}
+          "had": {"home": 1.48, "draw": 3.62, "away": 5.65},
+          "hhad": {"handicap": "-1", "home_win": 2.67, "draw": 3.20, "away_win": 2.27}
         },
         "predictions": {
-          "main": {"option": "加拿大主胜", "odds": 1.85, "confidence": "高"},
-          "secondary": {"option": "让负(-1球)", "odds": 1.65, "confidence": "高"}
+          "main": {"option": "加拿大主胜", "odds": 1.48, "confidence": "极高"},
+          "secondary": {"option": "让负(-1球)", "odds": 2.27, "confidence": "中"}
+        }
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-06-02",
+    "weekday": "周二",
+    "match_count": 3,
+    "sales_info": "周二共3场比赛，均为国际赛",
+    "matches": [
+      {
+        "match_id": "260602001",
+        "match_num": "周二201",
+        "league": {"name": "国际赛", "short_name": "国际赛", "country": "欧洲"},
+        "datetime": "2026-06-03T00:00:00+08:00",
+        "status": "upcoming",
+        "home_team": {"name": "克罗地亚", "rank": "FIFA第10", "short_name": "克罗地亚"},
+        "away_team": {"name": "比利时", "rank": "FIFA第5", "short_name": "比利时"},
+        "odds": {
+          "had": {"home": 2.50, "draw": 3.45, "away": 2.60},
+          "hhad": {"handicap": "+1", "home_win": 1.67, "draw": 3.45, "away_win": 1.74}
+        },
+        "predictions": {
+          "main": {"option": "比利时客胜", "odds": 2.60, "confidence": "中"},
+          "secondary": {"option": "让负(+1球)", "odds": 1.74, "confidence": "高"}
+        }
+      },
+      {
+        "match_id": "260602002",
+        "match_num": "周二202",
+        "league": {"name": "国际赛", "short_name": "国际赛", "country": "欧洲"},
+        "datetime": "2026-06-03T01:00:00+08:00",
+        "status": "upcoming",
+        "home_team": {"name": "格鲁吉亚", "rank": "FIFA第40", "short_name": "格鲁吉亚"},
+        "away_team": {"name": "罗马尼亚", "rank": "FIFA第35", "short_name": "罗马尼亚"},
+        "odds": {
+          "had": {"home": 2.55, "draw": 3.10, "away": 2.55},
+          "hhad": {"handicap": "0", "home_win": 2.55, "draw": 3.10, "away_win": 2.55}
+        },
+        "predictions": {
+          "main": {"option": "平局", "odds": 3.10, "confidence": "中"},
+          "secondary": {"option": "格鲁吉亚主胜", "odds": 2.55, "confidence": "中"}
+        }
+      },
+      {
+        "match_id": "260602003",
+        "match_num": "周二203",
+        "league": {"name": "国际赛", "short_name": "国际赛", "country": "欧洲"},
+        "datetime": "2026-06-03T02:45:00+08:00",
+        "status": "upcoming",
+        "home_team": {"name": "威尔士", "rank": "FIFA第30", "short_name": "威尔士"},
+        "away_team": {"name": "加纳", "rank": "FIFA第60", "short_name": "加纳"},
+        "odds": {
+          "had": {"home": 1.85, "draw": 3.20, "away": 3.60},
+          "hhad": {"handicap": "-1", "home_win": 3.50, "draw": 3.30, "away_win": 1.85}
+        },
+        "predictions": {
+          "main": {"option": "威尔士主胜", "odds": 1.85, "confidence": "高"},
+          "secondary": {"option": "让负(-1球)", "odds": 1.85, "confidence": "高"}
         }
       }
     ]
@@ -370,204 +215,180 @@
     "singles": [
       {
         "id": 1,
-        "match": "周日003",
-        "league": "国际赛",
-        "teams": "日本 VS 冰岛",
-        "bet_type": "胜平负",
-        "selection": "日本主胜",
-        "odds": 1.35,
-        "confidence": "极高",
-        "amount": "10元",
-        "reason": "世界杯东道主热身赛，日本主场7连胜，冰岛实力下滑严重，历史交锋3战全胜"
-      },
-      {
-        "id": 2,
-        "match": "周日007",
-        "league": "国际赛",
-        "teams": "瑞士 VS 约旦",
-        "bet_type": "胜平负",
-        "selection": "瑞士主胜",
-        "odds": 1.32,
-        "confidence": "极高",
-        "amount": "10元",
-        "reason": "瑞士五大联赛主力阵容，约旦FIFA第63实力有限，主场大胜可期"
-      },
-      {
-        "id": 3,
-        "match": "周日010",
-        "league": "国际赛",
-        "teams": "德国 VS 芬兰",
-        "bet_type": "胜平负",
-        "selection": "德国主胜",
-        "odds": 1.16,
-        "confidence": "极高",
-        "amount": "10元",
-        "reason": "世界杯前壮行战，德国7连胜+主场21场不败，芬兰客场连败，心理劣势明显"
-      },
-      {
-        "id": 4,
-        "match": "周日012",
-        "league": "国际赛",
-        "teams": "巴西 VS 巴拿马",
-        "bet_type": "胜平负",
-        "selection": "巴西主胜",
-        "odds": 1.23,
-        "confidence": "极高",
-        "amount": "10元",
-        "reason": "巴西内马尔+维尼修斯领衔豪华阵容，巴拿马FIFA第70实力差距悬殊"
-      },
-      {
-        "id": 5,
         "match": "周一003",
         "league": "国际赛",
         "teams": "土耳其 VS 北马其顿",
         "bet_type": "胜平负",
         "selection": "土耳其主胜",
-        "odds": 1.45,
+        "odds": 1.16,
         "confidence": "极高",
         "amount": "10元",
-        "reason": "土耳其FIFA第15，世界杯参赛队，北马其顿排名第70，客队近期表现下滑"
+        "reason": "土耳其FIFA第15世界杯参赛队，世界杯壮行战主场5万球迷助威，北马其顿7场不胜实力差距悬殊"
       },
       {
-        "id": 6,
-        "match": "周日005",
-        "league": "瑞超",
-        "teams": "赫根 VS 哈马比",
-        "bet_type": "胜平负",
-        "selection": "哈马比客胜",
-        "odds": 1.91,
-        "confidence": "高",
-        "amount": "8元",
-        "reason": "瑞超第3客场5胜1平排名第3，客场胜率75%碾压主队"
-      },
-      {
-        "id": 7,
-        "match": "周日008",
-        "league": "芬超",
-        "teams": "AC奥卢 VS 雅罗",
-        "bet_type": "胜平负",
-        "selection": "AC奥卢主胜",
-        "odds": 1.59,
-        "confidence": "高",
-        "amount": "8元",
-        "reason": "AC奥卢主场3战全胜零封对手，雅罗三连大败场均丢3球，防线崩盘"
-      },
-      {
-        "id": 8,
+        "id": 2,
         "match": "周一004",
         "league": "国际赛",
         "teams": "奥地利 VS 突尼斯",
         "bet_type": "胜平负",
         "selection": "奥地利主胜",
-        "odds": 1.65,
+        "odds": 1.33,
+        "confidence": "极高",
+        "amount": "10元",
+        "reason": "朗尼克执教主场13场不败，突尼斯客场作战+防守核心伤缺，难以制造威胁"
+      },
+      {
+        "id": 3,
+        "match": "周一006",
+        "league": "国际赛",
+        "teams": "加拿大 VS 乌兹别克斯坦",
+        "bet_type": "胜平负",
+        "selection": "加拿大主胜",
+        "odds": 1.48,
+        "confidence": "极高",
+        "amount": "10元",
+        "reason": "加拿大东道主最后壮行7万球迷，FIFA排名优势明显，主场取胜无悬念"
+      },
+      {
+        "id": 4,
+        "match": "周一002",
+        "league": "国际赛",
+        "teams": "挪威 VS 瑞典",
+        "bet_type": "胜平负",
+        "selection": "挪威主胜",
+        "odds": 1.72,
         "confidence": "高",
         "amount": "8元",
-        "reason": "奥地利世界杯参赛队，主场龙属性明显，突尼斯客场作战能力有限"
+        "reason": "北欧德比，哈兰德里程碑主场加成，挪威主场12场不败历史交锋占优"
       },
       {
-        "id": 9,
-        "match": "周日002",
-        "league": "日职",
-        "teams": "清水鼓动 VS 横滨水手",
-        "bet_type": "让球胜平负",
-        "selection": "让负(-1球)",
-        "odds": 1.49,
-        "confidence": "极高",
-        "amount": "10元",
-        "reason": "清水5主力缺阵攻防瘫痪，横滨客场胜率60%历史碾压客队不败"
+        "id": 5,
+        "match": "周二203",
+        "league": "国际赛",
+        "teams": "威尔士 VS 加纳",
+        "bet_type": "胜平负",
+        "selection": "威尔士主胜",
+        "odds": 1.85,
+        "confidence": "高",
+        "amount": "8元",
+        "reason": "威尔士大赛前最后热身主场龙，加纳客场战力有限实力差距明显"
       },
       {
-        "id": 10,
-        "match": "周日004",
-        "league": "瑞超",
-        "teams": "韦斯特罗 VS 哥德堡",
+        "id": 6,
+        "match": "周一002",
+        "league": "国际赛",
+        "teams": "挪威 VS 瑞典",
         "bet_type": "让球胜平负",
         "selection": "让负(-1球)",
-        "odds": 1.46,
-        "confidence": "极高",
-        "amount": "10元",
-        "reason": "瑞超保级大战，哥德堡客场更稳定，主队主场至今未尝一胜"
+        "odds": 1.87,
+        "confidence": "高",
+        "amount": "5元",
+        "reason": "瑞典世预赛表现出色，客场防守稳固，让负有较高安全边际"
+      },
+      {
+        "id": 7,
+        "match": "周一004",
+        "league": "国际赛",
+        "teams": "奥地利 VS 突尼斯",
+        "bet_type": "让球胜平负",
+        "selection": "让负(-1球)",
+        "odds": 2.75,
+        "confidence": "高",
+        "amount": "5元",
+        "reason": "突尼斯防守有韧性，奥地利可能赢球难大胜，让负博冷"
+      },
+      {
+        "id": 8,
+        "match": "周二201",
+        "league": "国际赛",
+        "teams": "克罗地亚 VS 比利时",
+        "bet_type": "让球胜平负",
+        "selection": "让负(+1球)",
+        "odds": 1.74,
+        "confidence": "高",
+        "amount": "5元",
+        "reason": "比利时FIFA第5实力更强，克罗地亚主场让球较深，让负有保障"
       }
     ],
     "parlays": [
       {
         "id": 1,
-        "name": "2串1世界杯强队",
-        "matches": ["周日003 日本主胜", "周日010 德国主胜"],
-        "total_odds": 1.57,
+        "name": "2串1极高信心",
+        "matches": ["周一003 土耳其主胜", "周一004 奥地利主胜"],
+        "total_odds": 1.55,
         "confidence": "极高",
         "amount": "10元",
-        "potential_win": "15.7元"
+        "potential_win": "15.5元"
       },
       {
         "id": 2,
-        "name": "2串1极高信心",
-        "matches": ["周日007 瑞士主胜", "周日012 巴西主胜"],
-        "total_odds": 1.62,
+        "name": "2串1极高信心2",
+        "matches": ["周一003 土耳其主胜", "周一006 加拿大主胜"],
+        "total_odds": 1.72,
         "confidence": "极高",
         "amount": "10元",
-        "potential_win": "16.2元"
+        "potential_win": "17.2元"
       },
       {
         "id": 3,
-        "name": "3串1国际赛",
-        "matches": ["周日003 日本主胜", "周日007 瑞士主胜", "周日009 捷克主胜"],
-        "total_odds": 2.87,
+        "name": "3串1世界杯队",
+        "matches": ["周一003 土耳其主胜", "周一004 奥地利主胜", "周一006 加拿大主胜"],
+        "total_odds": 2.29,
         "confidence": "极高",
         "amount": "5元",
-        "potential_win": "14.4元"
+        "potential_win": "11.5元"
       },
       {
         "id": 4,
-        "name": "2串1北欧联赛",
-        "matches": ["周日005 哈马比客胜", "周日008 AC奥卢主胜"],
-        "total_odds": 3.04,
+        "name": "2串1北欧德比",
+        "matches": ["周一002 挪威主胜", "周二201 比利时客胜"],
+        "total_odds": 4.47,
         "confidence": "高",
-        "amount": "5元",
-        "potential_win": "15.2元"
+        "amount": "3元",
+        "potential_win": "13.4元"
       },
       {
         "id": 5,
-        "name": "3串1混合型",
-        "matches": ["周日002 让负", "周日004 让负", "周日005 哈马比客胜"],
-        "total_odds": 3.99,
+        "name": "2串1让球玩法",
+        "matches": ["周一002 让负", "周二201 让负"],
+        "total_odds": 3.25,
         "confidence": "高",
-        "amount": "3元",
-        "potential_win": "12.0元"
+        "amount": "5元",
+        "potential_win": "16.3元"
       },
       {
         "id": 6,
-        "name": "2串1周一国际赛",
-        "matches": ["周一003 土耳其主胜", "周一004 奥地利主胜"],
-        "total_odds": 2.39,
-        "confidence": "极高",
-        "amount": "8元",
-        "potential_win": "19.1元"
+        "name": "3串1混合型",
+        "matches": ["周一004 奥地利主胜", "周一006 加拿大主胜", "周二203 威尔士主胜"],
+        "total_odds": 4.23,
+        "confidence": "高",
+        "amount": "2元",
+        "potential_win": "8.5元"
       },
       {
         "id": 7,
-        "name": "3串1周一串关",
-        "matches": ["周一003 土耳其主胜", "周一005 哥伦比亚主胜", "周一006 加拿大主胜"],
-        "total_odds": 4.87,
-        "confidence": "高",
+        "name": "4串1极高信心",
+        "matches": ["周一003 土耳其主胜", "周一004 奥地利主胜", "周一006 加拿大主胜", "周二203 威尔士主胜"],
+        "total_odds": 7.83,
+        "confidence": "极高",
         "amount": "2元",
-        "potential_win": "9.7元"
+        "potential_win": "15.7元"
       },
       {
         "id": 8,
-        "name": "4串1稳胆组合",
-        "matches": ["周日003 日本主胜", "周日010 德国主胜", "周一003 土耳其主胜", "周一004 奥地利主胜"],
-        "total_odds": 5.75,
-        "confidence": "极高",
+        "name": "5串1国际赛大礼包",
+        "matches": ["周一003 土耳其主胜", "周一004 奥地利主胜", "周一006 加拿大主胜", "周二203 威尔士主胜", "周二201 比利时客胜"],
+        "total_odds": 20.36,
+        "confidence": "高",
         "amount": "2元",
-        "potential_win": "11.5元"
+        "potential_win": "40.7元"
       }
     ]
   },
   "statistics": {
-    "total_matches": 246,
-    "total_hits": 166,
-    "hit_rate": "67.5%",
-    "current_version": "v35.0"
+    "total_matches": 258,
+    "total_hits": 173,
+    "hit_rate": "67.1%",
+    "current_version": "v36.0"
   }
 }
