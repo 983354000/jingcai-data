@@ -1,9 +1,9 @@
 {
-  "version": "38.0",
-  "updated_at": "2026-06-03T12:55:00+08:00",
+  "version": "39.0",
+  "updated_at": "2026-06-04T12:55:00+08:00",
   "update_source": "竞彩官网数据采集+搜索补全",
-  "data_valid_until": "2026-06-04T08:30:00+08:00",
-  "sales_notice": "6月3日（周三）共4场比赛，6月4日（周四）共5场比赛，均为国际赛",
+  "data_valid_until": "2026-06-05T08:30:00+08:00",
+  "sales_notice": "6月4日（周四）共5场比赛，6月5日（周五）共4场比赛，均为国际赛",
   "confidence_legend": {
     "极高": "赔率<1.50，强队vs弱队，隐含概率>66%",
     "高": "赔率1.50-2.00，有明显优势，隐含概率50%-66%",
@@ -16,100 +16,25 @@
     "串关": "2-10元/注"
   },
   "yesterday": {
-    "date": "2026-06-02",
-    "weekday": "周二",
-    "match_count": 3,
-    "summary": {
-      "total_matches": 3,
-      "finished": 3,
-      "cancelled": 0,
-      "hit_count": 1,
-      "hit_rate": "33.3%",
-      "note": "6月2日预测核对（3场1中33%）：克罗地亚0-2比利时✅比利时客胜、让负✅；格鲁吉亚1-1罗马尼亚❌主胜❌让负❌；威尔士1-1加纳❌主胜❌让负❌。比利时表现出色，但其他两场主队均未能取胜。"
-    },
-    "matches": [
-      {"match_id": "260602001", "match_num": "周二201", "league": "国际赛", "home_team": "克罗地亚", "away_team": "比利时", "home_score": 0, "away_score": 2, "final": "0-2", "pred": "比利时客胜", "hit": true},
-      {"match_id": "260602002", "match_num": "周二202", "league": "国际赛", "home_team": "格鲁吉亚", "away_team": "罗马尼亚", "home_score": 1, "away_score": 1, "final": "1-1", "pred": "格鲁吉亚主胜", "hit": false},
-      {"match_id": "260602003", "match_num": "周二203", "league": "国际赛", "home_team": "威尔士", "away_team": "加纳", "home_score": 1, "away_score": 1, "final": "1-1", "pred": "威尔士主胜", "hit": false}
-    ]
-  },
-  "today": {
     "date": "2026-06-03",
     "weekday": "周三",
     "match_count": 4,
-    "sales_info": "周三共4场比赛，均为国际赛",
+    "summary": {
+      "total_matches": 4,
+      "finished": 4,
+      "cancelled": 0,
+      "hit_count": 2,
+      "hit_rate": "50.0%",
+      "note": "6月3日预测核对（4场2中50%）：丹麦0-0刚果金❌主胜❌；荷兰0-1阿尔及利亚❌主胜❌；波兰2-2尼日利亚✅让负✅；卢森堡0-1意大利✅客胜✅让胜✅。国际赛强队表现一般，注意让球玩法。"
+    },
     "matches": [
-      {
-        "match_id": "260603001",
-        "match_num": "周三201",
-        "league": {"name": "国际赛", "short_name": "国际赛", "country": "欧洲"},
-        "datetime": "2026-06-04T02:00:00+08:00",
-        "status": "upcoming",
-        "home_team": {"name": "丹麦", "rank": "FIFA第20", "short_name": "丹麦"},
-        "away_team": {"name": "刚果(金)", "rank": "FIFA第62", "short_name": "刚果金"},
-        "odds": {
-          "had": {"home": 1.32, "draw": 4.20, "away": 7.50},
-          "hhad": {"handicap": "-1", "home_win": 2.18, "draw": 3.22, "away_win": 2.78}
-        },
-        "predictions": {
-          "main": {"option": "丹麦主胜", "odds": 1.32, "confidence": "极高"},
-          "secondary": {"option": "让负(-1球)", "odds": 2.78, "confidence": "中"}
-        }
-      },
-      {
-        "match_id": "260603002",
-        "match_num": "周三202",
-        "league": {"name": "国际赛", "short_name": "国际赛", "country": "欧洲"},
-        "datetime": "2026-06-04T02:45:00+08:00",
-        "status": "upcoming",
-        "home_team": {"name": "荷兰", "rank": "FIFA第7", "short_name": "荷兰"},
-        "away_team": {"name": "阿尔及利亚", "rank": "FIFA第35", "short_name": "阿尔及利亚"},
-        "odds": {
-          "had": {"home": 1.29, "draw": 4.45, "away": 7.70},
-          "hhad": {"handicap": "-1", "home_win": 2.02, "draw": 3.35, "away_win": 2.98}
-        },
-        "predictions": {
-          "main": {"option": "荷兰主胜", "odds": 1.29, "confidence": "极高"},
-          "secondary": {"option": "让负(-1球)", "odds": 2.98, "confidence": "中"}
-        }
-      },
-      {
-        "match_id": "260603003",
-        "match_num": "周三203",
-        "league": {"name": "国际赛", "short_name": "国际赛", "country": "欧洲"},
-        "datetime": "2026-06-04T02:45:00+08:00",
-        "status": "upcoming",
-        "home_team": {"name": "波兰", "rank": "FIFA第30", "short_name": "波兰"},
-        "away_team": {"name": "尼日利亚", "rank": "FIFA第44", "short_name": "尼日利亚"},
-        "odds": {
-          "had": {"home": 1.84, "draw": 3.15, "away": 3.75},
-          "hhad": {"handicap": "-1", "home_win": 3.80, "draw": 3.40, "away_win": 1.75}
-        },
-        "predictions": {
-          "main": {"option": "波兰主胜", "odds": 1.84, "confidence": "高"},
-          "secondary": {"option": "让负(-1球)", "odds": 1.75, "confidence": "高"}
-        }
-      },
-      {
-        "match_id": "260603004",
-        "match_num": "周三204",
-        "league": {"name": "国际赛", "short_name": "国际赛", "country": "欧洲"},
-        "datetime": "2026-06-04T02:45:00+08:00",
-        "status": "upcoming",
-        "home_team": {"name": "卢森堡", "rank": "FIFA第89", "short_name": "卢森堡"},
-        "away_team": {"name": "意大利", "rank": "FIFA第10", "short_name": "意大利"},
-        "odds": {
-          "had": {"home": 5.10, "draw": 3.50, "away": 1.55},
-          "hhad": {"handicap": "+1", "home_win": 2.12, "draw": 3.20, "away_win": 2.90}
-        },
-        "predictions": {
-          "main": {"option": "意大利客胜", "odds": 1.55, "confidence": "高"},
-          "secondary": {"option": "让胜(+1球)", "odds": 2.12, "confidence": "中"}
-        }
-      }
+      {"match_id": "260603001", "match_num": "周三201", "league": "国际赛", "home_team": "丹麦", "away_team": "刚果金", "home_score": 0, "away_score": 0, "final": "0-0", "pred": "丹麦主胜", "hit": false},
+      {"match_id": "260603002", "match_num": "周三202", "league": "国际赛", "home_team": "荷兰", "away_team": "阿尔及利亚", "home_score": 0, "away_score": 1, "final": "0-1", "pred": "荷兰主胜", "hit": false},
+      {"match_id": "260603003", "match_num": "周三203", "league": "国际赛", "home_team": "波兰", "away_team": "尼日利亚", "home_score": 2, "away_score": 2, "final": "2-2", "pred": "让负(-1球)", "hit": true},
+      {"match_id": "260603004", "match_num": "周三204", "league": "国际赛", "home_team": "卢森堡", "away_team": "意大利", "home_score": 0, "away_score": 1, "final": "0-1", "pred": "意大利客胜", "hit": true}
     ]
   },
-  "tomorrow": {
+  "today": {
     "date": "2026-06-04",
     "weekday": "周四",
     "match_count": 5,
@@ -124,12 +49,12 @@
         "home_team": {"name": "斯洛文尼亚", "rank": "FIFA第55", "short_name": "斯洛文尼亚"},
         "away_team": {"name": "塞浦路斯", "rank": "FIFA第125", "short_name": "塞浦路斯"},
         "odds": {
-          "had": {"home": 1.39, "draw": 4.15, "away": 8.80},
-          "hhad": {"handicap": "-1", "home_win": 2.60, "draw": 3.40, "away_win": 2.25}
+          "had": {"home": 1.32, "draw": 4.15, "away": 7.65},
+          "hhad": {"handicap": "-1", "home_win": 2.19, "draw": 3.15, "away_win": 2.82}
         },
         "predictions": {
-          "main": {"option": "斯洛文尼亚主胜", "odds": 1.39, "confidence": "极高"},
-          "secondary": {"option": "让负(-1球)", "odds": 2.25, "confidence": "中"}
+          "main": {"option": "斯洛文尼亚主胜", "odds": 1.32, "confidence": "极高"},
+          "secondary": {"option": "让胜(-1球)", "odds": 2.19, "confidence": "中"}
         }
       },
       {
@@ -141,12 +66,12 @@
         "home_team": {"name": "瑞典", "rank": "FIFA第25", "short_name": "瑞典"},
         "away_team": {"name": "希腊", "rank": "FIFA第45", "short_name": "希腊"},
         "odds": {
-          "had": {"home": 1.98, "draw": 3.55, "away": 3.55},
-          "hhad": {"handicap": "-1", "home_win": 3.80, "draw": 3.50, "away_win": 1.75}
+          "had": {"home": 1.97, "draw": 3.25, "away": 3.20},
+          "hhad": {"handicap": "-1", "home_win": 4.10, "draw": 3.60, "away_win": 1.65}
         },
         "predictions": {
-          "main": {"option": "瑞典主胜", "odds": 1.98, "confidence": "高"},
-          "secondary": {"option": "让负(-1球)", "odds": 1.75, "confidence": "高"}
+          "main": {"option": "瑞典主胜", "odds": 1.97, "confidence": "高"},
+          "secondary": {"option": "让负(-1球)", "odds": 1.65, "confidence": "高"}
         }
       },
       {
@@ -158,12 +83,12 @@
         "home_team": {"name": "西班牙", "rank": "FIFA第3", "short_name": "西班牙"},
         "away_team": {"name": "伊拉克", "rank": "FIFA第70", "short_name": "伊拉克"},
         "odds": {
-          "had": {"home": 1.05, "draw": 12.00, "away": 46.00},
-          "hhad": {"handicap": "-3", "home_win": 2.95, "draw": 4.50, "away_win": 1.85}
+          "had": {"home": null, "draw": null, "away": null},
+          "hhad": {"handicap": "-3", "home_win": 2.25, "draw": 4.30, "away_win": 2.21}
         },
         "predictions": {
-          "main": {"option": "西班牙主胜", "odds": 1.05, "confidence": "极高"},
-          "secondary": {"option": "让负(-3球)", "odds": 1.85, "confidence": "高"}
+          "main": {"option": "西班牙让胜(-3球)", "odds": 2.25, "confidence": "中"},
+          "secondary": {"option": "让负(-3球)", "odds": 2.21, "confidence": "中"}
         }
       },
       {
@@ -175,12 +100,12 @@
         "home_team": {"name": "法国", "rank": "FIFA第2", "short_name": "法国"},
         "away_team": {"name": "科特迪瓦", "rank": "FIFA第45", "short_name": "科特迪瓦"},
         "odds": {
-          "had": {"home": 1.34, "draw": 4.70, "away": 8.80},
-          "hhad": {"handicap": "-1", "home_win": 2.15, "draw": 3.40, "away_win": 2.80}
+          "had": {"home": 1.18, "draw": 5.40, "away": 10.50},
+          "hhad": {"handicap": "-1", "home_win": 1.70, "draw": 3.65, "away_win": 3.75}
         },
         "predictions": {
-          "main": {"option": "法国主胜", "odds": 1.34, "confidence": "极高"},
-          "secondary": {"option": "让负(-1球)", "odds": 2.80, "confidence": "中"}
+          "main": {"option": "法国主胜", "odds": 1.18, "confidence": "极高"},
+          "secondary": {"option": "让负(-1球)", "odds": 3.75, "confidence": "低"}
         }
       },
       {
@@ -192,12 +117,88 @@
         "home_team": {"name": "墨西哥", "rank": "FIFA第18", "short_name": "墨西哥"},
         "away_team": {"name": "塞尔维亚", "rank": "FIFA第32", "short_name": "塞尔维亚"},
         "odds": {
-          "had": {"home": 1.32, "draw": 4.45, "away": 11.50},
-          "hhad": {"handicap": "-1", "home_win": 2.60, "draw": 3.40, "away_win": 2.25}
+          "had": {"home": 1.21, "draw": 4.95, "away": 10.00},
+          "hhad": {"handicap": "-1", "home_win": 1.79, "draw": 3.60, "away_win": 3.42}
         },
         "predictions": {
-          "main": {"option": "墨西哥主胜", "odds": 1.32, "confidence": "极高"},
-          "secondary": {"option": "让负(-1球)", "odds": 2.25, "confidence": "中"}
+          "main": {"option": "墨西哥主胜", "odds": 1.21, "confidence": "极高"},
+          "secondary": {"option": "让负(-1球)", "odds": 3.42, "confidence": "低"}
+        }
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-06-05",
+    "weekday": "周五",
+    "match_count": 4,
+    "sales_info": "周五共4场比赛，均为国际赛",
+    "matches": [
+      {
+        "match_id": "260605001",
+        "match_num": "周五201",
+        "league": {"name": "国际赛", "short_name": "国际赛", "country": "亚洲"},
+        "datetime": "2026-06-05T19:30:00+08:00",
+        "status": "upcoming",
+        "home_team": {"name": "新加坡", "rank": "FIFA第156", "short_name": "新加坡"},
+        "away_team": {"name": "中国", "rank": "FIFA第87", "short_name": "中国"},
+        "odds": {
+          "had": {"home": 7.88, "draw": 4.81, "away": 1.36},
+          "hhad": {"handicap": "+1", "home_win": 3.45, "draw": 3.70, "away_win": 1.82}
+        },
+        "predictions": {
+          "main": {"option": "中国客胜", "odds": 1.36, "confidence": "极高"},
+          "secondary": {"option": "让胜(+1球)", "odds": 3.45, "confidence": "中"}
+        }
+      },
+      {
+        "match_id": "260605002",
+        "match_num": "周五202",
+        "league": {"name": "国际赛", "short_name": "国际赛", "country": "欧洲"},
+        "datetime": "2026-06-06T00:30:00+08:00",
+        "status": "upcoming",
+        "home_team": {"name": "斯洛伐克", "rank": "FIFA第48", "short_name": "斯洛伐克"},
+        "away_team": {"name": "黑山", "rank": "FIFA第68", "short_name": "黑山"},
+        "odds": {
+          "had": {"home": 1.74, "draw": 3.53, "away": 4.80},
+          "hhad": {"handicap": "-1", "home_win": 3.45, "draw": 3.30, "away_win": 1.85}
+        },
+        "predictions": {
+          "main": {"option": "斯洛伐克主胜", "odds": 1.74, "confidence": "高"},
+          "secondary": {"option": "让负(-1球)", "odds": 1.85, "confidence": "高"}
+        }
+      },
+      {
+        "match_id": "260605003",
+        "match_num": "周五203",
+        "league": {"name": "国际赛", "short_name": "国际赛", "country": "欧洲"},
+        "datetime": "2026-06-06T01:45:00+08:00",
+        "status": "upcoming",
+        "home_team": {"name": "匈牙利", "rank": "FIFA第37", "short_name": "匈牙利"},
+        "away_team": {"name": "芬兰", "rank": "FIFA第61", "short_name": "芬兰"},
+        "odds": {
+          "had": {"home": 1.51, "draw": 4.09, "away": 6.33},
+          "hhad": {"handicap": "-1", "home_win": 2.80, "draw": 3.30, "away_win": 2.10}
+        },
+        "predictions": {
+          "main": {"option": "匈牙利主胜", "odds": 1.51, "confidence": "高"},
+          "secondary": {"option": "让负(-1球)", "odds": 2.10, "confidence": "中"}
+        }
+      },
+      {
+        "match_id": "260605004",
+        "match_num": "周五204",
+        "league": {"name": "国际赛", "short_name": "国际赛", "country": "中北美"},
+        "datetime": "2026-06-06T07:30:00+08:00",
+        "status": "upcoming",
+        "home_team": {"name": "加拿大", "rank": "FIFA第40", "short_name": "加拿大"},
+        "away_team": {"name": "爱尔兰", "rank": "FIFA第56", "short_name": "爱尔兰"},
+        "odds": {
+          "had": {"home": 1.87, "draw": 3.50, "away": 4.20},
+          "hhad": {"handicap": "-1", "home_win": 3.55, "draw": 3.35, "away_win": 1.82}
+        },
+        "predictions": {
+          "main": {"option": "加拿大主胜", "odds": 1.87, "confidence": "高"},
+          "secondary": {"option": "让负(-1球)", "odds": 1.82, "confidence": "高"}
         }
       }
     ]
@@ -206,172 +207,172 @@
     "singles": [
       {
         "id": 1,
-        "match": "周三201",
-        "league": "国际赛",
-        "teams": "丹麦 VS 刚果金",
-        "bet_type": "胜平负",
-        "selection": "丹麦主胜",
-        "odds": 1.32,
-        "confidence": "极高",
-        "amount": "10元",
-        "reason": "丹麦FIFA第20世界杯参赛队，刚果金实力差距明显，主场作战优势大"
-      },
-      {
-        "id": 2,
-        "match": "周三202",
-        "league": "国际赛",
-        "teams": "荷兰 VS 阿尔及利亚",
-        "bet_type": "胜平负",
-        "selection": "荷兰主胜",
-        "odds": 1.29,
-        "confidence": "极高",
-        "amount": "10元",
-        "reason": "荷兰FIFA第7世界顶级强队，阿尔及利亚近期进攻哑火，差距悬殊"
-      },
-      {
-        "id": 3,
         "match": "周四201",
         "league": "国际赛",
         "teams": "斯洛文尼亚 VS 塞浦路斯",
         "bet_type": "胜平负",
         "selection": "斯洛文尼亚主胜",
-        "odds": 1.39,
+        "odds": 1.32,
         "confidence": "极高",
         "amount": "10元",
         "reason": "斯洛文尼亚FIFA第55对阵塞浦路斯FIFA第125，实力差距悬殊"
       },
       {
-        "id": 4,
-        "match": "周四203",
-        "league": "国际赛",
-        "teams": "西班牙 VS 伊拉克",
-        "bet_type": "胜平负",
-        "selection": "西班牙主胜",
-        "odds": 1.05,
-        "confidence": "极高",
-        "amount": "10元",
-        "reason": "西班牙FIFA第3世界顶级强队，赔率1.05几乎稳胆"
-      },
-      {
-        "id": 5,
-        "match": "周四204",
-        "league": "国际赛",
-        "teams": "法国 VS 科特迪瓦",
-        "bet_type": "胜平负",
-        "selection": "法国主胜",
-        "odds": 1.34,
-        "confidence": "极高",
-        "amount": "10元",
-        "reason": "法国FIFA第2世界杯卫冕冠军，科特迪瓦非洲队伍实力差距大"
-      },
-      {
-        "id": 6,
-        "match": "周四205",
-        "league": "国际赛",
-        "teams": "墨西哥 VS 塞尔维亚",
-        "bet_type": "胜平负",
-        "selection": "墨西哥主胜",
-        "odds": 1.32,
-        "confidence": "极高",
-        "amount": "10元",
-        "reason": "墨西哥FIFA第18中北美强队，塞尔维亚FIFA第32实力有限"
-      },
-      {
-        "id": 7,
-        "match": "周三203",
-        "league": "国际赛",
-        "teams": "波兰 VS 尼日利亚",
-        "bet_type": "让球胜平负",
-        "selection": "让负(-1球)",
-        "odds": 1.75,
-        "confidence": "高",
-        "amount": "5元",
-        "reason": "尼日利亚锋线双核缺阵，波兰让一球让负赔率1.75较为稳妥"
-      },
-      {
-        "id": 8,
+        "id": 2,
         "match": "周四202",
         "league": "国际赛",
         "teams": "瑞典 VS 希腊",
         "bet_type": "让球胜平负",
         "selection": "让负(-1球)",
-        "odds": 1.75,
+        "odds": 1.65,
         "confidence": "高",
         "amount": "5元",
-        "reason": "瑞典主场让球，让负赔率1.75较为稳妥"
+        "reason": "瑞典让一球，希腊客队实力不弱，让负赔率1.65较为稳妥"
+      },
+      {
+        "id": 3,
+        "match": "周四203",
+        "league": "国际赛",
+        "teams": "西班牙 VS 伊拉克",
+        "bet_type": "让球胜平负",
+        "selection": "让负(-3球)",
+        "odds": 2.21,
+        "confidence": "中",
+        "amount": "5元",
+        "reason": "西班牙让三球，伊拉克有一定抵抗力，让负值得关注"
+      },
+      {
+        "id": 4,
+        "match": "周四204",
+        "league": "国际赛",
+        "teams": "法国 VS 科特迪瓦",
+        "bet_type": "胜平负",
+        "selection": "法国主胜",
+        "odds": 1.18,
+        "confidence": "极高",
+        "amount": "10元",
+        "reason": "法国FIFA第2世界杯冠军，科特迪瓦非洲队伍实力差距明显"
+      },
+      {
+        "id": 5,
+        "match": "周四205",
+        "league": "国际赛",
+        "teams": "墨西哥 VS 塞尔维亚",
+        "bet_type": "胜平负",
+        "selection": "墨西哥主胜",
+        "odds": 1.21,
+        "confidence": "极高",
+        "amount": "10元",
+        "reason": "墨西哥FIFA第18中北美强队，塞尔维亚FIFA第32实力有限"
+      },
+      {
+        "id": 6,
+        "match": "周五201",
+        "league": "国际赛",
+        "teams": "新加坡 VS 中国",
+        "bet_type": "胜平负",
+        "selection": "中国客胜",
+        "odds": 1.36,
+        "confidence": "极高",
+        "amount": "10元",
+        "reason": "中国FIFA第87对阵新加坡FIFA第156，客场作战仍有明显优势"
+      },
+      {
+        "id": 7,
+        "match": "周五202",
+        "league": "国际赛",
+        "teams": "斯洛伐克 VS 黑山",
+        "bet_type": "让球胜平负",
+        "selection": "让负(-1球)",
+        "odds": 1.85,
+        "confidence": "高",
+        "amount": "5元",
+        "reason": "斯洛伐克让一球，黑山客队有一定实力，让负赔率1.85合理"
+      },
+      {
+        "id": 8,
+        "match": "周五203",
+        "league": "国际赛",
+        "teams": "匈牙利 VS 芬兰",
+        "bet_type": "胜平负",
+        "selection": "匈牙利主胜",
+        "odds": 1.51,
+        "confidence": "高",
+        "amount": "5元",
+        "reason": "匈牙利FIFA第37对阵芬兰FIFA第61，主场优势明显"
       }
     ],
     "parlays": [
       {
         "id": 1,
         "name": "2串1世界杯强队",
-        "matches": ["周三201 丹麦主胜", "周三202 荷兰主胜"],
-        "total_odds": 1.70,
+        "matches": ["周四204 法国主胜", "周四205 墨西哥主胜"],
+        "total_odds": 1.43,
         "confidence": "极高",
         "amount": "10元",
-        "potential_win": "17.0元"
+        "potential_win": "14.3元"
       },
       {
         "id": 2,
-        "name": "2串1欧洲杯队",
-        "matches": ["周四201 斯洛文尼亚主胜", "周四204 法国主胜"],
-        "total_odds": 1.86,
+        "name": "2串1欧洲强队",
+        "matches": ["周四201 斯洛文尼亚主胜", "周五201 中国客胜"],
+        "total_odds": 1.79,
         "confidence": "极高",
         "amount": "10元",
-        "potential_win": "18.6元"
+        "potential_win": "17.9元"
       },
       {
         "id": 3,
-        "name": "3串1顶级强队",
-        "matches": ["周三202 荷兰主胜", "周四204 法国主胜", "周四205 墨西哥主胜"],
-        "total_odds": 2.38,
-        "confidence": "极高",
-        "amount": "5元",
-        "potential_win": "11.9元"
-      },
-      {
-        "id": 4,
-        "name": "4串1世界杯大礼包",
-        "matches": ["周三201 丹麦主胜", "周三202 荷兰主胜", "周四204 法国主胜", "周四205 墨西哥主胜"],
-        "total_odds": 5.04,
-        "confidence": "极高",
-        "amount": "2元",
-        "potential_win": "10.1元"
-      },
-      {
-        "id": 5,
-        "name": "5串1综合国际赛",
-        "matches": ["周三201 丹麦主胜", "周三202 荷兰主胜", "周四201 斯洛文尼亚主胜", "周四204 法国主胜", "周四205 墨西哥主胜"],
-        "total_odds": 10.73,
-        "confidence": "极高",
-        "amount": "2元",
-        "potential_win": "21.5元"
-      },
-      {
-        "id": 6,
-        "name": "2串1让球玩法",
-        "matches": ["周三203 让负", "周四202 让负"],
-        "total_odds": 3.06,
+        "name": "2串1让球组合",
+        "matches": ["周四202 让负", "周五202 让负"],
+        "total_odds": 3.05,
         "confidence": "高",
         "amount": "5元",
         "potential_win": "15.3元"
       },
       {
-        "id": 7,
-        "name": "3串1极高信心组合",
-        "matches": ["周三201 丹麦主胜", "周四201 斯洛文尼亚主胜", "周四204 法国主胜"],
-        "total_odds": 2.45,
+        "id": 4,
+        "name": "3串1顶级强队",
+        "matches": ["周四204 法国主胜", "周四205 墨西哥主胜", "周五201 中国客胜"],
+        "total_odds": 1.73,
         "confidence": "极高",
+        "amount": "10元",
+        "potential_win": "17.3元"
+      },
+      {
+        "id": 5,
+        "name": "4串1综合国际赛",
+        "matches": ["周四201 斯洛文尼亚主胜", "周四204 法国主胜", "周四205 墨西哥主胜", "周五201 中国客胜"],
+        "total_odds": 2.89,
+        "confidence": "极高",
+        "amount": "2元",
+        "potential_win": "5.8元"
+      },
+      {
+        "id": 6,
+        "name": "3串1欧洲杯队",
+        "matches": ["周四201 斯洛文尼亚主胜", "周五202 斯洛伐克主胜", "周五203 匈牙利主胜"],
+        "total_odds": 4.35,
+        "confidence": "高",
+        "amount": "2元",
+        "potential_win": "8.7元"
+      },
+      {
+        "id": 7,
+        "name": "2串1中高信心",
+        "matches": ["周五202 让负", "周五204 让负"],
+        "total_odds": 3.37,
+        "confidence": "高",
         "amount": "5元",
-        "potential_win": "12.3元"
+        "potential_win": "16.9元"
       }
     ]
   },
   "statistics": {
-    "total_matches": 267,
-    "total_hits": 174,
-    "hit_rate": "65.2%",
-    "current_version": "v38.0",
-    "recent_trend": "6月2日3场1中(33%)，比利时表现出色。近期国际赛主队胜率一般，注意让球玩法"
+    "total_matches": 271,
+    "total_hits": 176,
+    "hit_rate": "64.9%",
+    "current_version": "v39.0",
+    "recent_trend": "6月3日4场2中(50%)，国际赛强队表现一般。让球玩法有一定参考价值，注意串关搭配。"
   }
 }
